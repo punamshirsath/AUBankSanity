@@ -1,0 +1,184 @@
+2022-11-28 09:59:01 INFO  ExtentReporterNG - Extent report Directory is created!
+2022-11-28 09:59:28 INFO  Utils - [TestNG] Running:
+  C:\Users\Punam Shirsath\eclipse-workspace\AUAutomationSanity\src\test\resources\RunnerFiles\testng.xml
+
+2022-11-28 09:59:55 INFO  SetUp - Test Case_TaskLeadCreationTest_Successfully Started
+2022-11-28 09:59:59 INFO  SetUp - Test Case_TaskLeadCreationTest_get Skipped as its Runmode is 'NO' 
+2022-11-28 09:59:59 INFO  SetUp - Test Case_DedupeRuleTest_Successfully Started
+2022-11-28 10:00:03 INFO  SetUp - Test Case_DedupeRuleTest_get Skipped as its Runmode is 'NO' 
+2022-11-28 10:00:03 INFO  SetUp - Test Case_DataPresenterEDSTest_Successfully Started
+2022-11-28 10:00:10 INFO  SetUp - Test Case_DataPresenterEDSTest_get Skipped as its Runmode is 'NO' 
+2022-11-28 10:00:10 INFO  SetUp - Test Case_TabVisibleOnCustomer_Successfully Started
+2022-11-28 10:00:18 INFO  SetUp - Test Case_TabVisibleOnCustomer_get Skipped as its Runmode is 'NO' 
+2022-11-28 10:00:18 INFO  SetUp - Test Case_LeadSearchTest_Successfully Started
+2022-11-28 10:00:28 INFO  SetUp - Test Case_LeadSearchTest_get Skipped as its Runmode is 'NO' 
+2022-11-28 10:00:28 INFO  SetUp - Test Case_CustomerSearchTest_Successfully Started
+2022-11-28 10:00:37 INFO  SetUp - Test Case_CustomerSearchTest_get Skipped as its Runmode is 'NO' 
+2022-11-28 10:00:37 INFO  SetUp - Test Case_QuickLinksTest_Successfully Started
+2022-11-28 10:00:47 INFO  SetUp - Test Case_QuickLinksTest_get Skipped as its Runmode is 'NO' 
+2022-11-28 10:00:47 INFO  SetUp - Test Case_CallAndMeetingsTest_Successfully Started
+2022-11-28 10:00:58 INFO  SetUp - Test Case_CallAndMeetingsTest_get Skipped as its Runmode is 'NO' 
+2022-11-28 10:00:58 INFO  SetUp - Test Case_ActivityCreationTest_Successfully Started
+2022-11-28 10:01:10 INFO  SetUp - Test Case_ActivityCreationTest_get Skipped as its Runmode is 'NO' 
+2022-11-28 10:01:10 INFO  SetUp - Test Case_PagginationOnAppointmentTest_Successfully Started
+2022-11-28 10:01:23 INFO  SetUp - Test Case_PagginationOnAppointmentTest_get Skipped as its Runmode is 'NO' 
+2022-11-28 10:01:23 INFO  SetUp - Test Case_TaskCreatedOnETBCustomerTest_Successfully Started
+2022-11-28 10:01:37 INFO  SetUp - Test Case_TaskCreatedOnETBCustomerTest_get Skipped as its Runmode is 'NO' 
+2022-11-28 10:01:37 INFO  SetUp - Test Case_TaskCreatedOnETBLeadTest_Successfully Started
+2022-11-28 10:01:52 INFO  SetUp - Test Case_TaskCreatedOnETBLeadTest_get Skipped as its Runmode is 'NO' 
+2022-11-28 10:01:52 INFO  SetUp - Test Case_TaskIsCreatedIndependentlyTest_Successfully Started
+2022-11-28 10:02:08 INFO  SetUp - Test Case_TaskIsCreatedIndependentlyTest_get Skipped as its Runmode is 'NO' 
+2022-11-28 10:02:08 INFO  SetUp - Test Case_OfferCreationTest_Successfully Started
+2022-11-28 10:02:25 INFO  SetUp - Test Case_OfferCreationTest_get Skipped as its Runmode is 'NO' 
+2022-11-28 10:02:25 INFO  SetUp - Test Case_SRCreationCERSAIChargesCatTest_Successfully Started
+2022-11-28 10:02:39 INFO  SetUp - Test Case_SRCreationCERSAIChargesCatTest_get Skipped as its Runmode is 'NO' 
+2022-11-28 10:02:39 INFO  SetUp - Test Case_ReportsTabTest_Successfully Started
+2022-11-28 10:02:52 INFO  SetUp - Test Case_ReportsTabTest_get Skipped as its Runmode is 'NO' 
+2022-11-28 10:02:52 INFO  SetUp - Test Case_PriSecLeadCreationFlowTest_Successfully Started
+2022-11-28 10:03:12 INFO  SetUp - Test Case_PriSecLeadCreationFlowTest_get Skipped as its Runmode is 'NO' 
+2022-11-28 10:03:12 INFO  SetUp - Test Case_SRCreationTest_Successfully Started
+2022-11-28 10:03:32 INFO  SetUp - Test Case_SRCreationTest_get Skipped as its Runmode is 'NO' 
+2022-11-28 10:03:32 INFO  SetUp - Test Case_ConditionalAccessTest_Successfully Started
+2022-11-28 10:04:05 INFO  WebDriverManager - Using chromedriver 107.0.5304.62 (resolved driver for Chrome 107)
+2022-11-28 10:04:05 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Punam Shirsath\.cache\selenium\chromedriver\win32\107.0.5304.62\chromedriver.exe
+2022-11-28 10:04:07 INFO  SetUp - Chrome Browser Launched..
+2022-11-28 10:04:12 INFO  SetUp - URL : https://crmdev.aubankuat.in/sn7/app/login/login
+2022-11-28 10:04:12 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-11-28 10:04:12 INFO  CommonMethods - Sucessfully clicked on aUUserName_XPATH
+2022-11-28 10:04:14 INFO  CommonMethods - Data sucessfully entered on aUUserName_XPATH = cse@punam.com
+2022-11-28 10:04:15 INFO  CommonMethods - Sucessfully clicked on aUPassword_XPATH
+2022-11-28 10:04:17 INFO  CommonMethods - Data sucessfully entered on aUPassword_XPATH = Pass@123
+2022-11-28 10:04:21 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-11-28 10:04:21 INFO  SetUp - Login as a CSE User
+2022-11-28 10:04:24 INFO  CommonMethods - Sucessfully clicked on leadTab_XPATH
+2022-11-28 10:04:24 INFO  LeadPage - CSE User Click On Lead Tab
+2022-11-28 10:04:24 INFO  LeadPage - Select Lead From View Bucket
+2022-11-28 10:04:24 ERROR CommonMethods - Not able to select from dropdown appdropdown1_XPATHdue to no such element: Unable to locate element: {"method":"xpath","selector":"//select[@data-autoid="QueryCategoryId_ctrl"]"}
+  (Session info: chrome=107.0.5304.107)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e6fcd234ec2b82b12c7fd05996bb35b0, findElement {using=xpath, value=//select[@data-autoid="QueryCategoryId_ctrl"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PUNAMS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61823}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61823/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e6fcd234ec2b82b12c7fd05996bb35b0
+2022-11-28 10:04:24 ERROR CommonMethods - Not able to select from dropdown appdropdown2_XPATHdue to no such element: Unable to locate element: {"method":"xpath","selector":"//select[@data-autoid="QueryViewId_ctrl"]"}
+  (Session info: chrome=107.0.5304.107)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e6fcd234ec2b82b12c7fd05996bb35b0, findElement {using=xpath, value=//select[@data-autoid="QueryViewId_ctrl"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PUNAMS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61823}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61823/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e6fcd234ec2b82b12c7fd05996bb35b0
+2022-11-28 10:04:25 INFO  CommonMethods - Sucessfully clicked on arrowBtn_XPATH
+2022-11-28 10:04:26 INFO  LeadPage - Click On Lead
+2022-11-28 10:04:32 INFO  CommonMethods - Sucessfully clicked on leadN_XPATH
+2022-11-28 10:04:32 INFO  LeadPage - Edit lead
+2022-11-28 10:04:32 INFO  CommonMethods - Sucessfully clicked on bottomBtn_XPATH
+2022-11-28 10:04:33 INFO  CommonMethods - Sucessfully clicked on editBtn_XPATH
+2022-11-28 10:05:03 INFO  SetUp - Test Case_ConditionalAccessTest_Successfully Passed
+2022-11-28 10:05:28 INFO  CommonMethods - Row num for TestScenario = ConditionalAccessTest is = 31
+2022-11-28 10:05:30 INFO  ExcelOperation - Write to excel with : Row=31 | Cell =5 | Data =Pass
+2022-11-28 10:05:32 INFO  SetUp - Browser Closed..
+2022-11-28 10:05:34 INFO  CommonMethods - Test Report Mail sent successfully to punam.shirsath@crmnext.com
+2022-11-28 11:09:59 INFO  ExtentReporterNG - Extent report Directory is created!
+2022-11-28 11:10:21 INFO  Utils - [TestNG] Running:
+  C:\Users\Punam Shirsath\eclipse-workspace\AUAutomationSanity\src\test\resources\RunnerFiles\testng.xml
+
+2022-11-28 11:10:40 INFO  SetUp - Test Case_TaskLeadCreationTest_Successfully Started
+2022-11-28 11:10:41 INFO  SetUp - Test Case_TaskLeadCreationTest_get Skipped as its Runmode is 'NO' 
+2022-11-28 11:10:41 INFO  SetUp - Test Case_DedupeRuleTest_Successfully Started
+2022-11-28 11:10:43 INFO  SetUp - Test Case_DedupeRuleTest_get Skipped as its Runmode is 'NO' 
+2022-11-28 11:10:43 INFO  SetUp - Test Case_DataPresenterEDSTest_Successfully Started
+2022-11-28 11:10:47 INFO  SetUp - Test Case_DataPresenterEDSTest_get Skipped as its Runmode is 'NO' 
+2022-11-28 11:10:47 INFO  SetUp - Test Case_TabVisibleOnCustomer_Successfully Started
+2022-11-28 11:10:50 INFO  SetUp - Test Case_TabVisibleOnCustomer_get Skipped as its Runmode is 'NO' 
+2022-11-28 11:10:50 INFO  SetUp - Test Case_LeadSearchTest_Successfully Started
+2022-11-28 11:10:55 INFO  SetUp - Test Case_LeadSearchTest_get Skipped as its Runmode is 'NO' 
+2022-11-28 11:10:55 INFO  SetUp - Test Case_CustomerSearchTest_Successfully Started
+2022-11-28 11:11:00 INFO  SetUp - Test Case_CustomerSearchTest_get Skipped as its Runmode is 'NO' 
+2022-11-28 11:11:00 INFO  SetUp - Test Case_QuickLinksTest_Successfully Started
+2022-11-28 11:11:05 INFO  SetUp - Test Case_QuickLinksTest_get Skipped as its Runmode is 'NO' 
+2022-11-28 11:11:05 INFO  SetUp - Test Case_CallAndMeetingsTest_Successfully Started
+2022-11-28 11:11:11 INFO  SetUp - Test Case_CallAndMeetingsTest_get Skipped as its Runmode is 'NO' 
+2022-11-28 11:11:11 INFO  SetUp - Test Case_ActivityCreationTest_Successfully Started
+2022-11-28 11:11:18 INFO  SetUp - Test Case_ActivityCreationTest_get Skipped as its Runmode is 'NO' 
+2022-11-28 11:11:18 INFO  SetUp - Test Case_PagginationOnAppointmentTest_Successfully Started
+2022-11-28 11:11:25 INFO  SetUp - Test Case_PagginationOnAppointmentTest_get Skipped as its Runmode is 'NO' 
+2022-11-28 11:11:25 INFO  SetUp - Test Case_TaskCreatedOnETBCustomerTest_Successfully Started
+2022-11-28 11:11:33 INFO  SetUp - Test Case_TaskCreatedOnETBCustomerTest_get Skipped as its Runmode is 'NO' 
+2022-11-28 11:11:33 INFO  SetUp - Test Case_TaskCreatedOnETBLeadTest_Successfully Started
+2022-11-28 11:11:41 INFO  SetUp - Test Case_TaskCreatedOnETBLeadTest_get Skipped as its Runmode is 'NO' 
+2022-11-28 11:11:41 INFO  SetUp - Test Case_TaskIsCreatedIndependentlyTest_Successfully Started
+2022-11-28 11:11:50 INFO  SetUp - Test Case_TaskIsCreatedIndependentlyTest_get Skipped as its Runmode is 'NO' 
+2022-11-28 11:11:50 INFO  SetUp - Test Case_OfferCreationTest_Successfully Started
+2022-11-28 11:12:00 INFO  SetUp - Test Case_OfferCreationTest_get Skipped as its Runmode is 'NO' 
+2022-11-28 11:12:00 INFO  SetUp - Test Case_SRCreationCERSAIChargesCatTest_Successfully Started
+2022-11-28 11:12:10 INFO  SetUp - Test Case_SRCreationCERSAIChargesCatTest_get Skipped as its Runmode is 'NO' 
+2022-11-28 11:12:10 INFO  SetUp - Test Case_ReportsTabTest_Successfully Started
+2022-11-28 11:12:21 INFO  SetUp - Test Case_ReportsTabTest_get Skipped as its Runmode is 'NO' 
+2022-11-28 11:12:21 INFO  SetUp - Test Case_PriSecLeadCreationFlowTest_Successfully Started
+2022-11-28 11:12:36 INFO  SetUp - Test Case_PriSecLeadCreationFlowTest_get Skipped as its Runmode is 'NO' 
+2022-11-28 11:12:36 INFO  SetUp - Test Case_SRCreationTest_Successfully Started
+2022-11-28 11:12:52 INFO  SetUp - Test Case_SRCreationTest_get Skipped as its Runmode is 'NO' 
+2022-11-28 11:12:52 INFO  SetUp - Test Case_ConditionalAccessTest_Successfully Started
+2022-11-28 11:13:13 INFO  WebDriverManager - Using chromedriver 107.0.5304.62 (resolved driver for Chrome 107)
+2022-11-28 11:13:13 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Punam Shirsath\.cache\selenium\chromedriver\win32\107.0.5304.62\chromedriver.exe
+2022-11-28 11:13:15 INFO  SetUp - Chrome Browser Launched..
+2022-11-28 11:13:16 INFO  SetUp - URL : https://crmdev.aubankuat.in/sn7/app/login/login
+2022-11-28 11:13:17 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-11-28 11:13:17 INFO  CommonMethods - Sucessfully clicked on aUUserName_XPATH
+2022-11-28 11:13:18 INFO  CommonMethods - Data sucessfully entered on aUUserName_XPATH = cse@punam.com
+2022-11-28 11:13:19 INFO  CommonMethods - Sucessfully clicked on aUPassword_XPATH
+2022-11-28 11:13:21 INFO  CommonMethods - Data sucessfully entered on aUPassword_XPATH = Pass@123
+2022-11-28 11:13:27 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-11-28 11:13:27 INFO  SetUp - Login as a CSE User
+2022-11-28 11:13:28 INFO  CommonMethods - Sucessfully clicked on leadTab_XPATH
+2022-11-28 11:13:28 INFO  LeadPage - CSE User Click On Lead Tab
+2022-11-28 11:13:28 INFO  LeadPage - Select Lead From View Bucket
+2022-11-28 11:13:28 ERROR CommonMethods - Not able to select from dropdown appdropdown1_XPATHdue to no such element: Unable to locate element: {"method":"xpath","selector":"//select[@data-autoid="QueryCategoryId_ctrl"]"}
+  (Session info: chrome=107.0.5304.107)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b2d8ec61b3ee6409815d0d10472caedf, findElement {using=xpath, value=//select[@data-autoid="QueryCategoryId_ctrl"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PUNAMS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62673}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62673/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b2d8ec61b3ee6409815d0d10472caedf
+2022-11-28 11:13:28 ERROR CommonMethods - Not able to select from dropdown appdropdown2_XPATHdue to no such element: Unable to locate element: {"method":"xpath","selector":"//select[@data-autoid="QueryViewId_ctrl"]"}
+  (Session info: chrome=107.0.5304.107)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b2d8ec61b3ee6409815d0d10472caedf, findElement {using=xpath, value=//select[@data-autoid="QueryViewId_ctrl"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PUNAMS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62673}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62673/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b2d8ec61b3ee6409815d0d10472caedf
+2022-11-28 11:13:29 INFO  CommonMethods - Sucessfully clicked on arrowBtn_XPATH
+2022-11-28 11:13:29 INFO  LeadPage - Click On Lead
+2022-11-28 11:13:35 INFO  CommonMethods - Sucessfully clicked on leadN_XPATH
+2022-11-28 11:13:35 INFO  LeadPage - Edit lead
+2022-11-28 11:13:35 INFO  CommonMethods - Sucessfully clicked on bottomBtn_XPATH
+2022-11-28 11:13:36 INFO  CommonMethods - Sucessfully clicked on editBtn_XPATH
+2022-11-28 11:14:06 INFO  SetUp - Test Case_ConditionalAccessTest_Successfully Passed
+2022-11-28 11:14:33 INFO  CommonMethods - Row num for TestScenario = ConditionalAccessTest is = 31
+2022-11-28 11:14:35 INFO  ExcelOperation - Write to excel with : Row=31 | Cell =5 | Data =Pass
+2022-11-28 11:14:37 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-11-28 11:14:37 INFO  SetUp - Browser Closed..
+2022-11-28 11:14:39 INFO  CommonMethods - Test Report Mail sent successfully to punam.shirsath@crmnext.com

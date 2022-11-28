@@ -1,0 +1,3 @@
+Total number of tests selected with runnable mode as YES: 1
+Tests Completed - 1
+Execution status mail sent.

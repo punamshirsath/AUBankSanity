@@ -1,0 +1,148 @@
+2022-11-11 10:12:51 INFO  ExtentReporterNG - Extent report Directory is created!
+2022-11-11 10:33:02 INFO  Utils - [TestNG] Running:
+  C:\Users\Punam Shirsath\eclipse-workspace\AUAutomationSanity\src\test\resources\RunnerFiles\testng.xml
+
+2022-11-11 10:33:04 INFO  SetUp - Test Case_ReportsTabTest_Successfully Started
+2022-11-11 10:33:14 INFO  WebDriverManager - Using chromedriver 107.0.5304.62 (resolved driver for Chrome 107)
+2022-11-11 10:33:14 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Punam Shirsath\.cache\selenium\chromedriver\win32\107.0.5304.62\chromedriver.exe
+2022-11-11 10:33:20 ERROR SetUp - ReportsTabTest Get Failed due to 
+Could not start a new session. Response code 500. Message: unknown error: Chrome failed to start: exited normally.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]
+2022-11-11 10:33:23 ERROR ScreenShot - Unbale to capture screenshot due to null
+2022-11-11 10:33:25 INFO  CommonMethods - Row num for TestScenario = ReportsTabTest is = 17
+2022-11-11 10:33:26 INFO  ExcelOperation - Write to excel with : Row=17 | Cell =5 | Data =Fail
+2022-11-11 10:36:14 INFO  Utils - [TestNG] Running:
+  C:\Users\Punam Shirsath\eclipse-workspace\AUAutomationSanity\src\test\resources\RunnerFiles\testng.xml
+
+2022-11-11 10:36:29 INFO  SetUp - Test Case_ReportsTabTest_Successfully Started
+2022-11-11 10:36:45 INFO  WebDriverManager - Using chromedriver 107.0.5304.62 (resolved driver for Chrome 107)
+2022-11-11 10:36:45 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Punam Shirsath\.cache\selenium\chromedriver\win32\107.0.5304.62\chromedriver.exe
+2022-11-11 10:36:48 INFO  SetUp - Chrome Browser Launched..
+2022-11-11 10:36:51 INFO  SetUp - URL : https://crmdev.aubankuat.in/sn7/app/login/login
+2022-11-11 10:36:51 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-11-11 10:36:51 INFO  CommonMethods - Sucessfully clicked on aUUserName_XPATH
+2022-11-11 10:36:54 INFO  CommonMethods - Data sucessfully entered on aUUserName_XPATH = bm@punam.com
+2022-11-11 10:36:56 INFO  CommonMethods - Sucessfully clicked on aUPassword_XPATH
+2022-11-11 10:36:59 INFO  CommonMethods - Data sucessfully entered on aUPassword_XPATH = Pass@123
+2022-11-11 10:37:07 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-11-11 10:37:07 INFO  SetUp - Login as a Branch Manager
+2022-11-11 10:37:08 INFO  CommonMethods - Sucessfully clicked on reportsTab_XPATH
+2022-11-11 10:37:08 INFO  SetUp - Branch Manager User Click On Reports Tab
+2022-11-11 10:37:08 INFO  SetUp - Branch Manager Navigate to Reports Tab
+2022-11-11 10:37:09 INFO  CommonMethods - Element List Count0
+2022-11-11 10:37:09 ERROR SetUp - ReportsTabTest Get Failed due to 
+List of reports not display expected [true] but found [false]
+2022-11-11 10:37:35 INFO  ScreenShot - ScreenShot captured ReportsTabTest || Status :Fail
+2022-11-11 10:37:52 INFO  CommonMethods - Row num for TestScenario = ReportsTabTest is = 17
+2022-11-11 10:37:54 INFO  ExcelOperation - Write to excel with : Row=17 | Cell =5 | Data =Fail
+2022-11-11 10:37:56 INFO  SetUp - Browser Closed..
+2022-11-11 10:37:59 INFO  CommonMethods - Test Report Mail sent successfully to punam.shirsath@crmnext.com
+2022-11-11 10:46:02 INFO  Utils - [TestNG] Running:
+  C:\Users\Punam Shirsath\eclipse-workspace\AUAutomationSanity\src\test\resources\RunnerFiles\testng.xml
+
+2022-11-11 10:46:17 INFO  SetUp - Test Case_ReportsTabTest_Successfully Started
+2022-11-11 10:46:33 INFO  WebDriverManager - Using chromedriver 107.0.5304.62 (resolved driver for Chrome 107)
+2022-11-11 10:46:33 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Punam Shirsath\.cache\selenium\chromedriver\win32\107.0.5304.62\chromedriver.exe
+2022-11-11 10:46:36 INFO  SetUp - Chrome Browser Launched..
+2022-11-11 10:46:38 INFO  SetUp - URL : https://crmdev.aubankuat.in/sn7/app/login/login
+2022-11-11 10:46:39 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-11-11 10:46:39 INFO  CommonMethods - Sucessfully clicked on aUUserName_XPATH
+2022-11-11 10:46:42 INFO  CommonMethods - Data sucessfully entered on aUUserName_XPATH = bm@punam.com
+2022-11-11 10:46:43 INFO  CommonMethods - Sucessfully clicked on aUPassword_XPATH
+2022-11-11 10:46:47 INFO  CommonMethods - Data sucessfully entered on aUPassword_XPATH = Pass@123
+2022-11-11 10:46:53 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-11-11 10:46:53 INFO  SetUp - Login as a Branch Manager
+2022-11-11 10:46:56 INFO  CommonMethods - Sucessfully clicked on reportsTab_XPATH
+2022-11-11 10:46:56 INFO  SetUp - Branch Manager User Click On Reports Tab
+2022-11-11 10:46:56 INFO  SetUp - Branch Manager Navigate to Reports Tab
+2022-11-11 10:46:57 INFO  CommonMethods - Element List Count11
+2022-11-11 10:46:57 INFO  CommonMethods - Sucessfully clicked on searchTBReportsPage_XPATH
+2022-11-11 10:46:57 INFO  CommonMethods - Data sucessfully entered on searchTBReportsPage_XPATH = Comprehensive SR Report
+2022-11-11 10:46:57 INFO  CommonMethods - Sucessfully clicked on filterarrowbtnReportsPage_XPATH
+2022-11-11 10:47:00 INFO  CommonMethods - Sucessfully clicked on cardgroupsectionReportsPage_XPATH
+2022-11-11 10:47:00 INFO  CommonMethods - Sucessfully clicked on firstreport_XPATH
+2022-11-11 10:47:02 INFO  ScreenShot - ScreenShot captured Report Opens Properly || Status :
+2022-11-11 10:48:04 ERROR CommonMethods - Not Sucessfully clicked on executeBtn_XPATH due to :Expected condition failed: waiting for visibility of element located by By.xpath: //a[text()='Execute']") (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PUNAMS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51387}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51387/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 46d778a00c18114f9c3eb50358427f35
+2022-11-11 10:48:09 ERROR SetUp - ReportsTabTest Get Failed due to 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='crm-card-reportTable card-scroll flex-1']"}
+  (Session info: chrome=107.0.5304.107)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [46d778a00c18114f9c3eb50358427f35, findElement {using=xpath, value=//div[@class='crm-card-reportTable card-scroll flex-1']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PUNAMS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51387}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51387/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 46d778a00c18114f9c3eb50358427f35
+2022-11-11 10:50:35 ERROR ScreenShot - Unbale to capture screenshot due to Error communicating with the remote browser. It may have died.
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [46d778a00c18114f9c3eb50358427f35, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PUNAMS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51387}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51387/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 46d778a00c18114f9c3eb50358427f35
+2022-11-11 10:50:49 INFO  CommonMethods - Row num for TestScenario = ReportsTabTest is = 17
+2022-11-11 10:50:51 INFO  ExcelOperation - Write to excel with : Row=17 | Cell =5 | Data =Fail
+2022-11-11 10:51:20 INFO  CommonMethods - Test Report Mail sent successfully to punam.shirsath@crmnext.com
+2022-11-11 16:19:59 INFO  ExtentReporterNG - Extent report Directory is created!
+2022-11-11 16:20:10 INFO  Utils - [TestNG] Running:
+  C:\Users\Punam Shirsath\eclipse-workspace\AUAutomationSanity\src\test\resources\RunnerFiles\testng.xml
+
+2022-11-11 16:20:18 INFO  SetUp - Test Case_ReportsTabTest_Successfully Started
+2022-11-11 16:20:27 INFO  WebDriverManager - Using chromedriver 107.0.5304.62 (resolved driver for Chrome 107)
+2022-11-11 16:20:27 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Punam Shirsath\.cache\selenium\chromedriver\win32\107.0.5304.62\chromedriver.exe
+2022-11-11 16:20:29 INFO  SetUp - Chrome Browser Launched..
+2022-11-11 16:20:34 INFO  SetUp - URL : https://crmdev.aubankuat.in/sn7/app/login/login
+2022-11-11 16:20:34 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-11-11 16:20:35 INFO  CommonMethods - Sucessfully clicked on aUUserName_XPATH
+2022-11-11 16:20:36 INFO  CommonMethods - Data sucessfully entered on aUUserName_XPATH = bm@punam.com
+2022-11-11 16:20:37 INFO  CommonMethods - Sucessfully clicked on aUPassword_XPATH
+2022-11-11 16:20:38 INFO  CommonMethods - Data sucessfully entered on aUPassword_XPATH = Pass@123
+2022-11-11 16:20:42 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-11-11 16:20:42 INFO  SetUp - Login as a Branch Manager
+2022-11-11 16:20:43 INFO  CommonMethods - Sucessfully clicked on reportsTab_XPATH
+2022-11-11 16:20:43 INFO  SetUp - Branch Manager User Click On Reports Tab
+2022-11-11 16:20:43 INFO  SetUp - Branch Manager Navigate to Reports Tab
+2022-11-11 16:20:43 INFO  CommonMethods - Element List Count0
+2022-11-11 16:20:43 ERROR SetUp - ReportsTabTest Get Failed due to 
+List of reports not display expected [true] but found [false]
+2022-11-11 16:20:56 INFO  ScreenShot - ScreenShot captured ReportsTabTest || Status :Fail
+2022-11-11 16:21:07 INFO  CommonMethods - Row num for TestScenario = ReportsTabTest is = 17
+2022-11-11 16:21:09 INFO  ExcelOperation - Write to excel with : Row=17 | Cell =5 | Data =Fail
+2022-11-11 16:21:12 INFO  SetUp - Browser Closed..
+2022-11-11 16:21:14 INFO  CommonMethods - Test Report Mail sent successfully to punam.shirsath@crmnext.com
+2022-11-11 16:21:56 INFO  Utils - [TestNG] Running:
+  C:\Users\Punam Shirsath\eclipse-workspace\AUAutomationSanity\src\test\resources\RunnerFiles\testng.xml
+
+2022-11-11 16:22:04 INFO  SetUp - Test Case_ReportsTabTest_Successfully Started
+2022-11-11 16:22:13 INFO  WebDriverManager - Using chromedriver 107.0.5304.62 (resolved driver for Chrome 107)
+2022-11-11 16:22:14 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Punam Shirsath\.cache\selenium\chromedriver\win32\107.0.5304.62\chromedriver.exe
+2022-11-11 16:22:15 INFO  SetUp - Chrome Browser Launched..
+2022-11-11 16:22:17 INFO  SetUp - URL : https://crmdev.aubankuat.in/sn7/app/login/login
+2022-11-11 16:22:17 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-11-11 16:22:17 INFO  CommonMethods - Sucessfully clicked on aUUserName_XPATH
+2022-11-11 16:22:19 INFO  CommonMethods - Data sucessfully entered on aUUserName_XPATH = bm@punam.com
+2022-11-11 16:22:19 INFO  CommonMethods - Sucessfully clicked on aUPassword_XPATH
+2022-11-11 16:22:20 INFO  CommonMethods - Data sucessfully entered on aUPassword_XPATH = Pass@123
+2022-11-11 16:22:25 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-11-11 16:22:25 INFO  SetUp - Login as a Branch Manager
+2022-11-11 16:22:25 INFO  CommonMethods - Sucessfully clicked on reportsTab_XPATH
+2022-11-11 16:22:25 INFO  SetUp - Branch Manager User Click On Reports Tab
+2022-11-11 16:22:25 INFO  SetUp - Branch Manager Navigate to Reports Tab
+2022-11-11 16:22:25 INFO  CommonMethods - Element List Count0
+2022-11-11 16:22:25 ERROR SetUp - ReportsTabTest Get Failed due to 
+List of reports not display expected [true] but found [false]
+2022-11-11 16:22:39 INFO  ScreenShot - ScreenShot captured ReportsTabTest || Status :Fail
+2022-11-11 16:22:51 INFO  CommonMethods - Row num for TestScenario = ReportsTabTest is = 17
+2022-11-11 16:22:52 INFO  ExcelOperation - Write to excel with : Row=17 | Cell =5 | Data =Fail
+2022-11-11 16:22:55 INFO  SetUp - Browser Closed..
+2022-11-11 16:22:57 INFO  CommonMethods - Test Report Mail sent successfully to punam.shirsath@crmnext.com

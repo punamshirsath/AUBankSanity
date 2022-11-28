@@ -1,0 +1,161 @@
+2022-11-04 15:27:21 INFO  ExtentReporterNG - Reports Directory is created!
+2022-11-04 15:27:21 INFO  ExtentReporterNG - Extent report Directory is created!
+2022-11-04 15:27:23 INFO  Utils - [TestNG] Running:
+  C:\Users\Punam Shirsath\eclipse-workspace\AUAutomationSanity\src\test\resources\RunnerFiles\testng.xml
+
+2022-11-04 15:27:24 INFO  SetUp - Test Case_TaskLeadCreationTest_Successfully Started
+2022-11-04 15:27:29 INFO  WebDriverManager - Using chromedriver 107.0.5304.62 (resolved driver for Chrome 107)
+2022-11-04 15:27:29 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Punam Shirsath\.cache\selenium\chromedriver\win32\107.0.5304.62\chromedriver.exe
+2022-11-04 15:27:33 INFO  SetUp - Chrome Browser Launched..
+2022-11-04 15:27:33 ERROR SetUp - TaskLeadCreationTest Get Failed due to 
+null
+2022-11-04 15:27:33 INFO  ScreenShot - ScreenShot captured TaskLeadCreationTest || Status :Fail
+2022-11-04 15:27:34 INFO  CommonMethods - Row num for TestScenario = TaskLeadCreationTest is = 1
+2022-11-04 15:27:35 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =5 | Data =Fail
+2022-11-04 15:27:37 INFO  SetUp - Browser Closed..
+2022-11-04 15:27:40 INFO  CommonMethods - Test Report Mail sent successfully to akila.raguram@crmnext.com
+2022-11-04 16:32:26 INFO  ExtentReporterNG - Extent report Directory is created!
+2022-11-04 16:32:29 INFO  Utils - [TestNG] Running:
+  C:\Users\Punam Shirsath\eclipse-workspace\AUAutomationSanity\src\test\resources\RunnerFiles\testng.xml
+
+2022-11-04 16:32:31 INFO  SetUp - Test Case_TaskLeadCreationTest_Successfully Started
+2022-11-04 16:32:33 INFO  WebDriverManager - Using chromedriver 107.0.5304.62 (resolved driver for Chrome 107)
+2022-11-04 16:32:33 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Punam Shirsath\.cache\selenium\chromedriver\win32\107.0.5304.62\chromedriver.exe
+2022-11-04 16:32:36 INFO  SetUp - Chrome Browser Launched..
+2022-11-04 16:32:38 INFO  SetUp - URL : https://crmdev.aubankuat.in/sn7/app/login/login
+2022-11-04 16:32:38 ERROR SetUp - TaskLeadCreationTest Get Failed due to 
+null
+2022-11-04 16:32:40 INFO  ScreenShot - ScreenShot captured TaskLeadCreationTest || Status :Fail
+2022-11-04 16:32:40 INFO  CommonMethods - Row num for TestScenario = TaskLeadCreationTest is = 1
+2022-11-04 16:32:42 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =5 | Data =Fail
+2022-11-04 16:32:45 INFO  SetUp - Browser Closed..
+2022-11-04 16:32:48 INFO  CommonMethods - Test Report Mail sent successfully to punam.shirsath@buisnessnext.com
+2022-11-04 16:38:56 INFO  Utils - [TestNG] Running:
+  C:\Users\Punam Shirsath\eclipse-workspace\AUAutomationSanity\src\test\resources\RunnerFiles\testng.xml
+
+2022-11-04 16:38:58 INFO  SetUp - Test Case_TaskLeadCreationTest_Successfully Started
+2022-11-04 16:39:01 INFO  WebDriverManager - Using chromedriver 107.0.5304.62 (resolved driver for Chrome 107)
+2022-11-04 16:39:01 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Punam Shirsath\.cache\selenium\chromedriver\win32\107.0.5304.62\chromedriver.exe
+2022-11-04 16:39:06 INFO  SetUp - Chrome Browser Launched..
+2022-11-04 16:39:11 INFO  SetUp - URL : https://crmdev.aubankuat.in/sn7/app/login/login
+2022-11-04 16:39:12 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-11-04 16:39:12 INFO  CommonMethods - Sucessfully clicked on aUUserName_XPATH
+2022-11-04 16:39:13 INFO  CommonMethods - Data sucessfully entered on aUUserName_XPATH = cse@punam.com
+2022-11-04 16:39:14 INFO  CommonMethods - Sucessfully clicked on aUPassword_XPATH
+2022-11-04 16:39:15 INFO  CommonMethods - Data sucessfully entered on aUPassword_XPATH = Pass@123
+2022-11-04 16:39:22 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-11-04 16:39:22 INFO  SetUp - Login as a CSE User
+2022-11-04 16:39:23 INFO  CommonMethods - Sucessfully clicked on cseTaskTab_XPATH
+2022-11-04 16:39:23 INFO  LoginPage - CSE User Click On Task Tab
+2022-11-04 16:39:27 INFO  CommonMethods - Sucessfully clicked on appnewBtn_XPATH
+2022-11-04 16:39:30 INFO  CommonMethods - Sucessfully clicked on defaultTask_XPATH
+2022-11-04 16:39:33 INFO  CommonMethods - Swiched to Child window name : Tasks || URL :https://crmdev.aubankuat.in/sn7/app/crmnextobject/new/Task?x=wmlptkyqwxpv4bxdnz3cm5b2ae65z7hrk7qkdbwusarakh2fc2h9ss34wumcg24hx2dbxy6a3xelz
+2022-11-04 16:39:33 INFO  LoginPage - After Click on New Default new Task Window opened
+2022-11-04 16:39:33 INFO  ScreenShot - ScreenShot captured Window Of New Task || Status :Pass
+2022-11-04 16:39:33 INFO  LoginPage - CSE User Create New Task
+2022-11-04 16:39:33 INFO  CommonMethods - Sucessfully clicked on subjectSearch_XPATH
+2022-11-04 16:39:37 INFO  CommonMethods - Sucessfully clicked on taskSearch_XPATH
+2022-11-04 16:39:41 INFO  CommonMethods - Data = 1 Sucessfully Selected from dropdown customerContacted_XPATH
+2022-11-04 16:39:41 INFO  LoginPage - Customer Contacted
+2022-11-04 16:39:41 INFO  CommonMethods - Data = 1 Sucessfully Selected from dropdown customerInterested_XPATH
+2022-11-04 16:39:41 INFO  LoginPage - Customer Intrested
+2022-11-04 16:39:42 ERROR CommonMethods - Not Sucessfully clicked on description_XPATH due to :element click intercepted: Element <textarea name="Act_Detail" class="textarea field__item textarea--charlimit" placeholder="Detail" maxlength="4000" rows="5" data-autoid="Act_Detail_ctrl"></textarea> is not clickable at point (559, 512). Other element would receive the click: <a href="javascript: void(0)" class="acd-btn acd-btn--brand mh-8" title="Cancel" data-autoid="Cancel_1">...</a>
+  (Session info: chrome=107.0.5304.88)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [de8907831abb592685c494b7f627375e, clickElement {id=528bda62-a123-4124-9ce6-efabbaa8318d}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PUNAMS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51049}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51049/devtoo..., se:cdpVersion: 107.0.5304.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (de8907831abb592685c494b7f627375e)] -> xpath: //textarea[@data-autoid="Act_Detail_ctrl"]]
+Session ID: de8907831abb592685c494b7f627375e
+2022-11-04 16:39:43 INFO  CommonMethods - Data sucessfully entered on description_XPATH = Testing
+2022-11-04 16:39:44 INFO  LoginPage - Enter description of task
+2022-11-04 16:39:44 INFO  CommonMethods - Data = 2 Sucessfully Selected from dropdown status_XPATH
+2022-11-04 16:39:44 INFO  LoginPage - status of task 
+2022-11-04 16:39:44 INFO  CommonMethods - Data = 1 Sucessfully Selected from dropdown relatedTo_XPATH
+2022-11-04 16:39:44 INFO  LoginPage - Related To Field Selected
+2022-11-04 16:39:45 INFO  CommonMethods - Sucessfully clicked on prospectCustomerCB_XPATH
+2022-11-04 16:39:45 INFO  LoginPage - Prospect Customer Selected
+2022-11-04 16:39:45 INFO  CommonMethods - Sucessfully clicked on saveBtn_XPATH
+2022-11-04 16:39:49 INFO  LoginPage - Click on Save Button
+2022-11-04 16:39:49 ERROR CommonMethods - Not able to switch to parent window no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=107.0.5304.88)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [de8907831abb592685c494b7f627375e, getCurrentWindowHandle {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PUNAMS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51049}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51049/devtoo..., se:cdpVersion: 107.0.5304.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: de8907831abb592685c494b7f627375e
+2022-11-04 16:40:49 ERROR SetUp - TaskLeadCreationTest Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[@data-autoid='pagetitleheading'] (tried for 60 second(s) with 500 milliseconds interval)
+2022-11-04 16:40:51 ERROR ScreenShot - Unbale to capture screenshot due to no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=107.0.5304.88)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [de8907831abb592685c494b7f627375e, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PUNAMS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51049}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51049/devtoo..., se:cdpVersion: 107.0.5304.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: de8907831abb592685c494b7f627375e
+2022-11-04 16:40:51 INFO  CommonMethods - Row num for TestScenario = TaskLeadCreationTest is = 1
+2022-11-04 16:40:53 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =5 | Data =Fail
+2022-11-04 16:40:57 INFO  CommonMethods - Test Report Mail sent successfully to punam.shirsath@buisnessnext.com
+2022-11-04 18:02:55 INFO  ExtentReporterNG - Extent report Directory is created!
+2022-11-04 18:02:59 INFO  Utils - [TestNG] Running:
+  C:\Users\Punam Shirsath\eclipse-workspace\AUAutomationSanity\src\test\resources\RunnerFiles\testng.xml
+
+2022-11-04 18:03:00 INFO  SetUp - Test Case_TaskLeadCreationTest_Successfully Started
+2022-11-04 18:03:02 INFO  WebDriverManager - Using chromedriver 107.0.5304.62 (resolved driver for Chrome 107)
+2022-11-04 18:03:02 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Punam Shirsath\.cache\selenium\chromedriver\win32\107.0.5304.62\chromedriver.exe
+2022-11-04 18:03:06 INFO  SetUp - Chrome Browser Launched..
+2022-11-04 18:03:07 INFO  SetUp - URL : https://crmdev.aubankuat.in/sn7/app/login/login
+2022-11-04 18:03:08 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-11-04 18:03:08 INFO  CommonMethods - Sucessfully clicked on aUUserName_XPATH
+2022-11-04 18:03:09 INFO  CommonMethods - Data sucessfully entered on aUUserName_XPATH = cse@punam.com
+2022-11-04 18:03:09 INFO  CommonMethods - Sucessfully clicked on aUPassword_XPATH
+2022-11-04 18:03:10 INFO  CommonMethods - Data sucessfully entered on aUPassword_XPATH = Pass@123
+2022-11-04 18:03:16 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-11-04 18:03:16 INFO  SetUp - Login as a CSE User
+2022-11-04 18:03:18 INFO  CommonMethods - Sucessfully clicked on cseTaskTab_XPATH
+2022-11-04 18:03:18 INFO  LoginPage - CSE User Click On Task Tab
+2022-11-04 18:03:21 INFO  CommonMethods - Sucessfully clicked on appnewBtn_XPATH
+2022-11-04 18:03:25 INFO  CommonMethods - Sucessfully clicked on defaultTask_XPATH
+2022-11-04 18:03:26 INFO  CommonMethods - Swiched to Child window name : Tasks || URL :https://crmdev.aubankuat.in/sn7/app/crmnextobject/new/Task?x=wmlptkyqwxpv4bxdnz3cm5b2ae65z7hrk7qkdbwusarakh2fc2h9ss34wumcg24hx2dbxy6a3xelz
+2022-11-04 18:03:26 INFO  LoginPage - After Click on New Default new Task Window opened
+2022-11-04 18:03:26 INFO  ScreenShot - ScreenShot captured Window Of New Task || Status :Pass
+2022-11-04 18:03:26 INFO  LoginPage - CSE User Create New Task
+2022-11-04 18:03:27 INFO  CommonMethods - Sucessfully clicked on subjectSearch_XPATH
+2022-11-04 18:03:30 INFO  CommonMethods - Sucessfully clicked on taskSearch_XPATH
+2022-11-04 18:03:34 INFO  CommonMethods - Data = 1 Sucessfully Selected from dropdown customerContacted_XPATH
+2022-11-04 18:03:34 INFO  LoginPage - Customer Contacted
+2022-11-04 18:03:34 INFO  CommonMethods - Data = 1 Sucessfully Selected from dropdown customerInterested_XPATH
+2022-11-04 18:03:34 INFO  LoginPage - Customer Intrested
+2022-11-04 18:03:35 ERROR CommonMethods - Not Sucessfully clicked on description_XPATH due to :element click intercepted: Element <textarea name="Act_Detail" class="textarea field__item textarea--charlimit" placeholder="Detail" maxlength="4000" rows="5" data-autoid="Act_Detail_ctrl"></textarea> is not clickable at point (559, 512). Other element would receive the click: <a href="javascript: void(0)" class="acd-btn acd-btn--brand mh-8" title="Cancel" data-autoid="Cancel_1">...</a>
+  (Session info: chrome=107.0.5304.88)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c6c890eaf0b4f4138201c827f281d946, clickElement {id=d0a9e6be-698d-4a89-a62c-a8ef86e8a161}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PUNAMS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51828}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51828/devtoo..., se:cdpVersion: 107.0.5304.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (c6c890eaf0b4f4138201c827f281d946)] -> xpath: //textarea[@data-autoid="Act_Detail_ctrl"]]
+Session ID: c6c890eaf0b4f4138201c827f281d946
+2022-11-04 18:03:37 INFO  CommonMethods - Data sucessfully entered on description_XPATH = Testing
+2022-11-04 18:03:37 INFO  LoginPage - Enter description of task
+2022-11-04 18:03:38 INFO  CommonMethods - Data = 2 Sucessfully Selected from dropdown status_XPATH
+2022-11-04 18:03:38 INFO  LoginPage - status of task 
+2022-11-04 18:03:38 INFO  CommonMethods - Data = 1 Sucessfully Selected from dropdown relatedTo_XPATH
+2022-11-04 18:03:38 INFO  LoginPage - Related To Field Selected
+2022-11-04 18:03:38 INFO  CommonMethods - Sucessfully clicked on prospectCustomerCB_XPATH
+2022-11-04 18:03:38 INFO  LoginPage - Prospect Customer Selected
+2022-11-04 18:03:38 INFO  CommonMethods - Sucessfully clicked on saveBtn_XPATH
+2022-11-04 18:03:42 INFO  LoginPage - Click on Save Button
+2022-11-04 18:03:45 ERROR CommonMethods - Not able to switch to parent window no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=107.0.5304.88)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c6c890eaf0b4f4138201c827f281d946, getCurrentWindowHandle {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PUNAMS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51828}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51828/devtoo..., se:cdpVersion: 107.0.5304.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c6c890eaf0b4f4138201c827f281d946

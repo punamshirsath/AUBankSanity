@@ -1,0 +1,172 @@
+2022-11-25 17:08:33 INFO  ExtentReporterNG - Extent report Directory is created!
+2022-11-25 17:08:37 INFO  Utils - [TestNG] Running:
+  C:\Users\Punam Shirsath\eclipse-workspace\AUAutomationSanity\src\test\resources\RunnerFiles\testng.xml
+
+2022-11-25 17:08:39 INFO  SetUp - Test Case_TaskLeadCreationTest_Successfully Started
+2022-11-25 17:08:39 INFO  SetUp - Test Case_TaskLeadCreationTest_get Skipped as its Runmode is 'NO' 
+2022-11-25 17:08:39 INFO  SetUp - Test Case_DedupeRuleTest_Successfully Started
+2022-11-25 17:08:39 INFO  SetUp - Test Case_DedupeRuleTest_get Skipped as its Runmode is 'NO' 
+2022-11-25 17:08:39 INFO  SetUp - Test Case_DataPresenterEDSTest_Successfully Started
+2022-11-25 17:08:40 INFO  SetUp - Test Case_DataPresenterEDSTest_get Skipped as its Runmode is 'NO' 
+2022-11-25 17:08:40 INFO  SetUp - Test Case_TabVisibleOnCustomer_Successfully Started
+2022-11-25 17:08:40 INFO  SetUp - Test Case_TabVisibleOnCustomer_get Skipped as its Runmode is 'NO' 
+2022-11-25 17:08:40 INFO  SetUp - Test Case_LeadSearchTest_Successfully Started
+2022-11-25 17:08:40 INFO  SetUp - Test Case_LeadSearchTest_get Skipped as its Runmode is 'NO' 
+2022-11-25 17:08:40 INFO  SetUp - Test Case_CustomerSearchTest_Successfully Started
+2022-11-25 17:08:41 INFO  SetUp - Test Case_CustomerSearchTest_get Skipped as its Runmode is 'NO' 
+2022-11-25 17:08:41 INFO  SetUp - Test Case_QuickLinksTest_Successfully Started
+2022-11-25 17:08:41 INFO  SetUp - Test Case_QuickLinksTest_get Skipped as its Runmode is 'NO' 
+2022-11-25 17:08:41 INFO  SetUp - Test Case_CallAndMeetingsTest_Successfully Started
+2022-11-25 17:08:42 INFO  SetUp - Test Case_CallAndMeetingsTest_get Skipped as its Runmode is 'NO' 
+2022-11-25 17:08:42 INFO  SetUp - Test Case_ActivityCreationTest_Successfully Started
+2022-11-25 17:08:42 INFO  SetUp - Test Case_ActivityCreationTest_get Skipped as its Runmode is 'NO' 
+2022-11-25 17:08:42 INFO  SetUp - Test Case_PagginationOnAppointmentTest_Successfully Started
+2022-11-25 17:08:43 INFO  SetUp - Test Case_PagginationOnAppointmentTest_get Skipped as its Runmode is 'NO' 
+2022-11-25 17:08:43 INFO  SetUp - Test Case_TaskCreatedOnETBCustomerTest_Successfully Started
+2022-11-25 17:08:43 INFO  SetUp - Test Case_TaskCreatedOnETBCustomerTest_get Skipped as its Runmode is 'NO' 
+2022-11-25 17:08:43 INFO  SetUp - Test Case_TaskCreatedOnETBLeadTest_Successfully Started
+2022-11-25 17:08:44 INFO  SetUp - Test Case_TaskCreatedOnETBLeadTest_get Skipped as its Runmode is 'NO' 
+2022-11-25 17:08:44 INFO  SetUp - Test Case_TaskIsCreatedIndependentlyTest_Successfully Started
+2022-11-25 17:08:45 INFO  SetUp - Test Case_TaskIsCreatedIndependentlyTest_get Skipped as its Runmode is 'NO' 
+2022-11-25 17:08:45 INFO  SetUp - Test Case_OfferCreationTest_Successfully Started
+2022-11-25 17:08:46 INFO  SetUp - Test Case_OfferCreationTest_get Skipped as its Runmode is 'NO' 
+2022-11-25 17:08:46 INFO  SetUp - Test Case_SRCreationCERSAIChargesCatTest_Successfully Started
+2022-11-25 17:08:46 INFO  SetUp - Test Case_SRCreationCERSAIChargesCatTest_get Skipped as its Runmode is 'NO' 
+2022-11-25 17:08:46 INFO  SetUp - Test Case_ReportsTabTest_Successfully Started
+2022-11-25 17:08:47 INFO  SetUp - Test Case_ReportsTabTest_get Skipped as its Runmode is 'NO' 
+2022-11-25 17:08:47 INFO  SetUp - Test Case_PriSecLeadCreationFlowTest_Successfully Started
+2022-11-25 17:08:48 INFO  SetUp - Test Case_PriSecLeadCreationFlowTest_get Skipped as its Runmode is 'NO' 
+2022-11-25 17:08:48 INFO  SetUp - Test Case_SRCreationTest_Successfully Started
+2022-11-25 17:08:50 INFO  SetUp - Test Case_SRCreationTest_get Skipped as its Runmode is 'NO' 
+2022-11-25 17:08:50 INFO  SetUp - Test Case_ConditionalAccessTest_Successfully Started
+2022-11-25 17:08:59 INFO  WebDriverManager - Using chromedriver 107.0.5304.62 (resolved driver for Chrome 107)
+2022-11-25 17:08:59 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Punam Shirsath\.cache\selenium\chromedriver\win32\107.0.5304.62\chromedriver.exe
+2022-11-25 17:09:02 INFO  SetUp - Chrome Browser Launched..
+2022-11-25 17:09:03 INFO  SetUp - URL : https://crmdev.aubankuat.in/sn7/app/login/login
+2022-11-25 17:09:03 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-11-25 17:09:03 INFO  CommonMethods - Sucessfully clicked on aUUserName_XPATH
+2022-11-25 17:09:04 INFO  CommonMethods - Data sucessfully entered on aUUserName_XPATH = cse@punam.com
+2022-11-25 17:09:04 INFO  CommonMethods - Sucessfully clicked on aUPassword_XPATH
+2022-11-25 17:09:04 INFO  CommonMethods - Data sucessfully entered on aUPassword_XPATH = Pass@123
+2022-11-25 17:09:08 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-11-25 17:09:08 INFO  SetUp - Login as a CSE User
+2022-11-25 17:09:09 INFO  CommonMethods - Sucessfully clicked on leadTab_XPATH
+2022-11-25 17:09:09 INFO  LeadPage - CSE User Click On Lead Tab
+2022-11-25 17:09:09 INFO  LeadPage - Select Lead From View Bucket
+2022-11-25 17:09:09 ERROR CommonMethods - Not able to select from dropdown appdropdown1_XPATHdue to no such element: Unable to locate element: {"method":"xpath","selector":"//select[@data-autoid="QueryCategoryId_ctrl"]"}
+  (Session info: chrome=107.0.5304.107)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e843bcfd415f4c2704258d67980f09d0, findElement {using=xpath, value=//select[@data-autoid="QueryCategoryId_ctrl"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PUNAMS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57577}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57577/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e843bcfd415f4c2704258d67980f09d0
+2022-11-25 17:09:09 ERROR CommonMethods - Not able to select from dropdown appdropdown2_XPATHdue to no such element: Unable to locate element: {"method":"xpath","selector":"//select[@data-autoid="QueryViewId_ctrl"]"}
+  (Session info: chrome=107.0.5304.107)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e843bcfd415f4c2704258d67980f09d0, findElement {using=xpath, value=//select[@data-autoid="QueryViewId_ctrl"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PUNAMS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57577}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57577/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e843bcfd415f4c2704258d67980f09d0
+2022-11-25 17:09:10 INFO  CommonMethods - Sucessfully clicked on arrowBtn_XPATH
+2022-11-25 17:09:10 ERROR SetUp - ConditionalAccessTest Get Failed due to 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[@data-autoid="LeadName_0"]"}
+  (Session info: chrome=107.0.5304.107)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e843bcfd415f4c2704258d67980f09d0, findElement {using=xpath, value=//a[@data-autoid="LeadName_0"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PUNAMS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57577}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57577/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e843bcfd415f4c2704258d67980f09d0
+2022-11-25 17:09:13 INFO  ScreenShot - ScreenShot captured ConditionalAccessTest || Status :Fail
+2022-11-25 17:09:15 INFO  CommonMethods - Row num for TestScenario = ConditionalAccessTest is = 31
+2022-11-25 17:09:17 INFO  ExcelOperation - Write to excel with : Row=31 | Cell =5 | Data =Fail
+2022-11-25 17:09:19 INFO  SetUp - Browser Closed..
+2022-11-25 17:09:22 INFO  CommonMethods - Test Report Mail sent successfully to punam.shirsath@crmnext.com
+2022-11-25 17:11:11 INFO  Utils - [TestNG] Running:
+  C:\Users\Punam Shirsath\eclipse-workspace\AUAutomationSanity\src\test\resources\RunnerFiles\testng.xml
+
+2022-11-25 17:11:35 INFO  SetUp - Test Case_TaskLeadCreationTest_Successfully Started
+2022-11-25 17:11:37 INFO  SetUp - Test Case_TaskLeadCreationTest_get Skipped as its Runmode is 'NO' 
+2022-11-25 17:11:37 INFO  SetUp - Test Case_DedupeRuleTest_Successfully Started
+2022-11-25 17:11:39 INFO  SetUp - Test Case_DedupeRuleTest_get Skipped as its Runmode is 'NO' 
+2022-11-25 17:11:39 INFO  SetUp - Test Case_DataPresenterEDSTest_Successfully Started
+2022-11-25 17:11:43 INFO  SetUp - Test Case_DataPresenterEDSTest_get Skipped as its Runmode is 'NO' 
+2022-11-25 17:11:43 INFO  SetUp - Test Case_TabVisibleOnCustomer_Successfully Started
+2022-11-25 17:11:48 INFO  SetUp - Test Case_TabVisibleOnCustomer_get Skipped as its Runmode is 'NO' 
+2022-11-25 17:11:48 INFO  SetUp - Test Case_LeadSearchTest_Successfully Started
+2022-11-25 17:11:54 INFO  SetUp - Test Case_LeadSearchTest_get Skipped as its Runmode is 'NO' 
+2022-11-25 17:11:54 INFO  SetUp - Test Case_CustomerSearchTest_Successfully Started
+2022-11-25 17:12:01 INFO  SetUp - Test Case_CustomerSearchTest_get Skipped as its Runmode is 'NO' 
+2022-11-25 17:12:01 INFO  SetUp - Test Case_QuickLinksTest_Successfully Started
+2022-11-25 17:12:08 INFO  SetUp - Test Case_QuickLinksTest_get Skipped as its Runmode is 'NO' 
+2022-11-25 17:12:08 INFO  SetUp - Test Case_CallAndMeetingsTest_Successfully Started
+2022-11-25 17:12:15 INFO  SetUp - Test Case_CallAndMeetingsTest_get Skipped as its Runmode is 'NO' 
+2022-11-25 17:12:15 INFO  SetUp - Test Case_ActivityCreationTest_Successfully Started
+2022-11-25 17:12:23 INFO  SetUp - Test Case_ActivityCreationTest_get Skipped as its Runmode is 'NO' 
+2022-11-25 17:12:23 INFO  SetUp - Test Case_PagginationOnAppointmentTest_Successfully Started
+2022-11-25 17:12:31 INFO  SetUp - Test Case_PagginationOnAppointmentTest_get Skipped as its Runmode is 'NO' 
+2022-11-25 17:12:31 INFO  SetUp - Test Case_TaskCreatedOnETBCustomerTest_Successfully Started
+2022-11-25 17:12:40 INFO  SetUp - Test Case_TaskCreatedOnETBCustomerTest_get Skipped as its Runmode is 'NO' 
+2022-11-25 17:12:40 INFO  SetUp - Test Case_TaskCreatedOnETBLeadTest_Successfully Started
+2022-11-25 17:12:50 INFO  SetUp - Test Case_TaskCreatedOnETBLeadTest_get Skipped as its Runmode is 'NO' 
+2022-11-25 17:12:50 INFO  SetUp - Test Case_TaskIsCreatedIndependentlyTest_Successfully Started
+2022-11-25 17:13:01 INFO  SetUp - Test Case_TaskIsCreatedIndependentlyTest_get Skipped as its Runmode is 'NO' 
+2022-11-25 17:13:01 INFO  SetUp - Test Case_OfferCreationTest_Successfully Started
+2022-11-25 17:13:13 INFO  SetUp - Test Case_OfferCreationTest_get Skipped as its Runmode is 'NO' 
+2022-11-25 17:13:13 INFO  SetUp - Test Case_SRCreationCERSAIChargesCatTest_Successfully Started
+2022-11-25 17:13:25 INFO  SetUp - Test Case_SRCreationCERSAIChargesCatTest_get Skipped as its Runmode is 'NO' 
+2022-11-25 17:13:25 INFO  SetUp - Test Case_ReportsTabTest_Successfully Started
+2022-11-25 17:13:38 INFO  SetUp - Test Case_ReportsTabTest_get Skipped as its Runmode is 'NO' 
+2022-11-25 17:13:38 INFO  SetUp - Test Case_PriSecLeadCreationFlowTest_Successfully Started
+2022-11-25 17:13:56 INFO  SetUp - Test Case_PriSecLeadCreationFlowTest_get Skipped as its Runmode is 'NO' 
+2022-11-25 17:13:56 INFO  SetUp - Test Case_SRCreationTest_Successfully Started
+2022-11-25 17:14:15 INFO  SetUp - Test Case_SRCreationTest_get Skipped as its Runmode is 'NO' 
+2022-11-25 17:14:15 INFO  SetUp - Test Case_ConditionalAccessTest_Successfully Started
+2022-11-25 17:14:40 INFO  WebDriverManager - Using chromedriver 107.0.5304.62 (resolved driver for Chrome 107)
+2022-11-25 17:14:40 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Punam Shirsath\.cache\selenium\chromedriver\win32\107.0.5304.62\chromedriver.exe
+2022-11-25 17:14:42 INFO  SetUp - Chrome Browser Launched..
+2022-11-25 17:14:44 INFO  SetUp - URL : https://crmdev.aubankuat.in/sn7/app/login/login
+2022-11-25 17:14:44 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-11-25 17:14:44 INFO  CommonMethods - Sucessfully clicked on aUUserName_XPATH
+2022-11-25 17:14:46 INFO  CommonMethods - Data sucessfully entered on aUUserName_XPATH = cse@punam.com
+2022-11-25 17:14:47 INFO  CommonMethods - Sucessfully clicked on aUPassword_XPATH
+2022-11-25 17:14:50 INFO  CommonMethods - Data sucessfully entered on aUPassword_XPATH = Pass@123
+2022-11-25 17:14:56 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-11-25 17:14:56 INFO  SetUp - Login as a CSE User
+2022-11-25 17:14:57 INFO  CommonMethods - Sucessfully clicked on leadTab_XPATH
+2022-11-25 17:14:57 INFO  LeadPage - CSE User Click On Lead Tab
+2022-11-25 17:14:57 INFO  LeadPage - Select Lead From View Bucket
+2022-11-25 17:14:57 ERROR CommonMethods - Not able to select from dropdown appdropdown1_XPATHdue to no such element: Unable to locate element: {"method":"xpath","selector":"//select[@data-autoid="QueryCategoryId_ctrl"]"}
+  (Session info: chrome=107.0.5304.107)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e19f5dd44cfc22b4aaabaaa92af0c32a, findElement {using=xpath, value=//select[@data-autoid="QueryCategoryId_ctrl"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PUNAMS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57827}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57827/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e19f5dd44cfc22b4aaabaaa92af0c32a
+2022-11-25 17:14:57 ERROR CommonMethods - Not able to select from dropdown appdropdown2_XPATHdue to no such element: Unable to locate element: {"method":"xpath","selector":"//select[@data-autoid="QueryViewId_ctrl"]"}
+  (Session info: chrome=107.0.5304.107)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e19f5dd44cfc22b4aaabaaa92af0c32a, findElement {using=xpath, value=//select[@data-autoid="QueryViewId_ctrl"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PUNAMS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57827}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57827/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e19f5dd44cfc22b4aaabaaa92af0c32a
+2022-11-25 17:14:57 INFO  CommonMethods - Sucessfully clicked on arrowBtn_XPATH
+2022-11-25 17:14:58 INFO  LeadPage - Click On Lead
+2022-11-25 17:15:00 INFO  CommonMethods - Sucessfully clicked on leadN_XPATH
+2022-11-25 17:15:00 INFO  LeadPage - Edit lead
+2022-11-25 17:15:00 INFO  CommonMethods - Sucessfully clicked on bottomBtn_XPATH
+2022-11-25 17:15:01 INFO  CommonMethods - Sucessfully clicked on editBtn_XPATH
+2022-11-25 17:15:35 INFO  SetUp - Test Case_ConditionalAccessTest_Successfully Passed
+2022-11-25 17:16:02 INFO  CommonMethods - Row num for TestScenario = ConditionalAccessTest is = 31
+2022-11-25 17:16:03 INFO  ExcelOperation - Write to excel with : Row=31 | Cell =5 | Data =Pass
+2022-11-25 17:16:06 INFO  SetUp - Browser Closed..
+2022-11-25 17:16:09 INFO  CommonMethods - Test Report Mail sent successfully to punam.shirsath@crmnext.com

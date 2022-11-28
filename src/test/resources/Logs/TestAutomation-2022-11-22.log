@@ -1,0 +1,1467 @@
+2022-11-22 09:43:03 INFO  ExtentReporterNG - Extent report Directory is created!
+2022-11-22 09:43:29 INFO  Utils - [TestNG] Running:
+  C:\Users\Punam Shirsath\eclipse-workspace\AUAutomationSanity\src\test\resources\RunnerFiles\testng.xml
+
+2022-11-22 09:43:51 INFO  SetUp - Test Case_ConditionalAlertTest_Successfully Started
+2022-11-22 09:44:16 INFO  WebDriverManager - Using chromedriver 107.0.5304.62 (resolved driver for Chrome 107)
+2022-11-22 09:44:16 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Punam Shirsath\.cache\selenium\chromedriver\win32\107.0.5304.62\chromedriver.exe
+2022-11-22 09:44:19 INFO  SetUp - Chrome Browser Launched..
+2022-11-22 09:44:20 INFO  SetUp - URL : https://crmdev.aubankuat.in/sn7/app/login/login
+2022-11-22 09:44:21 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-11-22 09:44:21 INFO  CommonMethods - Sucessfully clicked on aUUserName_XPATH
+2022-11-22 09:44:23 INFO  CommonMethods - Data sucessfully entered on aUUserName_XPATH = cse@punam.com
+2022-11-22 09:44:24 INFO  CommonMethods - Sucessfully clicked on aUPassword_XPATH
+2022-11-22 09:44:26 INFO  CommonMethods - Data sucessfully entered on aUPassword_XPATH = Pass@123
+2022-11-22 09:44:31 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-11-22 09:44:31 INFO  SetUp - Login as a CSE User
+2022-11-22 09:45:18 INFO  CommonMethods - Sucessfully clicked on customerSearch_XPATH
+2022-11-22 09:45:20 INFO  CommonMethods - Sucessfully clicked on mobileSearchField_XPATH
+2022-11-22 09:45:20 INFO  CommonMethods - Data sucessfully entered on mobileSearchField_XPATH = 9767963169
+2022-11-22 09:45:22 INFO  CommonMethods - Sucessfully clicked on fetchBtn_XPATH
+2022-11-22 09:45:26 INFO  CommonMethods - Sucessfully clicked on firstCustomer_XPATH
+2022-11-22 09:45:26 INFO  SetUp - Click On First Customer
+2022-11-22 09:45:33 INFO  CommonMethods - Sucessfully clicked on srCreationBtn_XPATH
+2022-11-22 09:45:33 INFO  SetUp - Click on SR Creation Button
+2022-11-22 09:45:36 INFO  CommonMethods - Sucessfully clicked on subsubCategorySrch_XPATH
+2022-11-22 09:45:37 INFO  CommonMethods - Sucessfully clicked on sRSubsubCategory_XPATH
+2022-11-22 09:45:37 INFO  SetUp - Sub-Sub Category Selected
+2022-11-22 09:45:37 INFO  CommonMethods - Sucessfully clicked on NextBtn_XPATH
+2022-11-22 09:45:37 INFO  SetUp - Click on Next Button
+2022-11-22 09:46:05 INFO  CommonMethods - Data = 2 Sucessfully Selected from dropdown srAutoAssignment_XPATH
+2022-11-22 09:46:05 INFO  SetUp - Select auto assignment dropdown
+2022-11-22 09:46:05 INFO  CommonMethods - Sucessfully clicked on srCaseOwner_XPATH
+2022-11-22 09:46:05 ERROR CommonMethods - Not able to select from dropdown srCaseOwner_XPATHdue to Element should have been "select" but was "a"
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: driver.version: unknown
+2022-11-22 09:46:08 INFO  CommonMethods - Sucessfully clicked on caseOwnerQueue_XPATH
+2022-11-22 09:46:08 INFO  SetUp - Case Owner is Selected
+2022-11-22 09:46:08 INFO  CommonMethods - Sucessfully clicked on srAccountNOSrch_XPATH
+2022-11-22 09:46:09 INFO  CommonMethods - Sucessfully clicked on accountNOSR_XPATH
+2022-11-22 09:46:09 INFO  SetUp - Account No Selected
+2022-11-22 09:46:09 INFO  CommonMethods - Data = 1 Sucessfully Selected from dropdown requestLetter_XPATH
+2022-11-22 09:46:09 INFO  SetUp - Requested Letter Selected
+2022-11-22 09:46:10 INFO  CommonMethods - Sucessfully clicked on saveAndProceedBtn_XPATH
+2022-11-22 09:46:10 INFO  SetUp - Click On Save And Proceed Button
+2022-11-22 09:46:44 INFO  SetUp - Test Case_ConditionalAlertTest_Successfully Passed
+2022-11-22 09:47:16 INFO  CommonMethods - Row num for TestScenario = ConditionalAlertTest is = 30
+2022-11-22 09:47:18 INFO  ExcelOperation - Write to excel with : Row=30 | Cell =5 | Data =Pass
+2022-11-22 09:47:21 INFO  SetUp - Browser Closed..
+2022-11-22 09:47:25 INFO  CommonMethods - Test Report Mail sent successfully to punam.shirsath@crmnext.com
+2022-11-22 10:58:07 INFO  ExtentReporterNG - Extent report Directory is created!
+2022-11-22 10:58:52 INFO  Utils - [TestNG] Running:
+  C:\Users\Punam Shirsath\eclipse-workspace\AUAutomationSanity\src\test\resources\RunnerFiles\testng.xml
+
+2022-11-22 10:59:32 INFO  SetUp - Test Case_ConditionalAlertTest_Successfully Started
+2022-11-22 11:00:15 INFO  WebDriverManager - Using chromedriver 107.0.5304.62 (resolved driver for Chrome 107)
+2022-11-22 11:00:15 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Punam Shirsath\.cache\selenium\chromedriver\win32\107.0.5304.62\chromedriver.exe
+2022-11-22 11:00:19 INFO  SetUp - Chrome Browser Launched..
+2022-11-22 11:00:22 INFO  SetUp - URL : https://crmdev.aubankuat.in/sn7/app/login/login
+2022-11-22 11:00:23 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-11-22 11:00:23 INFO  CommonMethods - Sucessfully clicked on aUUserName_XPATH
+2022-11-22 11:00:28 INFO  CommonMethods - Data sucessfully entered on aUUserName_XPATH = cse@punam.com
+2022-11-22 11:00:30 INFO  CommonMethods - Sucessfully clicked on aUPassword_XPATH
+2022-11-22 11:00:35 INFO  CommonMethods - Data sucessfully entered on aUPassword_XPATH = Pass@123
+2022-11-22 11:00:46 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-11-22 11:00:46 INFO  SetUp - Login as a CSE User
+2022-11-22 11:00:49 INFO  CommonMethods - Sucessfully clicked on customerSearch_XPATH
+2022-11-22 11:00:53 INFO  CommonMethods - Sucessfully clicked on mobileSearchField_XPATH
+2022-11-22 11:00:53 INFO  CommonMethods - Data sucessfully entered on mobileSearchField_XPATH = 9767963169
+2022-11-22 11:00:55 INFO  CommonMethods - Sucessfully clicked on fetchBtn_XPATH
+2022-11-22 11:01:00 INFO  CommonMethods - Sucessfully clicked on firstCustomer_XPATH
+2022-11-22 11:01:00 INFO  SetUp - Click On First Customer
+2022-11-22 11:01:07 INFO  CommonMethods - Sucessfully clicked on srCreationBtn_XPATH
+2022-11-22 11:01:07 INFO  SetUp - Click on SR Creation Button
+2022-11-22 11:01:11 INFO  CommonMethods - Sucessfully clicked on subsubCategorySrch_XPATH
+2022-11-22 11:01:11 INFO  CommonMethods - Sucessfully clicked on sRSubsubCategory_XPATH
+2022-11-22 11:01:11 INFO  SetUp - Sub-Sub Category Selected
+2022-11-22 11:01:12 INFO  CommonMethods - Sucessfully clicked on NextBtn_XPATH
+2022-11-22 11:01:12 INFO  SetUp - Click on Next Button
+2022-11-22 11:01:45 INFO  CommonMethods - Data = 2 Sucessfully Selected from dropdown srAutoAssignment_XPATH
+2022-11-22 11:01:45 INFO  SetUp - Select auto assignment dropdown
+2022-11-22 11:01:46 INFO  CommonMethods - Sucessfully clicked on srCaseOwner_XPATH
+2022-11-22 11:01:46 ERROR CommonMethods - Not able to select from dropdown srCaseOwner_XPATHdue to Element should have been "select" but was "a"
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: driver.version: unknown
+2022-11-22 11:01:49 INFO  CommonMethods - Sucessfully clicked on caseOwnerQueue_XPATH
+2022-11-22 11:01:49 INFO  SetUp - Case Owner is Selected
+2022-11-22 11:01:49 INFO  CommonMethods - Sucessfully clicked on srAccountNOSrch_XPATH
+2022-11-22 11:01:50 INFO  CommonMethods - Sucessfully clicked on accountNOSR_XPATH
+2022-11-22 11:01:50 INFO  SetUp - Account No Selected
+2022-11-22 11:01:51 INFO  CommonMethods - Data = 1 Sucessfully Selected from dropdown requestLetter_XPATH
+2022-11-22 11:01:51 INFO  SetUp - Requested Letter Selected
+2022-11-22 11:01:51 INFO  CommonMethods - Sucessfully clicked on saveAndProceedBtn_XPATH
+2022-11-22 11:01:51 INFO  SetUp - Click On Save And Proceed Button
+2022-11-22 11:02:54 INFO  SetUp - Test Case_ConditionalAlertTest_Successfully Passed
+2022-11-22 11:03:58 INFO  CommonMethods - Row num for TestScenario = ConditionalAlertTest is = 30
+2022-11-22 11:04:01 INFO  ExcelOperation - Write to excel with : Row=30 | Cell =5 | Data =Pass
+2022-11-22 11:04:06 INFO  SetUp - Browser Closed..
+2022-11-22 11:04:10 INFO  CommonMethods - Test Report Mail sent successfully to punam.shirsath@crmnext.com
+2022-11-22 15:43:33 INFO  ExtentReporterNG - Extent report Directory is created!
+2022-11-22 16:16:39 INFO  ExtentReporterNG - Extent report Directory is created!
+2022-11-22 16:16:48 INFO  Utils - [TestNG] Running:
+  C:\Users\Punam Shirsath\eclipse-workspace\AUAutomationSanity\src\test\resources\RunnerFiles\testng.xml
+
+2022-11-22 16:16:52 INFO  SetUp - Test Case_ConditionalAlertTest_Successfully Started
+2022-11-22 16:16:57 INFO  WebDriverManager - Using chromedriver 107.0.5304.62 (resolved driver for Chrome 107)
+2022-11-22 16:16:57 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Punam Shirsath\.cache\selenium\chromedriver\win32\107.0.5304.62\chromedriver.exe
+2022-11-22 16:17:01 INFO  SetUp - Chrome Browser Launched..
+2022-11-22 16:17:02 INFO  SetUp - URL : https://crmdev.aubankuat.in/sn7/app/login/login
+2022-11-22 16:17:03 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-11-22 16:17:03 INFO  CommonMethods - Sucessfully clicked on aUUserName_XPATH
+2022-11-22 16:17:04 INFO  CommonMethods - Data sucessfully entered on aUUserName_XPATH = cse@punam.com
+2022-11-22 16:17:04 INFO  CommonMethods - Sucessfully clicked on aUPassword_XPATH
+2022-11-22 16:17:04 INFO  CommonMethods - Data sucessfully entered on aUPassword_XPATH = Pass@123
+2022-11-22 16:17:11 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-11-22 16:17:11 INFO  SetUp - Login as a CSE User
+2022-11-22 16:17:15 INFO  CommonMethods - Sucessfully clicked on customerSearch_XPATH
+2022-11-22 16:17:15 INFO  CommonMethods - Sucessfully clicked on mobileSearchField_XPATH
+2022-11-22 16:17:16 INFO  CommonMethods - Data sucessfully entered on mobileSearchField_XPATH = 9767963169
+2022-11-22 16:17:18 INFO  CommonMethods - Sucessfully clicked on fetchBtn_XPATH
+2022-11-22 16:17:23 INFO  CommonMethods - Sucessfully clicked on firstCustomer_XPATH
+2022-11-22 16:17:23 INFO  SetUp - Click On First Customer
+2022-11-22 16:17:31 INFO  CommonMethods - Sucessfully clicked on srCreationBtn_XPATH
+2022-11-22 16:17:31 INFO  SetUp - Click on SR Creation Button
+2022-11-22 16:17:34 INFO  CommonMethods - Sucessfully clicked on subsubCategorySrch_XPATH
+2022-11-22 16:17:35 INFO  CommonMethods - Sucessfully clicked on sRSubsubCategory_XPATH
+2022-11-22 16:17:35 INFO  SetUp - Sub-Sub Category Selected
+2022-11-22 16:17:35 INFO  CommonMethods - Sucessfully clicked on NextBtn_XPATH
+2022-11-22 16:17:35 INFO  SetUp - Click on Next Button
+2022-11-22 16:18:09 INFO  CommonMethods - Data = 2 Sucessfully Selected from dropdown srAutoAssignment_XPATH
+2022-11-22 16:18:09 INFO  SetUp - Select auto assignment dropdown
+2022-11-22 16:18:09 INFO  CommonMethods - Sucessfully clicked on srCaseOwner_XPATH
+2022-11-22 16:18:09 ERROR CommonMethods - Not able to select from dropdown srCaseOwner_XPATHdue to Element should have been "select" but was "a"
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: driver.version: unknown
+2022-11-22 16:18:12 INFO  CommonMethods - Sucessfully clicked on caseOwnerQueue_XPATH
+2022-11-22 16:18:12 INFO  SetUp - Case Owner is Selected
+2022-11-22 16:18:13 INFO  CommonMethods - Sucessfully clicked on srAccountNOSrch_XPATH
+2022-11-22 16:18:13 INFO  CommonMethods - Sucessfully clicked on accountNOSR_XPATH
+2022-11-22 16:18:13 INFO  SetUp - Account No Selected
+2022-11-22 16:18:14 INFO  CommonMethods - Data = 2 Sucessfully Selected from dropdown requestLetter_XPATH
+2022-11-22 16:18:14 INFO  SetUp - Requested Letter Selected
+2022-11-22 16:18:14 INFO  CommonMethods - Sucessfully clicked on saveAndProceedBtn_XPATH
+2022-11-22 16:18:14 INFO  SetUp - Click On Save And Proceed Button
+2022-11-22 16:18:28 INFO  CommonMethods - Sucessfully clicked on profileimage_XPATH
+2022-11-22 16:18:28 INFO  CommonMethods - Sucessfully clicked on logoutbtn_XPATH
+2022-11-22 16:18:28 INFO  AULoginPage - Sucessfully logout..
+2022-11-22 16:18:29 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-11-22 16:18:29 INFO  CommonMethods - Sucessfully clicked on aUUserName_XPATH
+2022-11-22 16:18:29 INFO  CommonMethods - Data sucessfully entered on aUUserName_XPATH = punam@gmail.com
+2022-11-22 16:18:30 INFO  CommonMethods - Sucessfully clicked on aUPassword_XPATH
+2022-11-22 16:18:30 INFO  CommonMethods - Data sucessfully entered on aUPassword_XPATH = Pass@123
+2022-11-22 16:18:33 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-11-22 16:18:33 INFO  SetUp - Login as a Administrator
+2022-11-22 16:18:40 INFO  CommonMethods - Sucessfully clicked on setupBtn_XPATH
+2022-11-22 16:18:40 INFO  SetUp - Click On Setup Button
+2022-11-22 16:18:41 INFO  CommonMethods - Sucessfully clicked on adminSetting_XPATH
+2022-11-22 16:18:41 INFO  SetUp - Click On Administrative Setting Button
+2022-11-22 16:18:42 INFO  CommonMethods - Sucessfully clicked on settingDrpdown_XPATH
+2022-11-22 16:18:43 ERROR CommonMethods - Not Sucessfully clicked on notificationSetting_XPATH due to :element click intercepted: Element is not clickable at point (99, 641)
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9b45f1eb9be642ac391b61bf38537233, clickElement {id=90618153-bee6-47ad-a2dd-3f3d9e6312ea}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PUNAMS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58533}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58533/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (9b45f1eb9be642ac391b61bf38537233)] -> xpath: //span[text()='Notification Settings']]
+Session ID: 9b45f1eb9be642ac391b61bf38537233
+2022-11-22 16:18:43 INFO  SetUp - Click On notification settings
+2022-11-22 16:19:28 INFO  CommonMethods - Sucessfully clicked on emailLog_XPATH
+2022-11-22 16:19:28 INFO  SetUp - Click On Email Log
+2022-11-22 16:19:32 ERROR SetUp - ConditionalAlertTest Get Failed due to 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@data-autoid="Level1_1"]"}
+  (Session info: chrome=107.0.5304.107)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9b45f1eb9be642ac391b61bf38537233, findElement {using=xpath, value=//div[@data-autoid="Level1_1"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PUNAMS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58533}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58533/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9b45f1eb9be642ac391b61bf38537233
+2022-11-22 16:19:37 INFO  ScreenShot - ScreenShot captured ConditionalAlertTest || Status :Fail
+2022-11-22 16:19:43 INFO  CommonMethods - Row num for TestScenario = ConditionalAlertTest is = 30
+2022-11-22 16:19:44 INFO  ExcelOperation - Write to excel with : Row=30 | Cell =5 | Data =Fail
+2022-11-22 16:19:48 INFO  SetUp - Browser Closed..
+2022-11-22 16:19:52 INFO  CommonMethods - Test Report Mail sent successfully to punam.shirsath@crmnext.com
+2022-11-22 16:26:58 INFO  Utils - [TestNG] Running:
+  C:\Users\Punam Shirsath\eclipse-workspace\AUAutomationSanity\src\test\resources\RunnerFiles\testng.xml
+
+2022-11-22 16:27:38 INFO  SetUp - Test Case_ConditionalAlertTest_Successfully Started
+2022-11-22 16:28:19 INFO  WebDriverManager - Using chromedriver 107.0.5304.62 (resolved driver for Chrome 107)
+2022-11-22 16:28:19 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Punam Shirsath\.cache\selenium\chromedriver\win32\107.0.5304.62\chromedriver.exe
+2022-11-22 16:28:23 INFO  SetUp - Chrome Browser Launched..
+2022-11-22 16:28:25 INFO  SetUp - URL : https://crmdev.aubankuat.in/sn7/app/login/login
+2022-11-22 16:28:26 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-11-22 16:28:26 INFO  CommonMethods - Sucessfully clicked on aUUserName_XPATH
+2022-11-22 16:28:31 INFO  CommonMethods - Data sucessfully entered on aUUserName_XPATH = punam@gmail.com
+2022-11-22 16:28:33 INFO  CommonMethods - Sucessfully clicked on aUPassword_XPATH
+2022-11-22 16:28:38 INFO  CommonMethods - Data sucessfully entered on aUPassword_XPATH = Pass@123
+2022-11-22 16:28:48 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-11-22 16:28:48 INFO  SetUp - Login as a Administrator
+2022-11-22 16:28:52 INFO  CommonMethods - Sucessfully clicked on setupBtn_XPATH
+2022-11-22 16:28:52 INFO  SetUp - Click On Setup Button
+2022-11-22 16:28:54 INFO  CommonMethods - Sucessfully clicked on adminSetting_XPATH
+2022-11-22 16:28:54 INFO  SetUp - Click On Administrative Setting Button
+2022-11-22 16:28:54 INFO  CommonMethods - Sucessfully clicked on settingDrpdown_XPATH
+2022-11-22 16:28:56 ERROR CommonMethods - Not Sucessfully clicked on notificationSetting_XPATH due to :element click intercepted: Element is not clickable at point (99, 641)
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [42b3b79619ea7126a1e932afad4b6782, clickElement {id=2c976713-4e40-4286-9a01-22a112c9243f}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PUNAMS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58998}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58998/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (42b3b79619ea7126a1e932afad4b6782)] -> xpath: //span[text()='Notification Settings']]
+Session ID: 42b3b79619ea7126a1e932afad4b6782
+2022-11-22 16:28:56 INFO  SetUp - Click On notification settings
+2022-11-22 16:29:14 INFO  CommonMethods - Sucessfully clicked on emailLog_XPATH
+2022-11-22 16:29:14 INFO  SetUp - Click On Email Log
+2022-11-22 16:30:05 INFO  SetUp - Test Case_ConditionalAlertTest_Successfully Passed
+2022-11-22 16:30:47 INFO  CommonMethods - Row num for TestScenario = ConditionalAlertTest is = 30
+2022-11-22 16:30:49 INFO  ExcelOperation - Write to excel with : Row=30 | Cell =5 | Data =Pass
+2022-11-22 16:30:53 INFO  SetUp - Browser Closed..
+2022-11-22 16:30:56 INFO  CommonMethods - Test Report Mail sent successfully to punam.shirsath@crmnext.com
+2022-11-22 17:57:28 INFO  ExtentReporterNG - Extent report Directory is created!
+2022-11-22 17:57:36 INFO  Utils - [TestNG] Running:
+  C:\Users\Punam Shirsath\eclipse-workspace\AUAutomationSanity\src\test\resources\RunnerFiles\testng.xml
+
+2022-11-22 17:57:40 INFO  SetUp - Test Case_PriSecLeadCreationFlowTest_Successfully Started
+2022-11-22 17:57:45 INFO  WebDriverManager - Using chromedriver 107.0.5304.62 (resolved driver for Chrome 107)
+2022-11-22 17:57:45 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Punam Shirsath\.cache\selenium\chromedriver\win32\107.0.5304.62\chromedriver.exe
+2022-11-22 17:57:48 INFO  SetUp - Chrome Browser Launched..
+2022-11-22 17:57:50 INFO  SetUp - URL : https://crmdev.aubankuat.in/sn7/app/login/login
+2022-11-22 17:57:50 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-11-22 17:57:51 INFO  CommonMethods - Sucessfully clicked on aUUserName_XPATH
+2022-11-22 17:57:51 INFO  CommonMethods - Data sucessfully entered on aUUserName_XPATH = cse@punam.com
+2022-11-22 17:57:51 INFO  CommonMethods - Sucessfully clicked on aUPassword_XPATH
+2022-11-22 17:57:52 INFO  CommonMethods - Data sucessfully entered on aUPassword_XPATH = Pass@123
+2022-11-22 17:57:58 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-11-22 17:57:58 INFO  SetUp - Login as a CSE User
+2022-11-22 17:58:00 INFO  CommonMethods - Sucessfully clicked on leadTab_XPATH
+2022-11-22 17:58:00 INFO  LeadPage - CSE User Click On Lead Tab
+2022-11-22 17:58:00 INFO  CommonMethods - Sucessfully clicked on newBtn_XPATH
+2022-11-22 17:58:00 INFO  LeadPage - click on New Button
+2022-11-22 17:58:14 INFO  CommonMethods - Sucessfully clicked on liabilityFlow_XPATH
+2022-11-22 17:58:14 INFO  LeadPage - Select Liability Flow
+2022-11-22 17:58:14 INFO  CommonMethods - Data = 2 Sucessfully Selected from dropdown leadType_XPATH
+2022-11-22 17:58:14 INFO  LeadPage - Lead Type Selected: Self
+2022-11-22 17:58:15 INFO  CommonMethods - Sucessfully clicked on productcategorysearch_XPATH
+2022-11-22 17:58:15 INFO  CommonMethods - Sucessfully clicked on productCatergory_XPATH
+2022-11-22 17:58:15 INFO  LeadPage - Select Product Category: Saving Account
+2022-11-22 17:58:16 INFO  CommonMethods - Data = 16 Sucessfully Selected from dropdown liabilityLeadProduct_XPATH
+2022-11-22 17:58:16 INFO  LeadPage - Product Selected: AU Savings Account- Value
+2022-11-22 17:58:17 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =5 | Data =9000001596
+2022-11-22 17:58:17 ERROR SetUp - PriSecLeadCreationFlowTest Get Failed due to 
+C:\Users\Punam Shirsath\eclipse-workspace\AUAutomationSanity\src\test\resources\TestData\AutomationTestData.xlsm (The process cannot access the file because it is being used by another process)
+2022-11-22 17:58:23 INFO  ScreenShot - ScreenShot captured PriSecLeadCreationFlowTest || Status :Fail
+2022-11-22 17:58:28 INFO  CommonMethods - Row num for TestScenario = PriSecLeadCreationFlowTest is = 24
+2022-11-22 17:58:29 INFO  ExcelOperation - Write to excel with : Row=24 | Cell =5 | Data =Fail
+2022-11-22 17:58:31 INFO  SetUp - Browser Closed..
+2022-11-22 17:58:34 INFO  CommonMethods - Test Report Mail sent successfully to punam.shirsath@crmnext.com
+2022-11-22 17:59:14 INFO  Utils - [TestNG] Running:
+  C:\Users\Punam Shirsath\eclipse-workspace\AUAutomationSanity\src\test\resources\RunnerFiles\testng.xml
+
+2022-11-22 17:59:18 INFO  SetUp - Test Case_PriSecLeadCreationFlowTest_Successfully Started
+2022-11-22 17:59:21 INFO  WebDriverManager - Using chromedriver 107.0.5304.62 (resolved driver for Chrome 107)
+2022-11-22 17:59:21 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Punam Shirsath\.cache\selenium\chromedriver\win32\107.0.5304.62\chromedriver.exe
+2022-11-22 17:59:24 INFO  SetUp - Chrome Browser Launched..
+2022-11-22 17:59:26 INFO  SetUp - URL : https://crmdev.aubankuat.in/sn7/app/login/login
+2022-11-22 17:59:26 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-11-22 17:59:27 INFO  CommonMethods - Sucessfully clicked on aUUserName_XPATH
+2022-11-22 17:59:27 INFO  CommonMethods - Data sucessfully entered on aUUserName_XPATH = cse@punam.com
+2022-11-22 17:59:27 INFO  CommonMethods - Sucessfully clicked on aUPassword_XPATH
+2022-11-22 17:59:28 INFO  CommonMethods - Data sucessfully entered on aUPassword_XPATH = Pass@123
+2022-11-22 17:59:35 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-11-22 17:59:35 INFO  SetUp - Login as a CSE User
+2022-11-22 17:59:36 INFO  CommonMethods - Sucessfully clicked on leadTab_XPATH
+2022-11-22 17:59:36 INFO  LeadPage - CSE User Click On Lead Tab
+2022-11-22 17:59:36 INFO  CommonMethods - Sucessfully clicked on newBtn_XPATH
+2022-11-22 17:59:36 INFO  LeadPage - click on New Button
+2022-11-22 17:59:49 INFO  CommonMethods - Sucessfully clicked on liabilityFlow_XPATH
+2022-11-22 17:59:49 INFO  LeadPage - Select Liability Flow
+2022-11-22 17:59:50 INFO  CommonMethods - Data = 2 Sucessfully Selected from dropdown leadType_XPATH
+2022-11-22 17:59:50 INFO  LeadPage - Lead Type Selected: Self
+2022-11-22 17:59:50 INFO  CommonMethods - Sucessfully clicked on productcategorysearch_XPATH
+2022-11-22 17:59:51 INFO  CommonMethods - Sucessfully clicked on productCatergory_XPATH
+2022-11-22 17:59:51 INFO  LeadPage - Select Product Category: Saving Account
+2022-11-22 17:59:52 INFO  CommonMethods - Data = 16 Sucessfully Selected from dropdown liabilityLeadProduct_XPATH
+2022-11-22 17:59:52 INFO  LeadPage - Product Selected: AU Savings Account- Value
+2022-11-22 17:59:53 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =5 | Data =9000001674
+2022-11-22 17:59:54 INFO  CommonMethods - Sucessfully clicked on mobileNo_XPATH
+2022-11-22 17:59:55 INFO  CommonMethods - Data sucessfully entered on mobileNo_XPATH = 9000001674
+2022-11-22 17:59:55 INFO  LeadPage - Enter Mobile No: 9000001674
+2022-11-22 18:00:00 ERROR CommonMethods - Not Sucessfully clicked on customerName_XPATH due to :element click intercepted: Element <input type="text" name="cust_100785391" class="textbox field__item" maxlength="256" data-autoid="cust_100785391_ctrl" value=""> is not clickable at point (795, 586). Other element would receive the click: <a href="/sn7/app/CRMNextObject/Home/Lead" class="acd-btn acd-btn--brand mh-8" title="Cancel" data-autoid="Cancel_2">...</a>
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [eb250ad982933880074bbbe180b9cc79, clickElement {id=a5400533-cbc6-485c-ad58-a3c6e910fe6f}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PUNAMS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62553}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62553/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (eb250ad982933880074bbbe180b9cc79)] -> xpath: //input[@name='cust_100785391']]
+Session ID: eb250ad982933880074bbbe180b9cc79
+2022-11-22 18:00:01 INFO  CommonMethods - Data sucessfully entered on customerName_XPATH = Amar Aly
+2022-11-22 18:00:03 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =6 | Data =Amar Aly
+2022-11-22 18:00:04 INFO  LeadPage - Entered Customer Name Amar Aly
+2022-11-22 18:00:05 INFO  CommonMethods - Sucessfully clicked on calender_XPATH
+2022-11-22 18:00:05 INFO  CommonMethods - Sucessfully clicked on selectDate_XPATH
+2022-11-22 18:00:08 INFO  CommonMethods - Sucessfully clicked on timeIcon_XPATH
+2022-11-22 18:00:08 INFO  CommonMethods - Sucessfully clicked on selectTime_XPATH
+2022-11-22 18:00:08 INFO  LeadPage - Date Selected
+2022-11-22 18:00:11 INFO  CommonMethods - Sucessfully clicked on expectedBuisness_XPATH
+2022-11-22 18:00:12 INFO  CommonMethods - Data sucessfully entered on expectedBuisness_XPATH = 500000
+2022-11-22 18:00:12 INFO  LeadPage - Expected Buisness Are :500000
+2022-11-22 18:00:12 INFO  CommonMethods - Data = 1 Sucessfully Selected from dropdown expectedconversion_XPATH
+2022-11-22 18:00:12 INFO  LeadPage - Select expected date of conversion
+2022-11-22 18:00:15 INFO  CommonMethods - Sucessfully clicked on loanAmount_XPATH
+2022-11-22 18:00:15 INFO  CommonMethods - Data sucessfully entered on loanAmount_XPATH = 300000
+2022-11-22 18:00:15 INFO  LeadPage - Enter Loan Amount 300000
+2022-11-22 18:00:15 INFO  CommonMethods - Sucessfully clicked on branch_XPATH
+2022-11-22 18:00:15 INFO  CommonMethods - Data sucessfully entered on branch_XPATH = 2143
+2022-11-22 18:00:16 INFO  CommonMethods - Sucessfully clicked on branchName_XPATH
+2022-11-22 18:00:16 INFO  LeadPage - Branch Selected
+2022-11-22 18:00:16 INFO  CommonMethods - Sucessfully clicked on entityType_XPATH
+2022-11-22 18:00:16 INFO  CommonMethods - Data sucessfully entered on entityType_XPATH = individual
+2022-11-22 18:00:17 INFO  CommonMethods - Sucessfully clicked on entity_XPATH
+2022-11-22 18:00:17 INFO  LeadPage - Select Entity: Individual Full KYC
+2022-11-22 18:00:23 INFO  CommonMethods - Sucessfully clicked on DOB_XPATH
+2022-11-22 18:00:23 INFO  CommonMethods - Data sucessfully entered on DOB_XPATH = 16-10-1995'
+2022-11-22 18:00:23 INFO  LeadPage - Date Of Birth  ::16-10-1995'
+2022-11-22 18:00:24 ERROR CommonMethods - Not Sucessfully clicked on pinSearch_XPATH due to :element click intercepted: Element <a title="Search" class="field__item picker-icon" data-autoid="cust_136_srch">...</a> is not clickable at point (673, 586). Other element would receive the click: <a class="acd-btn acd-btn--brand mh-8 " data-autoid="FlowNext">...</a>
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [eb250ad982933880074bbbe180b9cc79, clickElement {id=700ce273-8464-4754-b671-b5fc23cf70e6}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PUNAMS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62553}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62553/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (eb250ad982933880074bbbe180b9cc79)] -> xpath: //a[@data-autoid='cust_136_srch']]
+Session ID: eb250ad982933880074bbbe180b9cc79
+2022-11-22 18:00:48 INFO  CommonMethods - Sucessfully clicked on cityPin_XPATH
+2022-11-22 18:00:48 INFO  LeadPage - select pin code
+2022-11-22 18:00:48 INFO  CommonMethods - Sucessfully clicked on saveAndProceedBtn_XPATH
+2022-11-22 18:00:48 INFO  LeadPage - CSE User Click on Save & Procceed Button
+2022-11-22 18:01:01 INFO  CommonMethods - Sucessfully clicked on toggleBtn_XPATH
+2022-11-22 18:01:01 INFO  LeadPage - Click on toggle button
+2022-11-22 18:01:01 INFO  LeadPage - Edit lead
+2022-11-22 18:01:02 INFO  CommonMethods - Sucessfully clicked on bottomBtn_XPATH
+2022-11-22 18:01:12 INFO  CommonMethods - Sucessfully clicked on editBtn_XPATH
+2022-11-22 18:01:12 INFO  CommonMethods - Sucessfully clicked on docCollected_XPATH
+2022-11-22 18:01:17 INFO  CommonMethods - Sucessfully clicked on phoneExtension_XPATH
+2022-11-22 18:01:17 INFO  CommonMethods - Data sucessfully entered on phoneExtension_XPATH = india
+2022-11-22 18:01:18 INFO  CommonMethods - Sucessfully clicked on ext_XPATH
+2022-11-22 18:01:18 INFO  CommonMethods - Sucessfully clicked on pdfVerified_XPATH
+2022-11-22 18:01:20 INFO  CommonMethods - Data = 1 Sucessfully Selected from dropdown consentFlag_XPATH
+2022-11-22 18:01:21 INFO  CommonMethods - Data = 2 Sucessfully Selected from dropdown nameSalutation_XPATH
+2022-11-22 18:01:23 INFO  CommonMethods - Sucessfully clicked on shortN_XPATH
+2022-11-22 18:01:24 INFO  CommonMethods - Data sucessfully entered on shortN_XPATH = Tonny
+2022-11-22 18:01:25 ERROR CommonMethods - Not Sucessfully clicked on panTB_XPATH due to :element click intercepted: Element <input type="text" name="cust_369" class="textbox field__item" maxlength="10" data-autoid="cust_369_ctrl" value=""> is not clickable at point (490, 543). Other element would receive the click: <div class="object-action-inner">...</div>
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [eb250ad982933880074bbbe180b9cc79, clickElement {id=0ec8dfc0-3606-4e3b-998b-a591094854e2}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PUNAMS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62553}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62553/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (eb250ad982933880074bbbe180b9cc79)] -> xpath: //input[@data-autoid="cust_369_ctrl"]]
+Session ID: eb250ad982933880074bbbe180b9cc79
+2022-11-22 18:01:26 INFO  CommonMethods - Data sucessfully entered on panTB_XPATH = CJJPS6852Z
+2022-11-22 18:01:28 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =15 | Data =CJJPS6852Z
+2022-11-22 18:01:33 INFO  CommonMethods - clicked Successfully To_  attachFile_XPATH
+2022-11-22 18:01:53 INFO  CommonMethods - File uploaded succesfully
+2022-11-22 18:01:53 INFO  CommonMethods - Data = 2 Sucessfully Selected from dropdown genderdrpdown_XPATH
+2022-11-22 18:01:54 INFO  CommonMethods - Data = 4 Sucessfully Selected from dropdown sourcingChannel_XPATH
+2022-11-22 18:01:54 INFO  CommonMethods - Data = 2 Sucessfully Selected from dropdown riskClassification_XPATH
+2022-11-22 18:01:55 INFO  CommonMethods - Data = 1 Sucessfully Selected from dropdown secondaryHolder_XPATH
+2022-11-22 18:01:55 INFO  CommonMethods - Data = 2 Sucessfully Selected from dropdown currentRelationShipWithBank_XPATH
+2022-11-22 18:01:56 INFO  CommonMethods - Data = 3 Sucessfully Selected from dropdown politicallyexposed_XPATH
+2022-11-22 18:01:56 INFO  CommonMethods - Sucessfully clicked on customerRelation_XPATH
+2022-11-22 18:01:56 INFO  CommonMethods - Data sucessfully entered on customerRelation_XPATH = sole owner
+2022-11-22 18:01:57 INFO  CommonMethods - Sucessfully clicked on soleOwner_XPATH
+2022-11-22 18:01:58 INFO  CommonMethods - Data = 1 Sucessfully Selected from dropdown sourceFund_XPATH
+2022-11-22 18:01:58 INFO  CommonMethods - Data = 1 Sucessfully Selected from dropdown residentStatus_XPATH
+2022-11-22 18:01:59 INFO  CommonMethods - Data = 2 Sucessfully Selected from dropdown debitcard_XPATH
+2022-11-22 18:01:59 INFO  CommonMethods - Data = 2 Sucessfully Selected from dropdown checkbookrequired_XPATH
+2022-11-22 18:01:59 INFO  CommonMethods - clicked Successfully To_  CustomerPhotograph_XPATH
+2022-11-22 18:02:19 INFO  CommonMethods - File uploaded succesfully
+2022-11-22 18:02:20 INFO  CommonMethods - clicked Successfully To_  customerSign_XPATH
+2022-11-22 18:02:40 INFO  CommonMethods - File uploaded succesfully
+2022-11-22 18:02:40 INFO  CommonMethods - clicked Successfully To_  accountopeningForm_XPATH
+2022-11-22 18:03:00 INFO  CommonMethods - File uploaded succesfully
+2022-11-22 18:03:01 INFO  CommonMethods - Data = 4 Sucessfully Selected from dropdown proofOfID_XPATH
+2022-11-22 18:03:01 INFO  CommonMethods - clicked Successfully To_  attachementOfID_XPATH
+2022-11-22 18:03:21 INFO  CommonMethods - File uploaded succesfully
+2022-11-22 18:03:23 INFO  CommonMethods - Sucessfully clicked on POIDocNo_XPATH
+2022-11-22 18:03:24 INFO  CommonMethods - Data sucessfully entered on POIDocNo_XPATH = 6789
+2022-11-22 18:03:24 INFO  CommonMethods - Sucessfully clicked on communicationProof_XPATH
+2022-11-22 18:03:24 INFO  CommonMethods - Data sucessfully entered on communicationProof_XPATH = voter
+2022-11-22 18:03:25 INFO  CommonMethods - Sucessfully clicked on voterID_XPATH
+2022-11-22 18:03:26 INFO  CommonMethods - clicked Successfully To_  attachmentofCommunicationProof_XPATH
+2022-11-22 18:03:46 INFO  CommonMethods - File uploaded succesfully
+2022-11-22 18:03:48 INFO  CommonMethods - Sucessfully clicked on communicationDocNo_XPATH
+2022-11-22 18:03:49 INFO  CommonMethods - Data sucessfully entered on communicationDocNo_XPATH = 565456
+2022-11-22 18:03:49 INFO  CommonMethods - Sucessfully clicked on permanentProof_XPATH
+2022-11-22 18:03:49 INFO  CommonMethods - Data sucessfully entered on permanentProof_XPATH = voter
+2022-11-22 18:03:50 INFO  CommonMethods - Sucessfully clicked on voterID_XPATH
+2022-11-22 18:03:55 INFO  CommonMethods - Sucessfully clicked on permanentAddNo_XPATH
+2022-11-22 18:03:55 INFO  CommonMethods - Data sucessfully entered on permanentAddNo_XPATH = 56432
+2022-11-22 18:03:55 INFO  CommonMethods - clicked Successfully To_  permanentproofDoc_XPATH
+2022-11-22 18:04:16 INFO  CommonMethods - File uploaded succesfully
+2022-11-22 18:04:21 INFO  CommonMethods - Data = 2 Sucessfully Selected from dropdown additionalDocuments_XPATH
+2022-11-22 18:04:22 INFO  CommonMethods - Data = 1 Sucessfully Selected from dropdown maritalStatus_XPATH
+2022-11-22 18:04:24 INFO  CommonMethods - Sucessfully clicked on motherName_XPATH
+2022-11-22 18:04:25 INFO  CommonMethods - Data sucessfully entered on motherName_XPATH = Bhagyashri
+2022-11-22 18:04:28 INFO  CommonMethods - Sucessfully clicked on fatherName_XPATH
+2022-11-22 18:04:28 INFO  CommonMethods - Data sucessfully entered on fatherName_XPATH = sumit
+2022-11-22 18:04:29 INFO  CommonMethods - Data = 2 Sucessfully Selected from dropdown occupation_XPATH
+2022-11-22 18:04:29 INFO  CommonMethods - Data = 2 Sucessfully Selected from dropdown auFinanacer_XPATH
+2022-11-22 18:04:30 INFO  CommonMethods - Data = 1 Sucessfully Selected from dropdown religion_XPATH
+2022-11-22 18:04:31 INFO  CommonMethods - Data = 1 Sucessfully Selected from dropdown category_XPATH
+2022-11-22 18:04:31 INFO  CommonMethods - Data = 4 Sucessfully Selected from dropdown qualification_XPATH
+2022-11-22 18:04:32 INFO  CommonMethods - Data = 5 Sucessfully Selected from dropdown bloodgrp_XPATH
+2022-11-22 18:04:32 INFO  CommonMethods - Data = 4 Sucessfully Selected from dropdown grossincome_XPATH
+2022-11-22 18:04:33 INFO  CommonMethods - Data = 2 Sucessfully Selected from dropdown physicallyChallenged_XPATH
+2022-11-22 18:04:35 INFO  CommonMethods - Sucessfully clicked on placeofBirth_XPATH
+2022-11-22 18:04:36 INFO  CommonMethods - Data sucessfully entered on placeofBirth_XPATH = Pune
+2022-11-22 18:04:36 INFO  CommonMethods - Data = 2 Sucessfully Selected from dropdown employerType_XPATH
+2022-11-22 18:04:38 INFO  CommonMethods - Sucessfully clicked on employerName_XPATH
+2022-11-22 18:04:39 INFO  CommonMethods - Data sucessfully entered on employerName_XPATH = AU Bank
+2022-11-22 18:04:40 INFO  CommonMethods - Data = 7 Sucessfully Selected from dropdown designation_XPATH
+2022-11-22 18:04:42 INFO  CommonMethods - Sucessfully clicked on kycDate_XPATH
+2022-11-22 18:04:44 INFO  CommonMethods - Data sucessfully entered on kycDate_XPATH = 23-05-2022'
+2022-11-22 18:04:45 INFO  CommonMethods - Sucessfully clicked on specialIdentifier_XPATH
+2022-11-22 18:04:46 INFO  CommonMethods - Sucessfully clicked on centralgov_XPATH
+2022-11-22 18:04:49 ERROR CommonMethods - Not Sucessfully clicked on lgCode_XPATH due to :element click intercepted: Element <input type="text" name="cust_2587" class="textbox field__item" maxlength="256" data-autoid="cust_2587_ctrl" value=""> is not clickable at point (1101, 586). Other element would receive the click: <div class="object-action-inner">...</div>
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [eb250ad982933880074bbbe180b9cc79, clickElement {id=1bd2d64e-7c11-4b84-bbac-23f0aee78f49}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PUNAMS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62553}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62553/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (eb250ad982933880074bbbe180b9cc79)] -> xpath: //input[@name='cust_2587']]
+Session ID: eb250ad982933880074bbbe180b9cc79
+2022-11-22 18:04:50 INFO  CommonMethods - Data sucessfully entered on lgCode_XPATH = 7678
+2022-11-22 18:04:53 ERROR CommonMethods - Not Sucessfully clicked on lcCode_XPATH due to :element click intercepted: Element <input type="text" name="cust_2588" class="textbox field__item" maxlength="256" data-autoid="cust_2588_ctrl" value=""> is not clickable at point (490, 586). Other element would receive the click: <div class="object-action-inner">...</div>
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [eb250ad982933880074bbbe180b9cc79, clickElement {id=f944161a-fe09-4cf8-a6c2-1dd39e59a9d6}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PUNAMS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62553}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62553/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (eb250ad982933880074bbbe180b9cc79)] -> xpath: //input[@name='cust_2588']]
+Session ID: eb250ad982933880074bbbe180b9cc79
+2022-11-22 18:04:54 INFO  CommonMethods - Data sucessfully entered on lcCode_XPATH = 4545
+2022-11-22 18:04:57 ERROR CommonMethods - Not Sucessfully clicked on rmCode_XPATH due to :element click intercepted: Element <input type="text" name="cust_2589" class="textbox field__item" maxlength="256" data-autoid="cust_2589_ctrl" value=""> is not clickable at point (1101, 586). Other element would receive the click: <div class="object-action-inner">...</div>
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [eb250ad982933880074bbbe180b9cc79, clickElement {id=cc59990c-3aa1-4cd9-ae05-ad37d6bcb962}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PUNAMS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62553}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62553/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (eb250ad982933880074bbbe180b9cc79)] -> xpath: //input[@name='cust_2589']]
+Session ID: eb250ad982933880074bbbe180b9cc79
+2022-11-22 18:04:58 INFO  CommonMethods - Data sucessfully entered on rmCode_XPATH = 3443
+2022-11-22 18:04:59 INFO  CommonMethods - Data = 2 Sucessfully Selected from dropdown factaReporting_XPATH
+2022-11-22 18:05:00 INFO  CommonMethods - Data = 6 Sucessfully Selected from dropdown employement_XPATH
+2022-11-22 18:05:00 INFO  CommonMethods - Sucessfully clicked on employer_XPATH
+2022-11-22 18:05:01 INFO  CommonMethods - Sucessfully clicked on industry_XPATH
+2022-11-22 18:05:02 INFO  CommonMethods - Sucessfully clicked on departmentSearch_XPATH
+2022-11-22 18:05:03 INFO  CommonMethods - Sucessfully clicked on department_XPATH
+2022-11-22 18:05:03 INFO  CommonMethods - Sucessfully clicked on leadprofessionSearch_XPATH
+2022-11-22 18:05:04 INFO  CommonMethods - Sucessfully clicked on leadprofession_XPATH
+2022-11-22 18:05:06 INFO  CommonMethods - Sucessfully clicked on currentaddress1_XPATH
+2022-11-22 18:05:08 INFO  CommonMethods - Data sucessfully entered on currentaddress1_XPATH = Shivaji Nagar
+2022-11-22 18:05:08 INFO  CommonMethods - Sucessfully clicked on pinsearch_XPATH
+2022-11-22 18:05:09 INFO  CommonMethods - Sucessfully clicked on pincode_XPATH
+2022-11-22 18:05:13 INFO  CommonMethods - Sucessfully clicked on sameAsAbove_XPATH
+2022-11-22 18:05:18 INFO  CommonMethods - Sucessfully clicked on permenantaddress1_XPATH
+2022-11-22 18:05:20 INFO  CommonMethods - Data sucessfully entered on permenantaddress1_XPATH = Shivaji Nagar
+2022-11-22 18:05:21 INFO  CommonMethods - Sucessfully clicked on permanentPin_XPATH
+2022-11-22 18:05:23 INFO  CommonMethods - Sucessfully clicked on pincode_XPATH
+2022-11-22 18:05:25 INFO  CommonMethods - Sucessfully clicked on saveAndProceedBtn_XPATH
+2022-11-22 18:05:36 INFO  CommonMethods - Sucessfully clicked on cardViewThreeDots_XPATH
+2022-11-22 18:06:06 INFO  CommonMethods - Sucessfully clicked on secondaryLead_XPATH
+2022-11-22 18:06:07 INFO  CommonMethods - Data = 1 Sucessfully Selected from dropdown bmpdfVerified_XPATH
+2022-11-22 18:06:07 INFO  CommonMethods - Sucessfully clicked on entitySearch_XPATH
+2022-11-22 18:06:07 ERROR CommonMethods - Not Able To perform click actionno such element: Unable to locate element: {"method":"xpath","selector":"//div[@data-autoid="DisplayName_3"]"}
+  (Session info: chrome=107.0.5304.107)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [eb250ad982933880074bbbe180b9cc79, findElement {using=xpath, value=//div[@data-autoid="DisplayName_3"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PUNAMS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62553}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62553/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: eb250ad982933880074bbbe180b9cc79
+2022-11-22 18:06:08 INFO  CommonMethods - Data = 2 Sucessfully Selected from dropdown nameSalutation_XPATH
+2022-11-22 18:06:09 ERROR CommonMethods - Not Sucessfully clicked on secondaryFirstName_XPATH due to :element click intercepted: Element <input type="text" name="FIRSTNAME" placeholder="First Name" class="textbox field__item" maxlength="40" data-autoid="FIRSTNAME_ctrl" value=""> is not clickable at point (666, 404). Other element would receive the click: <div title="..." data-autoid="DisplayName_6">INDIVIDUAL MINOR</div>
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [eb250ad982933880074bbbe180b9cc79, clickElement {id=6ce8e231-a72b-4862-98f3-3de8b08aa16f}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PUNAMS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62553}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62553/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (eb250ad982933880074bbbe180b9cc79)] -> xpath: //input[@data-autoid="FIRSTNAME_ctrl"]]
+Session ID: eb250ad982933880074bbbe180b9cc79
+2022-11-22 18:06:09 INFO  CommonMethods - Data sucessfully entered on secondaryFirstName_XPATH = lead531
+2022-11-22 18:06:12 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =29 | Data =lead531
+2022-11-22 18:06:16 ERROR CommonMethods - Not Sucessfully clicked on secondaryLastName_XPATH due to :element click intercepted: Element <input type="text" name="LASTNAME" placeholder="Last Name" class="textbox field__item" maxlength="40" data-autoid="LASTNAME_ctrl" value=""> is not clickable at point (1181, 404). Other element would receive the click: <div class="mobPopupBox db backdrop" style="z-index: 9999;">...</div>
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [eb250ad982933880074bbbe180b9cc79, clickElement {id=bf0a557d-f5a5-4c70-ba5f-8a274d1f7b4f}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PUNAMS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62553}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62553/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (eb250ad982933880074bbbe180b9cc79)] -> xpath: //input[@data-autoid="LASTNAME_ctrl"]]
+Session ID: eb250ad982933880074bbbe180b9cc79
+2022-11-22 18:06:17 INFO  CommonMethods - Data sucessfully entered on secondaryLastName_XPATH = ss
+2022-11-22 18:06:21 INFO  CommonMethods - Sucessfully clicked on secondaryShortName_XPATH
+2022-11-22 18:06:22 INFO  CommonMethods - Data sucessfully entered on secondaryShortName_XPATH = Vedika
+2022-11-22 18:06:22 INFO  CommonMethods - Sucessfully clicked on phoneExtension_XPATH
+2022-11-22 18:06:22 INFO  CommonMethods - Data sucessfully entered on phoneExtension_XPATH = india
+2022-11-22 18:06:23 INFO  CommonMethods - Sucessfully clicked on ext_XPATH
+2022-11-22 18:06:25 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =38 | Data =9000005518
+2022-11-22 18:06:26 INFO  CommonMethods - Sucessfully clicked on secondaryMobile_XPATH
+2022-11-22 18:06:28 INFO  CommonMethods - Data sucessfully entered on secondaryMobile_XPATH = 9000005518
+2022-11-22 18:06:28 INFO  SetUp - Enter Mobile No: 9000005518
+2022-11-22 18:06:31 ERROR CommonMethods - Not Sucessfully clicked on DOB_XPATH due to :element click intercepted: Element <input mask="11-11-1111" placeholder="DD-MM-YYYY" class="textbox field__item" title="DD-MM-YYYY" maxlength="10" data-autoid="cust_21_ctrl" type="text" size="10" value=""> is not clickable at point (454, 560). Other element would receive the click: <div class="object-action-inner">...</div>
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [eb250ad982933880074bbbe180b9cc79, clickElement {id=ec126ae7-c1ae-457f-bd2a-ab14250e385e}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PUNAMS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62553}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62553/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (eb250ad982933880074bbbe180b9cc79)] -> xpath: //input[@data-autoid="cust_21_ctrl"]]
+Session ID: eb250ad982933880074bbbe180b9cc79
+2022-11-22 18:06:32 INFO  CommonMethods - Data sucessfully entered on DOB_XPATH = 30-05-1998'
+2022-11-22 18:06:32 INFO  SetUp - Date Of Birth  ::30-05-1998'
+2022-11-22 18:06:33 INFO  CommonMethods - Data = 2 Sucessfully Selected from dropdown genderdrpdown_XPATH
+2022-11-22 18:06:33 INFO  SetUp - Gender Selected
+2022-11-22 18:06:33 INFO  SetUp - PAN NO Entered  ::CJJPS1505Z
+2022-11-22 18:06:34 ERROR CommonMethods - Not Sucessfully clicked on panTB_XPATH due to :element click intercepted: Element <input type="text" name="cust_369" class="textbox field__item" maxlength="10" data-autoid="cust_369_ctrl" value=""> is not clickable at point (490, 599). Other element would receive the click: <div class="object-action-inner">...</div>
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [eb250ad982933880074bbbe180b9cc79, clickElement {id=61a46e48-6328-4897-addc-eb00f5329a95}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PUNAMS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62553}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62553/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (eb250ad982933880074bbbe180b9cc79)] -> xpath: //input[@data-autoid="cust_369_ctrl"]]
+Session ID: eb250ad982933880074bbbe180b9cc79
+2022-11-22 18:06:35 INFO  CommonMethods - Data sucessfully entered on panTB_XPATH = CJJPS1505Z
+2022-11-22 18:06:37 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =31 | Data =CJJPS1505Z
+2022-11-22 18:06:41 INFO  CommonMethods - clicked Successfully To_  attachFile_XPATH
+2022-11-22 18:07:02 INFO  CommonMethods - File uploaded succesfully
+2022-11-22 18:07:02 INFO  CommonMethods - Data = 4 Sucessfully Selected from dropdown sourcingChannel_XPATH
+2022-11-22 18:07:02 INFO  SetUp - Sourcing Channel Selected
+2022-11-22 18:07:02 INFO  CommonMethods - Data = 1 Sucessfully Selected from dropdown residentStatus_XPATH
+2022-11-22 18:07:02 INFO  SetUp - Resident Status Selected
+2022-11-22 18:08:05 ERROR CommonMethods - Not Sucessfully clicked on kycDate_XPATH due to :Expected condition failed: waiting for visibility of element located by By.xpath: (//input[@placeholder='DD-MM-YYYY'])[5] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PUNAMS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62553}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62553/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: eb250ad982933880074bbbe180b9cc79
+2022-11-22 18:08:05 ERROR CommonMethods - Data Not Sucessfully entered on kycDate_XPATH due to :no such element: Unable to locate element: {"method":"xpath","selector":"(//input[@placeholder='DD-MM-YYYY'])[5]"}
+  (Session info: chrome=107.0.5304.107)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [eb250ad982933880074bbbe180b9cc79, findElement {using=xpath, value=(//input[@placeholder='DD-MM-YYYY'])[5]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PUNAMS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62553}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62553/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: eb250ad982933880074bbbe180b9cc79
+2022-11-22 18:08:05 INFO  SetUp - Entered Last KYC Date ::20-06-2022'
+2022-11-22 18:08:05 INFO  CommonMethods - Sucessfully clicked on customerRelation_XPATH
+2022-11-22 18:08:05 INFO  CommonMethods - Data sucessfully entered on customerRelation_XPATH = Authorized
+2022-11-22 18:08:06 INFO  CommonMethods - Sucessfully clicked on secondaryJoint_XPATH
+2022-11-22 18:08:06 INFO  SetUp - Select Customer Relation with Account Selected
+2022-11-22 18:08:06 INFO  CommonMethods - Data = 2 Sucessfully Selected from dropdown checkbookrequired_XPATH
+2022-11-22 18:08:06 INFO  SetUp - CheckBook Selected
+2022-11-22 18:08:07 INFO  CommonMethods - clicked Successfully To_  CustomerPhotograph_XPATH
+2022-11-22 18:08:27 INFO  CommonMethods - File uploaded succesfully
+2022-11-22 18:08:27 INFO  SetUp - Customer PhotoGraph Attached
+2022-11-22 18:08:27 INFO  CommonMethods - clicked Successfully To_  customerSign_XPATH
+2022-11-22 18:08:47 INFO  CommonMethods - File uploaded succesfully
+2022-11-22 18:08:47 INFO  SetUp - Customer Sign Attached
+2022-11-22 18:08:47 INFO  CommonMethods - clicked Successfully To_  accountopeningForm_XPATH
+2022-11-22 18:09:07 INFO  CommonMethods - File uploaded succesfully
+2022-11-22 18:09:07 INFO  SetUp - Account Opening Form Attached
+2022-11-22 18:09:08 INFO  CommonMethods - Data = 4 Sucessfully Selected from dropdown proofOfID_XPATH
+2022-11-22 18:09:08 INFO  CommonMethods - clicked Successfully To_  attachementOfID_XPATH
+2022-11-22 18:09:28 INFO  CommonMethods - File uploaded succesfully
+2022-11-22 18:09:28 INFO  SetUp - Proof Of ID Selected
+2022-11-22 18:09:32 ERROR CommonMethods - Not Sucessfully clicked on POIDocNo_XPATH due to :element click intercepted: Element <input type="text" name="cust_897" class="textbox field__item" maxlength="20" data-autoid="cust_897_ctrl" value=""> is not clickable at point (1101, 601). Other element would receive the click: <div class="object-action-inner">...</div>
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [eb250ad982933880074bbbe180b9cc79, clickElement {id=7adc407a-0af4-4f32-ab4d-5f0c0c076037}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PUNAMS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62553}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62553/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (eb250ad982933880074bbbe180b9cc79)] -> xpath: //input[@data-autoid="cust_897_ctrl"]]
+Session ID: eb250ad982933880074bbbe180b9cc79
+2022-11-22 18:09:33 INFO  CommonMethods - Data sucessfully entered on POIDocNo_XPATH = 3443
+2022-11-22 18:09:33 INFO  SetUp - Proof Of ID Doc No Entered :: 3443
+2022-11-22 18:09:33 INFO  CommonMethods - Sucessfully clicked on communicationProof_XPATH
+2022-11-22 18:09:33 INFO  CommonMethods - Data sucessfully entered on communicationProof_XPATH = voter
+2022-11-22 18:09:34 INFO  CommonMethods - Sucessfully clicked on voterID_XPATH
+2022-11-22 18:09:34 INFO  CommonMethods - clicked Successfully To_  attachmentofCommunicationProof_XPATH
+2022-11-22 18:09:54 INFO  CommonMethods - File uploaded succesfully
+2022-11-22 18:09:54 INFO  SetUp - Communication Proof uploaded
+2022-11-22 18:09:57 INFO  CommonMethods - Sucessfully clicked on communicationDocNo_XPATH
+2022-11-22 18:09:58 INFO  CommonMethods - Data sucessfully entered on communicationDocNo_XPATH = 23345
+2022-11-22 18:09:58 INFO  SetUp - Communication Proof No Entered :: 23345
+2022-11-22 18:09:58 INFO  CommonMethods - Sucessfully clicked on permanentProof_XPATH
+2022-11-22 18:09:58 INFO  CommonMethods - Data sucessfully entered on permanentProof_XPATH = voter
+2022-11-22 18:09:59 INFO  CommonMethods - Sucessfully clicked on voterID_XPATH
+2022-11-22 18:10:03 INFO  CommonMethods - Sucessfully clicked on permanentAddNo_XPATH
+2022-11-22 18:10:04 INFO  CommonMethods - Data sucessfully entered on permanentAddNo_XPATH = 9779
+2022-11-22 18:10:04 INFO  SetUp - Permanant Address Proof Attached :: 9779
+2022-11-22 18:10:04 INFO  CommonMethods - clicked Successfully To_  permanentproofDoc_XPATH
+2022-11-22 18:10:24 INFO  CommonMethods - File uploaded succesfully
+2022-11-22 18:10:30 INFO  CommonMethods - Data = 2 Sucessfully Selected from dropdown additionalDocuments_XPATH
+2022-11-22 18:10:30 INFO  SetUp - Additional Document No
+2022-11-22 18:10:33 ERROR CommonMethods - Not Sucessfully clicked on currentaddress1_XPATH due to :element click intercepted: Element <input type="text" name="cust_908" class="textbox field__item" maxlength="256" data-autoid="cust_908_ctrl" value=""> is not clickable at point (490, 577). Other element would receive the click: <div class="object-action-inner">...</div>
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [eb250ad982933880074bbbe180b9cc79, clickElement {id=c3df879c-51fa-4d25-bec9-bb06493e8c7e}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PUNAMS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62553}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62553/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (eb250ad982933880074bbbe180b9cc79)] -> xpath: //input[@name='cust_908']]
+Session ID: eb250ad982933880074bbbe180b9cc79
+2022-11-22 18:10:35 INFO  CommonMethods - Data sucessfully entered on currentaddress1_XPATH = Shivaji Nagar
+2022-11-22 18:10:36 ERROR CommonMethods - Not Sucessfully clicked on secondaryCurrentPin_XPATH due to :element click intercepted: Element <i class="icon icon-acid-search"></i> is not clickable at point (1283, 595). Other element would receive the click: <div class="object-action-inner">...</div>
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [eb250ad982933880074bbbe180b9cc79, clickElement {id=0189629d-c041-4b6f-a457-a63e0eab63fa}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PUNAMS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62553}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62553/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (eb250ad982933880074bbbe180b9cc79)] -> xpath: (//i[@class='icon icon-acid-search'])[11]]
+Session ID: eb250ad982933880074bbbe180b9cc79
+2022-11-22 18:10:52 INFO  CommonMethods - Sucessfully clicked on pincode_XPATH
+2022-11-22 18:10:52 INFO  CommonMethods - Data = 1 Sucessfully Selected from dropdown maritalStatus_XPATH
+2022-11-22 18:10:52 INFO  SetUp - Marital Status Selected
+2022-11-22 18:10:56 ERROR CommonMethods - Not Sucessfully clicked on motherName_XPATH due to :element click intercepted: Element <input type="text" name="cust_919" class="textbox field__item" maxlength="60" data-autoid="cust_919_ctrl" value=""> is not clickable at point (490, 586). Other element would receive the click: <div class="object-action-inner">...</div>
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [eb250ad982933880074bbbe180b9cc79, clickElement {id=06113f1a-7f67-4f1f-9bba-1aad0e1aa625}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PUNAMS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62553}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62553/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (eb250ad982933880074bbbe180b9cc79)] -> xpath: //input[@name='cust_919']]
+Session ID: eb250ad982933880074bbbe180b9cc79
+2022-11-22 18:10:57 INFO  CommonMethods - Data sucessfully entered on motherName_XPATH = Deppali
+2022-11-22 18:10:57 INFO  SetUp - Mother Name Entered :: Deppali
+2022-11-22 18:10:57 INFO  CommonMethods - Data = 2 Sucessfully Selected from dropdown minorFlag_XPATH
+2022-11-22 18:11:00 ERROR CommonMethods - Not Sucessfully clicked on fatherName_XPATH due to :element click intercepted: Element <input type="text" name="cust_220" class="textbox field__item" maxlength="60" data-autoid="cust_220_ctrl" value=""> is not clickable at point (1101, 546). Other element would receive the click: <div class="object-action-inner">...</div>
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [eb250ad982933880074bbbe180b9cc79, clickElement {id=c296c549-8bee-481d-84a9-2ca9569af4d7}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PUNAMS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62553}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62553/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (eb250ad982933880074bbbe180b9cc79)] -> xpath: //input[@name='cust_220']]
+Session ID: eb250ad982933880074bbbe180b9cc79
+2022-11-22 18:11:01 INFO  CommonMethods - Data sucessfully entered on fatherName_XPATH = Shree
+2022-11-22 18:11:01 INFO  SetUp - Father Name Entered :: Shree
+2022-11-22 18:11:01 INFO  CommonMethods - Data = 2 Sucessfully Selected from dropdown occupation_XPATH
+2022-11-22 18:11:01 INFO  SetUp - Occupation Selected
+2022-11-22 18:11:02 INFO  CommonMethods - Data = 1 Sucessfully Selected from dropdown religion_XPATH
+2022-11-22 18:11:02 INFO  CommonMethods - Data = 1 Sucessfully Selected from dropdown category_XPATH
+2022-11-22 18:11:03 INFO  CommonMethods - Data = 4 Sucessfully Selected from dropdown qualification_XPATH
+2022-11-22 18:11:03 INFO  CommonMethods - Data = 5 Sucessfully Selected from dropdown bloodgrp_XPATH
+2022-11-22 18:11:06 INFO  CommonMethods - Sucessfully clicked on secondarySameAsAbove_XPATH
+2022-11-22 18:11:12 INFO  CommonMethods - Sucessfully clicked on permenantaddress1_XPATH
+2022-11-22 18:11:13 INFO  CommonMethods - Data sucessfully entered on permenantaddress1_XPATH = Kothrud
+2022-11-22 18:11:14 INFO  CommonMethods - Sucessfully clicked on secondaryPermanentPin_XPATH
+2022-11-22 18:11:15 INFO  CommonMethods - Sucessfully clicked on pincode_XPATH
+2022-11-22 18:11:18 INFO  CommonMethods - Sucessfully clicked on placeofBirth_XPATH
+2022-11-22 18:11:18 INFO  CommonMethods - Data sucessfully entered on placeofBirth_XPATH = Pune
+2022-11-22 18:11:18 INFO  SetUp - Place Of Birth Entered :: Pune
+2022-11-22 18:11:19 INFO  CommonMethods - Data = 2 Sucessfully Selected from dropdown factaReporting_XPATH
+2022-11-22 18:11:20 INFO  CommonMethods - Data = 6 Sucessfully Selected from dropdown employement_XPATH
+2022-11-22 18:11:20 INFO  CommonMethods - Sucessfully clicked on employer_XPATH
+2022-11-22 18:11:21 INFO  CommonMethods - Sucessfully clicked on industry_XPATH
+2022-11-22 18:11:21 INFO  CommonMethods - Sucessfully clicked on departmentSearch_XPATH
+2022-11-22 18:11:22 INFO  CommonMethods - Sucessfully clicked on department_XPATH
+2022-11-22 18:11:22 INFO  CommonMethods - Sucessfully clicked on leadprofessionSearch_XPATH
+2022-11-22 18:11:23 INFO  CommonMethods - Sucessfully clicked on leadprofession_XPATH
+2022-11-22 18:11:23 INFO  CommonMethods - Sucessfully clicked on saveBtn_XPATH
+2022-11-22 18:11:31 INFO  LeadPage - Edit lead
+2022-11-22 18:11:31 INFO  CommonMethods - Sucessfully clicked on bottomBtn_XPATH
+2022-11-22 18:11:39 INFO  CommonMethods - Sucessfully clicked on editBtn_XPATH
+2022-11-22 18:11:39 INFO  CommonMethods - Data = 2 Sucessfully Selected from dropdown statusCodeDrpdown_XPATH
+2022-11-22 18:11:40 INFO  CommonMethods - Sucessfully clicked on saveBtn_XPATH
+2022-11-22 18:11:41 ERROR CommonMethods - Not Sucessfully clicked on profileimage_XPATH due to :element click intercepted: Element <a class="header-profile__media min-wt-2 wt-2 ht-2 overflow-hidden" data-autoid="header_userbtn" name="ProfileImage_header" style="border: 4px solid yellow;">...</a> is not clickable at point (1317, 16). Other element would receive the click: <div class="cardLoader" style="position: fixed;">...</div>
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [eb250ad982933880074bbbe180b9cc79, clickElement {id=624d717d-d46b-440a-83a4-30da3a95adc4}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PUNAMS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62553}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62553/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (eb250ad982933880074bbbe180b9cc79)] -> xpath: (//a[@name='ProfileImage_header'])[1]]
+Session ID: eb250ad982933880074bbbe180b9cc79
+2022-11-22 18:11:57 INFO  CommonMethods - Sucessfully clicked on logoutbtn_XPATH
+2022-11-22 18:11:57 INFO  AULoginPage - Sucessfully logout..
+2022-11-22 18:11:57 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-11-22 18:11:57 INFO  CommonMethods - Sucessfully clicked on aUUserName_XPATH
+2022-11-22 18:12:02 INFO  CommonMethods - Data sucessfully entered on aUUserName_XPATH = bm@punam.com
+2022-11-22 18:12:05 INFO  CommonMethods - Sucessfully clicked on aUPassword_XPATH
+2022-11-22 18:12:09 INFO  CommonMethods - Data sucessfully entered on aUPassword_XPATH = Pass@123
+2022-11-22 18:12:14 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-11-22 18:12:19 INFO  CommonMethods - Sucessfully clicked on bmLeadTab_XPATH
+2022-11-22 18:12:19 INFO  SetUp - Branch Manager Click On Lead Tab
+2022-11-22 18:12:19 INFO  CommonMethods - Data = 2 Sucessfully Selected from dropdown bmViewDrpdown1_XPATH
+2022-11-22 18:12:23 INFO  CommonMethods - Data = 33 Sucessfully Selected from dropdown bmViewdrpdown2_XPATH
+2022-11-22 18:12:26 INFO  CommonMethods - Sucessfully clicked on arrowbtn_XPATH
+2022-11-22 18:12:28 INFO  CommonMethods - clicked Successfully To_  lead1CB_XPATH
+2022-11-22 18:12:28 INFO  CommonMethods - Sucessfully clicked on changeOwner_XPATH
+2022-11-22 18:12:29 INFO  CommonMethods - Sucessfully clicked on changeownerBtn_XPATH
+2022-11-22 18:12:30 INFO  CommonMethods - Sucessfully clicked on okbtn_XPATH
+2022-11-22 18:12:33 INFO  CommonMethods - Sucessfully clicked on bmLead_XPATH
+2022-11-22 18:12:36 INFO  LeadPage - Edit lead
+2022-11-22 18:12:40 INFO  CommonMethods - Sucessfully clicked on bottomBtn_XPATH
+2022-11-22 18:12:47 INFO  CommonMethods - Sucessfully clicked on editBtn_XPATH
+2022-11-22 18:12:48 INFO  CommonMethods - Data = 2 Sucessfully Selected from dropdown statusCodeDrpdown_XPATH
+2022-11-22 18:12:48 INFO  CommonMethods - Sucessfully clicked on saveBtn_XPATH
+2022-11-22 18:12:59 INFO  CommonMethods - Sucessfully clicked on toggleBtn_XPATH
+2022-11-22 18:12:59 INFO  LeadPage - Click on toggle button
+2022-11-22 18:12:59 INFO  LeadPage - Edit lead
+2022-11-22 18:13:00 INFO  CommonMethods - Sucessfully clicked on bottomBtn_XPATH
+2022-11-22 18:13:11 INFO  CommonMethods - Sucessfully clicked on editBtn_XPATH
+2022-11-22 18:13:12 INFO  CommonMethods - clicked Successfully To_  bmRecommended_XPATH
+2022-11-22 18:13:13 INFO  CommonMethods - Data = 1 Sucessfully Selected from dropdown bmpdfVerified_XPATH
+2022-11-22 18:13:13 INFO  CommonMethods - Sucessfully clicked on saveAndProceedBtn_XPATH
+2022-11-22 18:13:20 INFO  CommonMethods - Sucessfully clicked on profileimage_XPATH
+2022-11-22 18:13:21 INFO  CommonMethods - Sucessfully clicked on logoutbtn_XPATH
+2022-11-22 18:13:21 INFO  AULoginPage - Sucessfully logout..
+2022-11-22 18:13:21 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-11-22 18:13:21 INFO  CommonMethods - Sucessfully clicked on aUUserName_XPATH
+2022-11-22 18:13:26 INFO  CommonMethods - Data sucessfully entered on aUUserName_XPATH = bo@punam.com
+2022-11-22 18:13:28 INFO  CommonMethods - Sucessfully clicked on aUPassword_XPATH
+2022-11-22 18:13:33 INFO  CommonMethods - Data sucessfully entered on aUPassword_XPATH = Pass@123
+2022-11-22 18:13:37 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-11-22 18:13:41 INFO  CommonMethods - Sucessfully clicked on bmLeadTab_XPATH
+2022-11-22 18:13:41 INFO  SetUp - Back Office Click on Lead Tab
+2022-11-22 18:13:44 INFO  CommonMethods - Data = 2 Sucessfully Selected from dropdown bmViewDrpdown1_XPATH
+2022-11-22 18:13:45 INFO  CommonMethods - Data = 1 Sucessfully Selected from dropdown bmViewdrpdown2_XPATH
+2022-11-22 18:13:45 INFO  CommonMethods - Sucessfully clicked on arrowbtn_XPATH
+2022-11-22 18:13:49 INFO  CommonMethods - clicked Successfully To_  lead1CB_XPATH
+2022-11-22 18:13:49 INFO  CommonMethods - clicked Successfully To_  assignToMe_XPATH
+2022-11-22 18:13:50 INFO  CommonMethods - Sucessfully clicked on updateBtn_XPATH
+2022-11-22 18:13:52 INFO  CommonMethods - Sucessfully clicked on okbtn_XPATH
+2022-11-22 18:13:55 INFO  CommonMethods - Data = 2 Sucessfully Selected from dropdown bmViewDrpdown1_XPATH
+2022-11-22 18:13:56 INFO  CommonMethods - Data = 12 Sucessfully Selected from dropdown bmViewdrpdown2_XPATH
+2022-11-22 18:14:01 INFO  CommonMethods - Sucessfully clicked on boLead_XPATH
+2022-11-22 18:14:04 INFO  LeadPage - Edit lead
+2022-11-22 18:14:08 INFO  CommonMethods - Sucessfully clicked on bottomBtn_XPATH
+2022-11-22 18:15:09 ERROR CommonMethods - Not Sucessfully clicked on editBtn_XPATH due to :Expected condition failed: waiting for visibility of element located by By.xpath: (//span[text()='Edit'])[2] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PUNAMS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62553}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62553/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: eb250ad982933880074bbbe180b9cc79
+2022-11-22 18:15:14 ERROR CommonMethods - Not able to select from dropdown auFinancersEmployee_XPATHdue to no such element: Unable to locate element: {"method":"xpath","selector":"//select[@data-autoid="cust_50_ctrl"]"}
+  (Session info: chrome=107.0.5304.107)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [eb250ad982933880074bbbe180b9cc79, findElement {using=xpath, value=//select[@data-autoid="cust_50_ctrl"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PUNAMS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62553}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62553/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: eb250ad982933880074bbbe180b9cc79
+2022-11-22 18:15:19 ERROR CommonMethods - Not able to select from dropdown auRelatedEmployee_XPATHdue to no such element: Unable to locate element: {"method":"xpath","selector":"//select[@data-autoid="cust_163_ctrl"]"}
+  (Session info: chrome=107.0.5304.107)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [eb250ad982933880074bbbe180b9cc79, findElement {using=xpath, value=//select[@data-autoid="cust_163_ctrl"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PUNAMS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62553}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62553/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: eb250ad982933880074bbbe180b9cc79
+2022-11-22 18:15:24 ERROR CommonMethods - Not able to select from dropdown secondaryPosition_XPATHdue to no such element: Unable to locate element: {"method":"xpath","selector":"//select[@data-autoid="cust_263_ctrl"]"}
+  (Session info: chrome=107.0.5304.107)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [eb250ad982933880074bbbe180b9cc79, findElement {using=xpath, value=//select[@data-autoid="cust_263_ctrl"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PUNAMS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62553}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62553/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: eb250ad982933880074bbbe180b9cc79
+2022-11-22 18:29:19 INFO  ExtentReporterNG - Extent report Directory is created!
+2022-11-22 18:29:28 INFO  Utils - [TestNG] Running:
+  C:\Users\Punam Shirsath\eclipse-workspace\AUAutomationSanity\src\test\resources\RunnerFiles\testng.xml
+
+2022-11-22 18:29:32 INFO  SetUp - Test Case_PriSecLeadCreationFlowTest_Successfully Started
+2022-11-22 18:29:35 INFO  WebDriverManager - Using chromedriver 107.0.5304.62 (resolved driver for Chrome 107)
+2022-11-22 18:29:35 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Punam Shirsath\.cache\selenium\chromedriver\win32\107.0.5304.62\chromedriver.exe
+2022-11-22 18:29:39 INFO  SetUp - Chrome Browser Launched..
+2022-11-22 18:29:40 INFO  SetUp - URL : https://crmdev.aubankuat.in/sn7/app/login/login
+2022-11-22 18:29:41 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-11-22 18:29:41 INFO  CommonMethods - Sucessfully clicked on aUUserName_XPATH
+2022-11-22 18:29:42 INFO  CommonMethods - Data sucessfully entered on aUUserName_XPATH = cse@punam.com
+2022-11-22 18:29:42 INFO  CommonMethods - Sucessfully clicked on aUPassword_XPATH
+2022-11-22 18:29:42 INFO  CommonMethods - Data sucessfully entered on aUPassword_XPATH = Pass@123
+2022-11-22 18:29:48 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-11-22 18:29:48 INFO  SetUp - Login as a CSE User
+2022-11-22 18:29:49 INFO  CommonMethods - Sucessfully clicked on leadTab_XPATH
+2022-11-22 18:29:49 INFO  LeadPage - CSE User Click On Lead Tab
+2022-11-22 18:29:50 INFO  CommonMethods - Sucessfully clicked on newBtn_XPATH
+2022-11-22 18:29:50 INFO  LeadPage - click on New Button
+2022-11-22 18:30:04 INFO  CommonMethods - Sucessfully clicked on liabilityFlow_XPATH
+2022-11-22 18:30:04 INFO  LeadPage - Select Liability Flow
+2022-11-22 18:30:04 INFO  CommonMethods - Data = 2 Sucessfully Selected from dropdown leadType_XPATH
+2022-11-22 18:30:04 INFO  LeadPage - Lead Type Selected: Self
+2022-11-22 18:30:04 INFO  CommonMethods - Sucessfully clicked on productcategorysearch_XPATH
+2022-11-22 18:30:05 INFO  CommonMethods - Sucessfully clicked on productCatergory_XPATH
+2022-11-22 18:30:05 INFO  LeadPage - Select Product Category: Saving Account
+2022-11-22 18:30:06 INFO  CommonMethods - Data = 16 Sucessfully Selected from dropdown liabilityLeadProduct_XPATH
+2022-11-22 18:30:06 INFO  LeadPage - Product Selected: AU Savings Account- Value
+2022-11-22 18:30:07 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =5 | Data =9000008072
+2022-11-22 18:30:09 INFO  CommonMethods - Sucessfully clicked on mobileNo_XPATH
+2022-11-22 18:30:09 INFO  CommonMethods - Data sucessfully entered on mobileNo_XPATH = 9000008072
+2022-11-22 18:30:09 INFO  LeadPage - Enter Mobile No: 9000008072
+2022-11-22 18:30:15 ERROR CommonMethods - Not Sucessfully clicked on customerName_XPATH due to :element click intercepted: Element <input type="text" name="cust_100785391" class="textbox field__item" maxlength="256" data-autoid="cust_100785391_ctrl" value=""> is not clickable at point (795, 586). Other element would receive the click: <a href="/sn7/app/CRMNextObject/Home/Lead" class="acd-btn acd-btn--brand mh-8" title="Cancel" data-autoid="Cancel_2">...</a>
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [83cc33cac56bde2a5eea4893b713a07d, clickElement {id=af01445e-67f7-4cc2-bca6-249a2445e4fc}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PUNAMS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63758}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63758/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (83cc33cac56bde2a5eea4893b713a07d)] -> xpath: //input[@name='cust_100785391']]
+Session ID: 83cc33cac56bde2a5eea4893b713a07d
+2022-11-22 18:30:16 INFO  CommonMethods - Data sucessfully entered on customerName_XPATH = Amruta Pt
+2022-11-22 18:30:18 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =6 | Data =Amruta Pt
+2022-11-22 18:30:19 INFO  LeadPage - Entered Customer Name Amruta Pt
+2022-11-22 18:30:19 INFO  CommonMethods - Sucessfully clicked on calender_XPATH
+2022-11-22 18:30:20 INFO  CommonMethods - Sucessfully clicked on selectDate_XPATH
+2022-11-22 18:30:23 INFO  CommonMethods - Sucessfully clicked on timeIcon_XPATH
+2022-11-22 18:30:23 INFO  CommonMethods - Sucessfully clicked on selectTime_XPATH
+2022-11-22 18:30:23 INFO  LeadPage - Date Selected
+2022-11-22 18:30:26 INFO  CommonMethods - Sucessfully clicked on expectedBuisness_XPATH
+2022-11-22 18:30:26 INFO  CommonMethods - Data sucessfully entered on expectedBuisness_XPATH = 500000
+2022-11-22 18:30:26 INFO  LeadPage - Expected Buisness Are :500000
+2022-11-22 18:30:27 INFO  CommonMethods - Data = 1 Sucessfully Selected from dropdown expectedconversion_XPATH
+2022-11-22 18:30:27 INFO  LeadPage - Select expected date of conversion
+2022-11-22 18:30:29 INFO  CommonMethods - Sucessfully clicked on loanAmount_XPATH
+2022-11-22 18:30:29 INFO  CommonMethods - Data sucessfully entered on loanAmount_XPATH = 300000
+2022-11-22 18:30:29 INFO  LeadPage - Enter Loan Amount 300000
+2022-11-22 18:30:30 INFO  CommonMethods - Sucessfully clicked on branch_XPATH
+2022-11-22 18:30:30 INFO  CommonMethods - Data sucessfully entered on branch_XPATH = 2143
+2022-11-22 18:30:31 INFO  CommonMethods - Sucessfully clicked on branchName_XPATH
+2022-11-22 18:30:31 INFO  LeadPage - Branch Selected
+2022-11-22 18:30:31 INFO  CommonMethods - Sucessfully clicked on entityType_XPATH
+2022-11-22 18:30:31 INFO  CommonMethods - Data sucessfully entered on entityType_XPATH = individual
+2022-11-22 18:30:32 INFO  CommonMethods - Sucessfully clicked on entity_XPATH
+2022-11-22 18:30:32 INFO  LeadPage - Select Entity: Individual Full KYC
+2022-11-22 18:30:37 INFO  CommonMethods - Sucessfully clicked on DOB_XPATH
+2022-11-22 18:30:38 INFO  CommonMethods - Data sucessfully entered on DOB_XPATH = 16-10-1995'
+2022-11-22 18:30:38 INFO  LeadPage - Date Of Birth  ::16-10-1995'
+2022-11-22 18:30:39 ERROR CommonMethods - Not Sucessfully clicked on pinSearch_XPATH due to :element click intercepted: Element <a title="Search" class="field__item picker-icon" data-autoid="cust_136_srch">...</a> is not clickable at point (673, 586). Other element would receive the click: <a class="acd-btn acd-btn--brand mh-8 " data-autoid="FlowNext">...</a>
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [83cc33cac56bde2a5eea4893b713a07d, clickElement {id=849c7a3d-6995-43be-b647-4bf5c955ffdc}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PUNAMS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63758}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63758/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (83cc33cac56bde2a5eea4893b713a07d)] -> xpath: //a[@data-autoid='cust_136_srch']]
+Session ID: 83cc33cac56bde2a5eea4893b713a07d
+2022-11-22 18:31:00 INFO  CommonMethods - Sucessfully clicked on cityPin_XPATH
+2022-11-22 18:31:00 INFO  LeadPage - select pin code
+2022-11-22 18:31:01 INFO  CommonMethods - Sucessfully clicked on saveAndProceedBtn_XPATH
+2022-11-22 18:31:01 INFO  LeadPage - CSE User Click on Save & Procceed Button
+2022-11-22 18:31:13 INFO  CommonMethods - Sucessfully clicked on toggleBtn_XPATH
+2022-11-22 18:31:13 INFO  LeadPage - Click on toggle button
+2022-11-22 18:31:13 INFO  LeadPage - Edit lead
+2022-11-22 18:31:13 INFO  CommonMethods - Sucessfully clicked on bottomBtn_XPATH
+2022-11-22 18:31:24 INFO  CommonMethods - Sucessfully clicked on editBtn_XPATH
+2022-11-22 18:31:24 INFO  CommonMethods - Sucessfully clicked on docCollected_XPATH
+2022-11-22 18:31:28 INFO  CommonMethods - Sucessfully clicked on phoneExtension_XPATH
+2022-11-22 18:31:29 INFO  CommonMethods - Data sucessfully entered on phoneExtension_XPATH = india
+2022-11-22 18:31:29 INFO  CommonMethods - Sucessfully clicked on ext_XPATH
+2022-11-22 18:31:30 INFO  CommonMethods - Sucessfully clicked on pdfVerified_XPATH
+2022-11-22 18:31:32 INFO  CommonMethods - Data = 1 Sucessfully Selected from dropdown consentFlag_XPATH
+2022-11-22 18:31:33 INFO  CommonMethods - Data = 2 Sucessfully Selected from dropdown nameSalutation_XPATH
+2022-11-22 18:31:35 INFO  CommonMethods - Sucessfully clicked on shortN_XPATH
+2022-11-22 18:31:36 INFO  CommonMethods - Data sucessfully entered on shortN_XPATH = Tonny
+2022-11-22 18:31:37 ERROR CommonMethods - Not Sucessfully clicked on panTB_XPATH due to :element click intercepted: Element <input type="text" name="cust_369" class="textbox field__item" maxlength="10" data-autoid="cust_369_ctrl" value=""> is not clickable at point (490, 543). Other element would receive the click: <div class="object-action-inner">...</div>
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [83cc33cac56bde2a5eea4893b713a07d, clickElement {id=5d50f661-d465-44b0-882f-c4529f5cb371}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PUNAMS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63758}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63758/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (83cc33cac56bde2a5eea4893b713a07d)] -> xpath: //input[@data-autoid="cust_369_ctrl"]]
+Session ID: 83cc33cac56bde2a5eea4893b713a07d
+2022-11-22 18:31:38 INFO  CommonMethods - Data sucessfully entered on panTB_XPATH = CJJPS2442Z
+2022-11-22 18:31:40 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =15 | Data =CJJPS2442Z
+2022-11-22 18:31:45 INFO  CommonMethods - clicked Successfully To_  attachFile_XPATH
+2022-11-22 18:32:05 INFO  CommonMethods - File uploaded succesfully
+2022-11-22 18:32:05 INFO  CommonMethods - Data = 2 Sucessfully Selected from dropdown genderdrpdown_XPATH
+2022-11-22 18:32:06 INFO  CommonMethods - Data = 4 Sucessfully Selected from dropdown sourcingChannel_XPATH
+2022-11-22 18:32:06 INFO  CommonMethods - Data = 2 Sucessfully Selected from dropdown riskClassification_XPATH
+2022-11-22 18:32:07 INFO  CommonMethods - Data = 1 Sucessfully Selected from dropdown secondaryHolder_XPATH
+2022-11-22 18:32:07 INFO  CommonMethods - Data = 2 Sucessfully Selected from dropdown currentRelationShipWithBank_XPATH
+2022-11-22 18:32:08 INFO  CommonMethods - Data = 3 Sucessfully Selected from dropdown politicallyexposed_XPATH
+2022-11-22 18:32:08 INFO  CommonMethods - Sucessfully clicked on customerRelation_XPATH
+2022-11-22 18:32:08 INFO  CommonMethods - Data sucessfully entered on customerRelation_XPATH = sole owner
+2022-11-22 18:32:09 INFO  CommonMethods - Sucessfully clicked on soleOwner_XPATH
+2022-11-22 18:32:09 INFO  CommonMethods - Data = 1 Sucessfully Selected from dropdown sourceFund_XPATH
+2022-11-22 18:32:10 INFO  CommonMethods - Data = 1 Sucessfully Selected from dropdown residentStatus_XPATH
+2022-11-22 18:32:10 INFO  CommonMethods - Data = 2 Sucessfully Selected from dropdown debitcard_XPATH
+2022-11-22 18:32:11 INFO  CommonMethods - Data = 2 Sucessfully Selected from dropdown checkbookrequired_XPATH
+2022-11-22 18:32:11 INFO  CommonMethods - clicked Successfully To_  CustomerPhotograph_XPATH
+2022-11-22 18:32:31 INFO  CommonMethods - File uploaded succesfully
+2022-11-22 18:32:31 INFO  CommonMethods - clicked Successfully To_  customerSign_XPATH
+2022-11-22 18:32:51 INFO  CommonMethods - File uploaded succesfully
+2022-11-22 18:32:51 INFO  CommonMethods - clicked Successfully To_  accountopeningForm_XPATH
+2022-11-22 18:33:12 INFO  CommonMethods - File uploaded succesfully
+2022-11-22 18:33:12 INFO  CommonMethods - Data = 4 Sucessfully Selected from dropdown proofOfID_XPATH
+2022-11-22 18:33:12 INFO  CommonMethods - clicked Successfully To_  attachementOfID_XPATH
+2022-11-22 18:33:32 INFO  CommonMethods - File uploaded succesfully
+2022-11-22 18:33:35 INFO  CommonMethods - Sucessfully clicked on POIDocNo_XPATH
+2022-11-22 18:33:36 INFO  CommonMethods - Data sucessfully entered on POIDocNo_XPATH = 6789
+2022-11-22 18:33:36 INFO  CommonMethods - Sucessfully clicked on communicationProof_XPATH
+2022-11-22 18:33:36 INFO  CommonMethods - Data sucessfully entered on communicationProof_XPATH = voter
+2022-11-22 18:33:37 INFO  CommonMethods - Sucessfully clicked on voterID_XPATH
+2022-11-22 18:33:37 INFO  CommonMethods - clicked Successfully To_  attachmentofCommunicationProof_XPATH
+2022-11-22 18:33:57 INFO  CommonMethods - File uploaded succesfully
+2022-11-22 18:34:00 INFO  CommonMethods - Sucessfully clicked on communicationDocNo_XPATH
+2022-11-22 18:34:01 INFO  CommonMethods - Data sucessfully entered on communicationDocNo_XPATH = 565456
+2022-11-22 18:34:01 INFO  CommonMethods - Sucessfully clicked on permanentProof_XPATH
+2022-11-22 18:34:01 INFO  CommonMethods - Data sucessfully entered on permanentProof_XPATH = voter
+2022-11-22 18:34:02 INFO  CommonMethods - Sucessfully clicked on voterID_XPATH
+2022-11-22 18:34:06 INFO  CommonMethods - Sucessfully clicked on permanentAddNo_XPATH
+2022-11-22 18:34:07 INFO  CommonMethods - Data sucessfully entered on permanentAddNo_XPATH = 56432
+2022-11-22 18:34:07 INFO  CommonMethods - clicked Successfully To_  permanentproofDoc_XPATH
+2022-11-22 18:34:27 INFO  CommonMethods - File uploaded succesfully
+2022-11-22 18:34:33 INFO  CommonMethods - Data = 2 Sucessfully Selected from dropdown additionalDocuments_XPATH
+2022-11-22 18:34:33 INFO  CommonMethods - Data = 1 Sucessfully Selected from dropdown maritalStatus_XPATH
+2022-11-22 18:34:36 INFO  CommonMethods - Sucessfully clicked on motherName_XPATH
+2022-11-22 18:34:37 INFO  CommonMethods - Data sucessfully entered on motherName_XPATH = Bhagyashri
+2022-11-22 18:34:39 INFO  CommonMethods - Sucessfully clicked on fatherName_XPATH
+2022-11-22 18:34:40 INFO  CommonMethods - Data sucessfully entered on fatherName_XPATH = sumit
+2022-11-22 18:34:41 INFO  CommonMethods - Data = 2 Sucessfully Selected from dropdown occupation_XPATH
+2022-11-22 18:34:41 INFO  CommonMethods - Data = 2 Sucessfully Selected from dropdown auFinanacer_XPATH
+2022-11-22 18:34:42 INFO  CommonMethods - Data = 1 Sucessfully Selected from dropdown religion_XPATH
+2022-11-22 18:34:42 INFO  CommonMethods - Data = 1 Sucessfully Selected from dropdown category_XPATH
+2022-11-22 18:34:43 INFO  CommonMethods - Data = 4 Sucessfully Selected from dropdown qualification_XPATH
+2022-11-22 18:34:43 INFO  CommonMethods - Data = 5 Sucessfully Selected from dropdown bloodgrp_XPATH
+2022-11-22 18:34:44 INFO  CommonMethods - Data = 4 Sucessfully Selected from dropdown grossincome_XPATH
+2022-11-22 18:34:44 INFO  CommonMethods - Data = 2 Sucessfully Selected from dropdown physicallyChallenged_XPATH
+2022-11-22 18:34:47 INFO  CommonMethods - Sucessfully clicked on placeofBirth_XPATH
+2022-11-22 18:34:47 INFO  CommonMethods - Data sucessfully entered on placeofBirth_XPATH = Pune
+2022-11-22 18:34:48 INFO  CommonMethods - Data = 2 Sucessfully Selected from dropdown employerType_XPATH
+2022-11-22 18:34:50 INFO  CommonMethods - Sucessfully clicked on employerName_XPATH
+2022-11-22 18:34:51 INFO  CommonMethods - Data sucessfully entered on employerName_XPATH = AU Bank
+2022-11-22 18:34:51 INFO  CommonMethods - Data = 7 Sucessfully Selected from dropdown designation_XPATH
+2022-11-22 18:34:54 INFO  CommonMethods - Sucessfully clicked on kycDate_XPATH
+2022-11-22 18:34:55 INFO  CommonMethods - Data sucessfully entered on kycDate_XPATH = 23-05-2022'
+2022-11-22 18:34:55 INFO  CommonMethods - Sucessfully clicked on specialIdentifier_XPATH
+2022-11-22 18:34:56 INFO  CommonMethods - Sucessfully clicked on centralgov_XPATH
+2022-11-22 18:35:00 ERROR CommonMethods - Not Sucessfully clicked on lgCode_XPATH due to :element click intercepted: Element <input type="text" name="cust_2587" class="textbox field__item" maxlength="256" data-autoid="cust_2587_ctrl" value=""> is not clickable at point (1101, 586). Other element would receive the click: <div class="object-action-inner">...</div>
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [83cc33cac56bde2a5eea4893b713a07d, clickElement {id=56318d47-ccde-4cd9-ba94-36aa3630c49e}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PUNAMS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63758}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63758/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (83cc33cac56bde2a5eea4893b713a07d)] -> xpath: //input[@name='cust_2587']]
+Session ID: 83cc33cac56bde2a5eea4893b713a07d
+2022-11-22 18:35:00 INFO  CommonMethods - Data sucessfully entered on lgCode_XPATH = 7678
+2022-11-22 18:35:04 ERROR CommonMethods - Not Sucessfully clicked on lcCode_XPATH due to :element click intercepted: Element <input type="text" name="cust_2588" class="textbox field__item" maxlength="256" data-autoid="cust_2588_ctrl" value=""> is not clickable at point (490, 586). Other element would receive the click: <div class="object-action-inner">...</div>
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [83cc33cac56bde2a5eea4893b713a07d, clickElement {id=26837ada-d474-41cd-9650-f7fabd4393b9}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PUNAMS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63758}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63758/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (83cc33cac56bde2a5eea4893b713a07d)] -> xpath: //input[@name='cust_2588']]
+Session ID: 83cc33cac56bde2a5eea4893b713a07d
+2022-11-22 18:35:04 INFO  CommonMethods - Data sucessfully entered on lcCode_XPATH = 4545
+2022-11-22 18:35:08 ERROR CommonMethods - Not Sucessfully clicked on rmCode_XPATH due to :element click intercepted: Element <input type="text" name="cust_2589" class="textbox field__item" maxlength="256" data-autoid="cust_2589_ctrl" value=""> is not clickable at point (1101, 586). Other element would receive the click: <div class="object-action-inner">...</div>
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [83cc33cac56bde2a5eea4893b713a07d, clickElement {id=ece021c2-a877-47ca-b304-a9c45e9d14e7}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PUNAMS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63758}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63758/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (83cc33cac56bde2a5eea4893b713a07d)] -> xpath: //input[@name='cust_2589']]
+Session ID: 83cc33cac56bde2a5eea4893b713a07d
+2022-11-22 18:35:08 INFO  CommonMethods - Data sucessfully entered on rmCode_XPATH = 3443
+2022-11-22 18:35:09 INFO  CommonMethods - Data = 2 Sucessfully Selected from dropdown factaReporting_XPATH
+2022-11-22 18:35:10 INFO  CommonMethods - Data = 6 Sucessfully Selected from dropdown employement_XPATH
+2022-11-22 18:35:10 INFO  CommonMethods - Sucessfully clicked on employer_XPATH
+2022-11-22 18:35:11 INFO  CommonMethods - Sucessfully clicked on industry_XPATH
+2022-11-22 18:35:11 INFO  CommonMethods - Sucessfully clicked on departmentSearch_XPATH
+2022-11-22 18:35:12 INFO  CommonMethods - Sucessfully clicked on department_XPATH
+2022-11-22 18:35:13 INFO  CommonMethods - Sucessfully clicked on leadprofessionSearch_XPATH
+2022-11-22 18:35:13 INFO  CommonMethods - Sucessfully clicked on leadprofession_XPATH
+2022-11-22 18:35:16 INFO  CommonMethods - Sucessfully clicked on currentaddress1_XPATH
+2022-11-22 18:35:17 INFO  CommonMethods - Data sucessfully entered on currentaddress1_XPATH = Shivaji Nagar
+2022-11-22 18:35:17 INFO  CommonMethods - Sucessfully clicked on pinsearch_XPATH
+2022-11-22 18:35:18 INFO  CommonMethods - Sucessfully clicked on pincode_XPATH
+2022-11-22 18:35:22 INFO  CommonMethods - Sucessfully clicked on sameAsAbove_XPATH
+2022-11-22 18:35:27 INFO  CommonMethods - Sucessfully clicked on permenantaddress1_XPATH
+2022-11-22 18:35:28 INFO  CommonMethods - Data sucessfully entered on permenantaddress1_XPATH = Shivaji Nagar
+2022-11-22 18:35:30 INFO  CommonMethods - Sucessfully clicked on permanentPin_XPATH
+2022-11-22 18:35:31 INFO  CommonMethods - Sucessfully clicked on pincode_XPATH
+2022-11-22 18:35:33 INFO  CommonMethods - Sucessfully clicked on saveAndProceedBtn_XPATH
+2022-11-22 18:35:44 INFO  CommonMethods - Sucessfully clicked on cardViewThreeDots_XPATH
+2022-11-22 18:35:52 INFO  CommonMethods - Sucessfully clicked on secondaryLead_XPATH
+2022-11-22 18:35:53 INFO  CommonMethods - Data = 1 Sucessfully Selected from dropdown bmpdfVerified_XPATH
+2022-11-22 18:35:53 INFO  CommonMethods - Sucessfully clicked on entitySearch_XPATH
+2022-11-22 18:35:53 ERROR CommonMethods - Not Able To perform click actionno such element: Unable to locate element: {"method":"xpath","selector":"//div[@data-autoid="DisplayName_3"]"}
+  (Session info: chrome=107.0.5304.107)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [83cc33cac56bde2a5eea4893b713a07d, findElement {using=xpath, value=//div[@data-autoid="DisplayName_3"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PUNAMS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63758}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63758/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 83cc33cac56bde2a5eea4893b713a07d
+2022-11-22 18:35:54 INFO  CommonMethods - Data = 2 Sucessfully Selected from dropdown nameSalutation_XPATH
+2022-11-22 18:35:55 ERROR CommonMethods - Not Sucessfully clicked on secondaryFirstName_XPATH due to :element click intercepted: Element <input type="text" name="FIRSTNAME" placeholder="First Name" class="textbox field__item" maxlength="40" data-autoid="FIRSTNAME_ctrl" value=""> is not clickable at point (666, 404). Other element would receive the click: <div title="..." data-autoid="DisplayName_6">INDIVIDUAL MINOR</div>
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [83cc33cac56bde2a5eea4893b713a07d, clickElement {id=901882e5-3243-4dfb-85bc-4fb96b08e816}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PUNAMS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63758}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63758/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (83cc33cac56bde2a5eea4893b713a07d)] -> xpath: //input[@data-autoid="FIRSTNAME_ctrl"]]
+Session ID: 83cc33cac56bde2a5eea4893b713a07d
+2022-11-22 18:35:55 INFO  CommonMethods - Data sucessfully entered on secondaryFirstName_XPATH = lead282
+2022-11-22 18:35:57 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =29 | Data =lead282
+2022-11-22 18:36:03 INFO  CommonMethods - Sucessfully clicked on secondaryLastName_XPATH
+2022-11-22 18:36:03 INFO  CommonMethods - Data sucessfully entered on secondaryLastName_XPATH = ss
+2022-11-22 18:36:05 INFO  CommonMethods - Sucessfully clicked on secondaryShortName_XPATH
+2022-11-22 18:36:06 INFO  CommonMethods - Data sucessfully entered on secondaryShortName_XPATH = Vedika
+2022-11-22 18:36:06 INFO  CommonMethods - Sucessfully clicked on phoneExtension_XPATH
+2022-11-22 18:36:06 INFO  CommonMethods - Data sucessfully entered on phoneExtension_XPATH = india
+2022-11-22 18:36:07 INFO  CommonMethods - Sucessfully clicked on ext_XPATH
+2022-11-22 18:36:09 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =38 | Data =9000003220
+2022-11-22 18:36:10 INFO  CommonMethods - Sucessfully clicked on secondaryMobile_XPATH
+2022-11-22 18:36:11 INFO  CommonMethods - Data sucessfully entered on secondaryMobile_XPATH = 9000003220
+2022-11-22 18:36:11 INFO  SetUp - Enter Mobile No: 9000003220
+2022-11-22 18:36:15 ERROR CommonMethods - Not Sucessfully clicked on DOB_XPATH due to :element click intercepted: Element <input mask="11-11-1111" placeholder="DD-MM-YYYY" class="textbox field__item" title="DD-MM-YYYY" maxlength="10" data-autoid="cust_21_ctrl" type="text" size="10" value=""> is not clickable at point (454, 560). Other element would receive the click: <div class="object-action-inner">...</div>
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [83cc33cac56bde2a5eea4893b713a07d, clickElement {id=ea518b00-a8cb-478a-85ee-6e05d671b363}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PUNAMS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63758}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63758/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (83cc33cac56bde2a5eea4893b713a07d)] -> xpath: //input[@data-autoid="cust_21_ctrl"]]
+Session ID: 83cc33cac56bde2a5eea4893b713a07d
+2022-11-22 18:36:16 INFO  CommonMethods - Data sucessfully entered on DOB_XPATH = 30-05-1998'
+2022-11-22 18:36:16 INFO  SetUp - Date Of Birth  ::30-05-1998'
+2022-11-22 18:36:16 INFO  CommonMethods - Data = 2 Sucessfully Selected from dropdown genderdrpdown_XPATH
+2022-11-22 18:36:16 INFO  SetUp - Gender Selected
+2022-11-22 18:36:16 INFO  SetUp - PAN NO Entered  ::CJJPS5929Z
+2022-11-22 18:36:18 ERROR CommonMethods - Not Sucessfully clicked on panTB_XPATH due to :element click intercepted: Element <input type="text" name="cust_369" class="textbox field__item" maxlength="10" data-autoid="cust_369_ctrl" value=""> is not clickable at point (490, 599). Other element would receive the click: <div class="object-action-inner">...</div>
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [83cc33cac56bde2a5eea4893b713a07d, clickElement {id=fa52399d-3c14-4254-9ced-2c017495a46e}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PUNAMS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63758}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63758/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (83cc33cac56bde2a5eea4893b713a07d)] -> xpath: //input[@data-autoid="cust_369_ctrl"]]
+Session ID: 83cc33cac56bde2a5eea4893b713a07d
+2022-11-22 18:36:19 INFO  CommonMethods - Data sucessfully entered on panTB_XPATH = CJJPS5929Z
+2022-11-22 18:36:21 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =31 | Data =CJJPS5929Z
+2022-11-22 18:36:25 INFO  CommonMethods - clicked Successfully To_  attachFile_XPATH
+2022-11-22 18:36:45 INFO  CommonMethods - File uploaded succesfully
+2022-11-22 18:36:46 INFO  CommonMethods - Data = 4 Sucessfully Selected from dropdown sourcingChannel_XPATH
+2022-11-22 18:36:46 INFO  SetUp - Sourcing Channel Selected
+2022-11-22 18:36:46 INFO  CommonMethods - Data = 1 Sucessfully Selected from dropdown residentStatus_XPATH
+2022-11-22 18:36:46 INFO  SetUp - Resident Status Selected
+2022-11-22 18:37:49 ERROR CommonMethods - Not Sucessfully clicked on kycDate_XPATH due to :Expected condition failed: waiting for visibility of element located by By.xpath: (//input[@placeholder='DD-MM-YYYY'])[5] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PUNAMS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63758}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63758/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 83cc33cac56bde2a5eea4893b713a07d
+2022-11-22 18:37:49 ERROR CommonMethods - Data Not Sucessfully entered on kycDate_XPATH due to :no such element: Unable to locate element: {"method":"xpath","selector":"(//input[@placeholder='DD-MM-YYYY'])[5]"}
+  (Session info: chrome=107.0.5304.107)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [83cc33cac56bde2a5eea4893b713a07d, findElement {using=xpath, value=(//input[@placeholder='DD-MM-YYYY'])[5]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PUNAMS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63758}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63758/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 83cc33cac56bde2a5eea4893b713a07d
+2022-11-22 18:37:49 INFO  SetUp - Entered Last KYC Date ::20-06-2022'
+2022-11-22 18:37:49 INFO  CommonMethods - Sucessfully clicked on customerRelation_XPATH
+2022-11-22 18:37:49 INFO  CommonMethods - Data sucessfully entered on customerRelation_XPATH = Authorized
+2022-11-22 18:37:50 INFO  CommonMethods - Sucessfully clicked on secondaryJoint_XPATH
+2022-11-22 18:37:50 INFO  SetUp - Select Customer Relation with Account Selected
+2022-11-22 18:37:51 INFO  CommonMethods - Data = 2 Sucessfully Selected from dropdown checkbookrequired_XPATH
+2022-11-22 18:37:51 INFO  SetUp - CheckBook Selected
+2022-11-22 18:37:51 INFO  CommonMethods - clicked Successfully To_  CustomerPhotograph_XPATH
+2022-11-22 18:38:11 INFO  CommonMethods - File uploaded succesfully
+2022-11-22 18:38:11 INFO  SetUp - Customer PhotoGraph Attached
+2022-11-22 18:38:11 INFO  CommonMethods - clicked Successfully To_  customerSign_XPATH
+2022-11-22 18:38:31 INFO  CommonMethods - File uploaded succesfully
+2022-11-22 18:38:31 INFO  SetUp - Customer Sign Attached
+2022-11-22 18:38:31 INFO  CommonMethods - clicked Successfully To_  accountopeningForm_XPATH
+2022-11-22 18:38:51 INFO  CommonMethods - File uploaded succesfully
+2022-11-22 18:38:51 INFO  SetUp - Account Opening Form Attached
+2022-11-22 18:38:52 INFO  CommonMethods - Data = 4 Sucessfully Selected from dropdown proofOfID_XPATH
+2022-11-22 18:38:52 INFO  CommonMethods - clicked Successfully To_  attachementOfID_XPATH
+2022-11-22 18:39:12 INFO  CommonMethods - File uploaded succesfully
+2022-11-22 18:39:12 INFO  SetUp - Proof Of ID Selected
+2022-11-22 18:39:15 INFO  CommonMethods - Sucessfully clicked on POIDocNo_XPATH
+2022-11-22 18:39:15 INFO  CommonMethods - Data sucessfully entered on POIDocNo_XPATH = 3443
+2022-11-22 18:39:15 INFO  SetUp - Proof Of ID Doc No Entered :: 3443
+2022-11-22 18:39:15 INFO  CommonMethods - Sucessfully clicked on communicationProof_XPATH
+2022-11-22 18:39:16 INFO  CommonMethods - Data sucessfully entered on communicationProof_XPATH = voter
+2022-11-22 18:39:16 INFO  CommonMethods - Sucessfully clicked on voterID_XPATH
+2022-11-22 18:39:17 INFO  CommonMethods - clicked Successfully To_  attachmentofCommunicationProof_XPATH
+2022-11-22 18:39:37 INFO  CommonMethods - File uploaded succesfully
+2022-11-22 18:39:37 INFO  SetUp - Communication Proof uploaded
+2022-11-22 18:39:39 INFO  CommonMethods - Sucessfully clicked on communicationDocNo_XPATH
+2022-11-22 18:39:40 INFO  CommonMethods - Data sucessfully entered on communicationDocNo_XPATH = 23345
+2022-11-22 18:39:40 INFO  SetUp - Communication Proof No Entered :: 23345
+2022-11-22 18:39:40 INFO  CommonMethods - Sucessfully clicked on permanentProof_XPATH
+2022-11-22 18:39:40 INFO  CommonMethods - Data sucessfully entered on permanentProof_XPATH = voter
+2022-11-22 18:39:41 INFO  CommonMethods - Sucessfully clicked on voterID_XPATH
+2022-11-22 18:39:45 INFO  CommonMethods - Sucessfully clicked on permanentAddNo_XPATH
+2022-11-22 18:39:46 INFO  CommonMethods - Data sucessfully entered on permanentAddNo_XPATH = 9779
+2022-11-22 18:39:46 INFO  SetUp - Permanant Address Proof Attached :: 9779
+2022-11-22 18:39:46 INFO  CommonMethods - clicked Successfully To_  permanentproofDoc_XPATH
+2022-11-22 18:40:06 INFO  CommonMethods - File uploaded succesfully
+2022-11-22 18:40:11 INFO  CommonMethods - Data = 2 Sucessfully Selected from dropdown additionalDocuments_XPATH
+2022-11-22 18:40:11 INFO  SetUp - Additional Document No
+2022-11-22 18:40:15 ERROR CommonMethods - Not Sucessfully clicked on currentaddress1_XPATH due to :element click intercepted: Element <input type="text" name="cust_908" class="textbox field__item" maxlength="256" data-autoid="cust_908_ctrl" value=""> is not clickable at point (490, 568). Other element would receive the click: <div class="object-action-inner">...</div>
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [83cc33cac56bde2a5eea4893b713a07d, clickElement {id=6cb06c43-2bb2-4c5b-8124-9d6c5286ac0b}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PUNAMS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63758}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63758/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (83cc33cac56bde2a5eea4893b713a07d)] -> xpath: //input[@name='cust_908']]
+Session ID: 83cc33cac56bde2a5eea4893b713a07d
+2022-11-22 18:40:16 INFO  CommonMethods - Data sucessfully entered on currentaddress1_XPATH = Shivaji Nagar
+2022-11-22 18:40:17 ERROR CommonMethods - Not Sucessfully clicked on secondaryCurrentPin_XPATH due to :element click intercepted: Element <i class="icon icon-acid-search"></i> is not clickable at point (1283, 595). Other element would receive the click: <div class="object-action-inner">...</div>
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [83cc33cac56bde2a5eea4893b713a07d, clickElement {id=681017ed-88b9-4f9d-9ea9-c98802ca0dd5}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PUNAMS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63758}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63758/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (83cc33cac56bde2a5eea4893b713a07d)] -> xpath: (//i[@class='icon icon-acid-search'])[11]]
+Session ID: 83cc33cac56bde2a5eea4893b713a07d
+2022-11-22 18:40:34 INFO  CommonMethods - Sucessfully clicked on pincode_XPATH
+2022-11-22 18:40:35 INFO  CommonMethods - Data = 1 Sucessfully Selected from dropdown maritalStatus_XPATH
+2022-11-22 18:40:35 INFO  SetUp - Marital Status Selected
+2022-11-22 18:40:38 ERROR CommonMethods - Not Sucessfully clicked on motherName_XPATH due to :element click intercepted: Element <input type="text" name="cust_919" class="textbox field__item" maxlength="60" data-autoid="cust_919_ctrl" value=""> is not clickable at point (490, 586). Other element would receive the click: <div class="object-action-inner">...</div>
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [83cc33cac56bde2a5eea4893b713a07d, clickElement {id=b7b0a2c9-efd2-43a1-8450-828b65153d93}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PUNAMS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63758}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63758/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (83cc33cac56bde2a5eea4893b713a07d)] -> xpath: //input[@name='cust_919']]
+Session ID: 83cc33cac56bde2a5eea4893b713a07d
+2022-11-22 18:40:39 INFO  CommonMethods - Data sucessfully entered on motherName_XPATH = Deppali
+2022-11-22 18:40:39 INFO  SetUp - Mother Name Entered :: Deppali
+2022-11-22 18:40:39 INFO  CommonMethods - Data = 2 Sucessfully Selected from dropdown minorFlag_XPATH
+2022-11-22 18:40:42 ERROR CommonMethods - Not Sucessfully clicked on fatherName_XPATH due to :element click intercepted: Element <input type="text" name="cust_220" class="textbox field__item" maxlength="60" data-autoid="cust_220_ctrl" value=""> is not clickable at point (1101, 586). Other element would receive the click: <div class="object-action-inner">...</div>
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [83cc33cac56bde2a5eea4893b713a07d, clickElement {id=62c7594f-6607-4448-b724-ffd58722d0f2}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PUNAMS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63758}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63758/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (83cc33cac56bde2a5eea4893b713a07d)] -> xpath: //input[@name='cust_220']]
+Session ID: 83cc33cac56bde2a5eea4893b713a07d
+2022-11-22 18:40:43 INFO  CommonMethods - Data sucessfully entered on fatherName_XPATH = Shree
+2022-11-22 18:40:43 INFO  SetUp - Father Name Entered :: Shree
+2022-11-22 18:40:44 INFO  CommonMethods - Data = 2 Sucessfully Selected from dropdown occupation_XPATH
+2022-11-22 18:40:44 INFO  SetUp - Occupation Selected
+2022-11-22 18:40:44 INFO  CommonMethods - Data = 1 Sucessfully Selected from dropdown religion_XPATH
+2022-11-22 18:40:44 INFO  CommonMethods - Data = 1 Sucessfully Selected from dropdown category_XPATH
+2022-11-22 18:40:45 INFO  CommonMethods - Data = 4 Sucessfully Selected from dropdown qualification_XPATH
+2022-11-22 18:40:45 INFO  CommonMethods - Data = 5 Sucessfully Selected from dropdown bloodgrp_XPATH
+2022-11-22 18:40:49 INFO  CommonMethods - Sucessfully clicked on secondarySameAsAbove_XPATH
+2022-11-22 18:40:54 INFO  CommonMethods - Sucessfully clicked on permenantaddress1_XPATH
+2022-11-22 18:40:55 INFO  CommonMethods - Data sucessfully entered on permenantaddress1_XPATH = Kothrud
+2022-11-22 18:40:56 INFO  CommonMethods - Sucessfully clicked on secondaryPermanentPin_XPATH
+2022-11-22 18:40:58 INFO  CommonMethods - Sucessfully clicked on pincode_XPATH
+2022-11-22 18:41:00 INFO  CommonMethods - Sucessfully clicked on placeofBirth_XPATH
+2022-11-22 18:41:01 INFO  CommonMethods - Data sucessfully entered on placeofBirth_XPATH = Pune
+2022-11-22 18:41:01 INFO  SetUp - Place Of Birth Entered :: Pune
+2022-11-22 18:41:01 INFO  CommonMethods - Data = 2 Sucessfully Selected from dropdown factaReporting_XPATH
+2022-11-22 18:41:02 INFO  CommonMethods - Data = 6 Sucessfully Selected from dropdown employement_XPATH
+2022-11-22 18:41:02 INFO  CommonMethods - Sucessfully clicked on employer_XPATH
+2022-11-22 18:41:03 INFO  CommonMethods - Sucessfully clicked on industry_XPATH
+2022-11-22 18:41:03 INFO  CommonMethods - Sucessfully clicked on departmentSearch_XPATH
+2022-11-22 18:41:04 INFO  CommonMethods - Sucessfully clicked on department_XPATH
+2022-11-22 18:41:05 INFO  CommonMethods - Sucessfully clicked on leadprofessionSearch_XPATH
+2022-11-22 18:41:05 INFO  CommonMethods - Sucessfully clicked on leadprofession_XPATH
+2022-11-22 18:41:06 INFO  CommonMethods - Sucessfully clicked on saveBtn_XPATH
+2022-11-22 18:41:14 INFO  LeadPage - Edit lead
+2022-11-22 18:41:14 INFO  CommonMethods - Sucessfully clicked on bottomBtn_XPATH
+2022-11-22 18:41:21 INFO  CommonMethods - Sucessfully clicked on editBtn_XPATH
+2022-11-22 18:41:22 INFO  CommonMethods - Data = 2 Sucessfully Selected from dropdown statusCodeDrpdown_XPATH
+2022-11-22 18:41:22 INFO  CommonMethods - Sucessfully clicked on saveBtn_XPATH
+2022-11-22 18:41:24 ERROR CommonMethods - Not Sucessfully clicked on profileimage_XPATH due to :element click intercepted: Element <a class="header-profile__media min-wt-2 wt-2 ht-2 overflow-hidden" data-autoid="header_userbtn" name="ProfileImage_header" style="border: 4px solid yellow;">...</a> is not clickable at point (1317, 16). Other element would receive the click: <div class="cardLoader" style="position: fixed;">...</div>
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [83cc33cac56bde2a5eea4893b713a07d, clickElement {id=5fd0d93d-e76c-444b-810f-51519c5df7ca}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PUNAMS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63758}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63758/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (83cc33cac56bde2a5eea4893b713a07d)] -> xpath: (//a[@name='ProfileImage_header'])[1]]
+Session ID: 83cc33cac56bde2a5eea4893b713a07d
+2022-11-22 18:41:54 INFO  CommonMethods - Sucessfully clicked on logoutbtn_XPATH
+2022-11-22 18:41:54 INFO  AULoginPage - Sucessfully logout..
+2022-11-22 18:41:54 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-11-22 18:41:54 INFO  CommonMethods - Sucessfully clicked on aUUserName_XPATH
+2022-11-22 18:41:59 INFO  CommonMethods - Data sucessfully entered on aUUserName_XPATH = bm@punam.com
+2022-11-22 18:42:02 INFO  CommonMethods - Sucessfully clicked on aUPassword_XPATH
+2022-11-22 18:42:06 INFO  CommonMethods - Data sucessfully entered on aUPassword_XPATH = Pass@123
+2022-11-22 18:42:10 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-11-22 18:42:15 INFO  CommonMethods - Sucessfully clicked on bmLeadTab_XPATH
+2022-11-22 18:42:15 INFO  SetUp - Branch Manager Click On Lead Tab
+2022-11-22 18:42:16 INFO  CommonMethods - Data = 2 Sucessfully Selected from dropdown bmViewDrpdown1_XPATH
+2022-11-22 18:42:20 INFO  CommonMethods - Data = 33 Sucessfully Selected from dropdown bmViewdrpdown2_XPATH
+2022-11-22 18:42:22 INFO  CommonMethods - Sucessfully clicked on arrowbtn_XPATH
+2022-11-22 18:42:25 INFO  CommonMethods - clicked Successfully To_  lead1CB_XPATH
+2022-11-22 18:42:25 INFO  CommonMethods - Sucessfully clicked on changeOwner_XPATH
+2022-11-22 18:42:25 INFO  CommonMethods - Sucessfully clicked on changeownerBtn_XPATH
+2022-11-22 18:42:27 INFO  CommonMethods - Sucessfully clicked on okbtn_XPATH
+2022-11-22 18:42:29 INFO  CommonMethods - Sucessfully clicked on bmLead_XPATH
+2022-11-22 18:42:32 INFO  LeadPage - Edit lead
+2022-11-22 18:42:36 INFO  CommonMethods - Sucessfully clicked on bottomBtn_XPATH
+2022-11-22 18:42:43 INFO  CommonMethods - Sucessfully clicked on editBtn_XPATH
+2022-11-22 18:42:44 INFO  CommonMethods - Data = 2 Sucessfully Selected from dropdown statusCodeDrpdown_XPATH
+2022-11-22 18:42:44 INFO  CommonMethods - Sucessfully clicked on saveBtn_XPATH
+2022-11-22 18:42:54 INFO  CommonMethods - Sucessfully clicked on toggleBtn_XPATH
+2022-11-22 18:42:54 INFO  LeadPage - Click on toggle button
+2022-11-22 18:42:54 INFO  LeadPage - Edit lead
+2022-11-22 18:42:55 INFO  CommonMethods - Sucessfully clicked on bottomBtn_XPATH
+2022-11-22 18:43:07 INFO  CommonMethods - Sucessfully clicked on editBtn_XPATH
+2022-11-22 18:43:07 INFO  CommonMethods - clicked Successfully To_  bmRecommended_XPATH
+2022-11-22 18:43:08 INFO  CommonMethods - Data = 1 Sucessfully Selected from dropdown bmpdfVerified_XPATH
+2022-11-22 18:43:08 INFO  CommonMethods - Sucessfully clicked on saveAndProceedBtn_XPATH
+2022-11-22 18:43:14 INFO  CommonMethods - Sucessfully clicked on profileimage_XPATH
+2022-11-22 18:43:16 INFO  CommonMethods - Sucessfully clicked on logoutbtn_XPATH
+2022-11-22 18:43:16 INFO  AULoginPage - Sucessfully logout..
+2022-11-22 18:43:16 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-11-22 18:43:16 INFO  CommonMethods - Sucessfully clicked on aUUserName_XPATH
+2022-11-22 18:43:21 INFO  CommonMethods - Data sucessfully entered on aUUserName_XPATH = bo@punam.com
+2022-11-22 18:43:23 INFO  CommonMethods - Sucessfully clicked on aUPassword_XPATH
+2022-11-22 18:43:28 INFO  CommonMethods - Data sucessfully entered on aUPassword_XPATH = Pass@123
+2022-11-22 18:43:32 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-11-22 18:43:37 INFO  CommonMethods - Sucessfully clicked on bmLeadTab_XPATH
+2022-11-22 18:43:37 INFO  SetUp - Back Office Click on Lead Tab
+2022-11-22 18:43:40 INFO  CommonMethods - Data = 2 Sucessfully Selected from dropdown bmViewDrpdown1_XPATH
+2022-11-22 18:43:40 INFO  CommonMethods - Data = 1 Sucessfully Selected from dropdown bmViewdrpdown2_XPATH
+2022-11-22 18:43:41 INFO  CommonMethods - Sucessfully clicked on arrowbtn_XPATH
+2022-11-22 18:43:45 INFO  CommonMethods - clicked Successfully To_  lead1CB_XPATH
+2022-11-22 18:43:45 INFO  CommonMethods - clicked Successfully To_  assignToMe_XPATH
+2022-11-22 18:43:45 INFO  CommonMethods - Sucessfully clicked on updateBtn_XPATH
+2022-11-22 18:43:48 INFO  CommonMethods - Sucessfully clicked on okbtn_XPATH
+2022-11-22 18:43:52 INFO  CommonMethods - Data = 2 Sucessfully Selected from dropdown bmViewDrpdown1_XPATH
+2022-11-22 18:43:52 INFO  CommonMethods - Data = 12 Sucessfully Selected from dropdown bmViewdrpdown2_XPATH
+2022-11-22 18:56:44 INFO  Utils - [TestNG] Running:
+  C:\Users\Punam Shirsath\eclipse-workspace\AUAutomationSanity\src\test\resources\RunnerFiles\testng.xml
+
+2022-11-22 18:57:25 INFO  SetUp - Test Case_PriSecLeadCreationFlowTest_Successfully Started
+2022-11-22 18:58:00 INFO  WebDriverManager - Using chromedriver 107.0.5304.62 (resolved driver for Chrome 107)
+2022-11-22 18:58:00 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Punam Shirsath\.cache\selenium\chromedriver\win32\107.0.5304.62\chromedriver.exe
+2022-11-22 18:58:04 INFO  SetUp - Chrome Browser Launched..
+2022-11-22 18:58:06 INFO  SetUp - URL : https://crmdev.aubankuat.in/sn7/app/login/login
+2022-11-22 18:58:07 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-11-22 18:58:07 INFO  CommonMethods - Sucessfully clicked on aUUserName_XPATH
+2022-11-22 18:58:12 INFO  CommonMethods - Data sucessfully entered on aUUserName_XPATH = bo@punam.com
+2022-11-22 18:58:14 INFO  CommonMethods - Sucessfully clicked on aUPassword_XPATH
+2022-11-22 18:58:19 INFO  CommonMethods - Data sucessfully entered on aUPassword_XPATH = Pass@123
+2022-11-22 18:58:28 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-11-22 18:58:32 INFO  CommonMethods - Sucessfully clicked on bmLeadTab_XPATH
+2022-11-22 18:58:32 INFO  SetUp - Back Office Click on Lead Tab
+2022-11-22 18:58:36 INFO  CommonMethods - Data = 2 Sucessfully Selected from dropdown bmViewDrpdown1_XPATH
+2022-11-22 18:58:36 INFO  CommonMethods - Data = 7 Sucessfully Selected from dropdown bmViewdrpdown2_XPATH
+2022-11-22 18:58:36 INFO  CommonMethods - Sucessfully clicked on arrowbtn_XPATH
+2022-11-22 18:58:40 INFO  CommonMethods - clicked Successfully To_  lead1CB_XPATH
+2022-11-22 18:58:41 INFO  CommonMethods - clicked Successfully To_  assignToMe_XPATH
+2022-11-22 18:58:42 INFO  CommonMethods - Sucessfully clicked on updateBtn_XPATH
+2022-11-22 18:58:45 INFO  CommonMethods - Sucessfully clicked on okbtn_XPATH
+2022-11-22 18:58:49 INFO  CommonMethods - Data = 2 Sucessfully Selected from dropdown bmViewDrpdown1_XPATH
+2022-11-22 18:58:49 INFO  CommonMethods - Data = 12 Sucessfully Selected from dropdown bmViewdrpdown2_XPATH
+2022-11-22 18:58:55 INFO  CommonMethods - Sucessfully clicked on boLead_XPATH
+2022-11-22 18:58:58 INFO  LeadPage - Edit lead
+2022-11-22 19:00:54 INFO  ExtentReporterNG - Extent report Directory is created!
+2022-11-22 19:01:39 INFO  Utils - [TestNG] Running:
+  C:\Users\Punam Shirsath\eclipse-workspace\AUAutomationSanity\src\test\resources\RunnerFiles\testng.xml
+
+2022-11-22 19:02:20 INFO  SetUp - Test Case_PriSecLeadCreationFlowTest_Successfully Started
+2022-11-22 19:02:53 INFO  WebDriverManager - Using chromedriver 107.0.5304.62 (resolved driver for Chrome 107)
+2022-11-22 19:02:53 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Punam Shirsath\.cache\selenium\chromedriver\win32\107.0.5304.62\chromedriver.exe
+2022-11-22 19:02:57 INFO  SetUp - Chrome Browser Launched..
+2022-11-22 19:02:59 INFO  SetUp - URL : https://crmdev.aubankuat.in/sn7/app/login/login
+2022-11-22 19:03:00 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-11-22 19:03:00 INFO  CommonMethods - Sucessfully clicked on aUUserName_XPATH
+2022-11-22 19:03:05 INFO  CommonMethods - Data sucessfully entered on aUUserName_XPATH = bo@punam.com
+2022-11-22 19:03:07 INFO  CommonMethods - Sucessfully clicked on aUPassword_XPATH
+2022-11-22 19:03:12 INFO  CommonMethods - Data sucessfully entered on aUPassword_XPATH = Pass@123
+2022-11-22 19:03:21 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-11-22 19:03:21 ERROR CommonMethods - Not able to select from dropdown bmViewDrpdown1_XPATHdue to no such element: Unable to locate element: {"method":"xpath","selector":"//select[@name='QueryCategoryId']"}
+  (Session info: chrome=107.0.5304.107)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b969bc5080ae3a95c61c9b2957505a1a, findElement {using=xpath, value=//select[@name='QueryCategoryId']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PUNAMS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65104}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65104/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b969bc5080ae3a95c61c9b2957505a1a
+2022-11-22 19:03:21 ERROR CommonMethods - Not able to select from dropdown bmViewdrpdown2_XPATHdue to no such element: Unable to locate element: {"method":"xpath","selector":"//select[@name='QueryViewId']"}
+  (Session info: chrome=107.0.5304.107)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b969bc5080ae3a95c61c9b2957505a1a, findElement {using=xpath, value=//select[@name='QueryViewId']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PUNAMS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65104}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65104/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b969bc5080ae3a95c61c9b2957505a1a
+2022-11-22 19:03:45 INFO  CommonMethods - Sucessfully clicked on boLead_XPATH
+2022-11-22 19:03:48 INFO  LeadPage - Edit lead
+2022-11-22 19:03:52 INFO  CommonMethods - Sucessfully clicked on bottomBtn_XPATH
+2022-11-22 19:04:00 INFO  CommonMethods - Sucessfully clicked on editBtn_XPATH
+2022-11-22 19:04:01 INFO  CommonMethods - Data = 2 Sucessfully Selected from dropdown auFinancersEmployee_XPATH
+2022-11-22 19:04:02 INFO  CommonMethods - Data = 2 Sucessfully Selected from dropdown auRelatedEmployee_XPATH
+2022-11-22 19:04:02 INFO  CommonMethods - Data = 2 Sucessfully Selected from dropdown secondaryPosition_XPATH
+2022-11-22 19:04:02 INFO  CommonMethods - Sucessfully clicked on saveBtn_XPATH
+2022-11-22 19:04:13 INFO  CommonMethods - Sucessfully clicked on toggleBtn_XPATH
+2022-11-22 19:04:13 INFO  LeadPage - Click on toggle button
+2022-11-22 19:04:13 INFO  LeadPage - Edit lead
+2022-11-22 19:04:13 INFO  CommonMethods - Sucessfully clicked on bottomBtn_XPATH
+2022-11-22 19:04:25 INFO  CommonMethods - Sucessfully clicked on editBtn_XPATH
+2022-11-22 19:04:26 INFO  CommonMethods - clicked Successfully To_  sentToDVU_XPATH
+2022-11-22 19:04:26 INFO  CommonMethods - Sucessfully clicked on saveAndProceedBtn_XPATH
+2022-11-22 19:04:34 INFO  CommonMethods - Sucessfully clicked on profileimage_XPATH
+2022-11-22 19:04:35 INFO  CommonMethods - Sucessfully clicked on logoutbtn_XPATH
+2022-11-22 19:04:35 INFO  AULoginPage - Sucessfully logout..
+2022-11-22 19:04:35 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-11-22 19:04:35 INFO  CommonMethods - Sucessfully clicked on aUUserName_XPATH
+2022-11-22 19:04:41 INFO  CommonMethods - Data sucessfully entered on aUUserName_XPATH = dvu@punam.com
+2022-11-22 19:04:44 INFO  CommonMethods - Sucessfully clicked on aUPassword_XPATH
+2022-11-22 19:04:48 INFO  CommonMethods - Data sucessfully entered on aUPassword_XPATH = Pass@123
+2022-11-22 19:04:52 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-11-22 19:04:55 INFO  CommonMethods - Sucessfully clicked on dvuLeadTab_XPATH
+2022-11-22 19:04:55 INFO  SetUp - DVU User Click On Lead Tab
+2022-11-22 19:04:59 INFO  CommonMethods - Data = 2 Sucessfully Selected from dropdown bmViewDrpdown1_XPATH
+2022-11-22 19:04:59 INFO  CommonMethods - Data = 0 Sucessfully Selected from dropdown bmViewdrpdown2_XPATH
+2022-11-22 19:04:59 INFO  CommonMethods - Sucessfully clicked on arrowbtn_XPATH
+2022-11-22 19:08:39 INFO  Utils - [TestNG] Running:
+  C:\Users\Punam Shirsath\eclipse-workspace\AUAutomationSanity\src\test\resources\RunnerFiles\testng.xml
+
+2022-11-22 19:09:18 INFO  SetUp - Test Case_PriSecLeadCreationFlowTest_Successfully Started
+2022-11-22 19:09:51 INFO  WebDriverManager - Using chromedriver 107.0.5304.62 (resolved driver for Chrome 107)
+2022-11-22 19:09:51 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Punam Shirsath\.cache\selenium\chromedriver\win32\107.0.5304.62\chromedriver.exe
+2022-11-22 19:09:54 INFO  SetUp - Chrome Browser Launched..
+2022-11-22 19:09:57 INFO  SetUp - URL : https://crmdev.aubankuat.in/sn7/app/login/login
+2022-11-22 19:09:57 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-11-22 19:09:58 INFO  CommonMethods - Sucessfully clicked on aUUserName_XPATH
+2022-11-22 19:10:02 INFO  CommonMethods - Data sucessfully entered on aUUserName_XPATH = dvu@punam.com
+2022-11-22 19:10:05 INFO  CommonMethods - Sucessfully clicked on aUPassword_XPATH
+2022-11-22 19:10:09 INFO  CommonMethods - Data sucessfully entered on aUPassword_XPATH = Pass@123
+2022-11-22 19:10:19 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-11-22 19:10:23 INFO  CommonMethods - Sucessfully clicked on dvuLeadTab_XPATH
+2022-11-22 19:10:23 INFO  SetUp - DVU User Click On Lead Tab
+2022-11-22 19:10:26 INFO  CommonMethods - Data = 2 Sucessfully Selected from dropdown bmViewDrpdown1_XPATH
+2022-11-22 19:10:26 INFO  CommonMethods - Data = 6 Sucessfully Selected from dropdown bmViewdrpdown2_XPATH
+2022-11-22 19:10:27 INFO  CommonMethods - Sucessfully clicked on arrowbtn_XPATH
+2022-11-22 19:10:31 INFO  CommonMethods - clicked Successfully To_  lead1CB_XPATH
+2022-11-22 19:10:31 INFO  CommonMethods - clicked Successfully To_  assignToMe_XPATH
+2022-11-22 19:10:32 INFO  CommonMethods - Sucessfully clicked on updateBtn_XPATH
+2022-11-22 19:10:36 INFO  CommonMethods - Sucessfully clicked on okbtn_XPATH
+2022-11-22 19:10:39 INFO  CommonMethods - Data = 2 Sucessfully Selected from dropdown bmViewDrpdown1_XPATH
+2022-11-22 19:10:40 INFO  CommonMethods - Data = 18 Sucessfully Selected from dropdown bmViewdrpdown2_XPATH
+2022-11-22 19:10:45 INFO  CommonMethods - Sucessfully clicked on devlead_XPATH
+2022-11-22 19:10:50 INFO  CommonMethods - Sucessfully clicked on bottomBtn_XPATH
+2022-11-22 19:10:54 INFO  CommonMethods - Sucessfully clicked on secondaryMobilePDF_XPATH
+2022-11-22 19:11:02 ERROR CommonMethods - Not Able To perform click actionno such element: Unable to locate element: {"method":"xpath","selector":"//input[@value='Download']"}
+  (Session info: chrome=107.0.5304.107)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cb1e6a142d2c5fba6210e5e302fa3b5b, findElement {using=xpath, value=//input[@value='Download']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PUNAMS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65425}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65425/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cb1e6a142d2c5fba6210e5e302fa3b5b
+2022-11-22 19:11:08 INFO  CommonMethods - Sucessfully clicked on okbtn_XPATH
+2022-11-22 19:11:08 INFO  LeadPage - Edit lead
+2022-11-22 19:11:08 INFO  CommonMethods - Sucessfully clicked on bottomBtn_XPATH
+2022-11-22 19:11:09 INFO  CommonMethods - Sucessfully clicked on editBtn_XPATH
+2022-11-22 19:16:03 INFO  Utils - [TestNG] Running:
+  C:\Users\Punam Shirsath\eclipse-workspace\AUAutomationSanity\src\test\resources\RunnerFiles\testng.xml
+
+2022-11-22 19:16:43 INFO  SetUp - Test Case_PriSecLeadCreationFlowTest_Successfully Started
+2022-11-22 19:17:17 INFO  WebDriverManager - Using chromedriver 107.0.5304.62 (resolved driver for Chrome 107)
+2022-11-22 19:17:17 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Punam Shirsath\.cache\selenium\chromedriver\win32\107.0.5304.62\chromedriver.exe
+2022-11-22 19:17:21 INFO  SetUp - Chrome Browser Launched..
+2022-11-22 19:17:24 INFO  SetUp - URL : https://crmdev.aubankuat.in/sn7/app/login/login
+2022-11-22 19:17:24 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-11-22 19:17:24 INFO  CommonMethods - Sucessfully clicked on aUUserName_XPATH
+2022-11-22 19:17:29 INFO  CommonMethods - Data sucessfully entered on aUUserName_XPATH = dvu@punam.com
+2022-11-22 19:17:31 INFO  CommonMethods - Sucessfully clicked on aUPassword_XPATH
+2022-11-22 19:17:36 INFO  CommonMethods - Data sucessfully entered on aUPassword_XPATH = Pass@123
+2022-11-22 19:17:45 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-11-22 19:17:45 ERROR CommonMethods - Not able to select from dropdown bmViewDrpdown1_XPATHdue to no such element: Unable to locate element: {"method":"xpath","selector":"//select[@name='QueryCategoryId']"}
+  (Session info: chrome=107.0.5304.107)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [63767146d1a46af3370bc91584fb82dc, findElement {using=xpath, value=//select[@name='QueryCategoryId']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PUNAMS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49374}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49374/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 63767146d1a46af3370bc91584fb82dc
+2022-11-22 19:17:45 ERROR CommonMethods - Not able to select from dropdown bmViewdrpdown2_XPATHdue to no such element: Unable to locate element: {"method":"xpath","selector":"//select[@name='QueryViewId']"}
+  (Session info: chrome=107.0.5304.107)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [63767146d1a46af3370bc91584fb82dc, findElement {using=xpath, value=//select[@name='QueryViewId']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PUNAMS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49374}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49374/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 63767146d1a46af3370bc91584fb82dc
+2022-11-22 19:18:10 INFO  CommonMethods - Sucessfully clicked on devlead_XPATH
+2022-11-22 19:18:15 INFO  CommonMethods - Sucessfully clicked on bottomBtn_XPATH
+2022-11-22 19:18:19 INFO  CommonMethods - Sucessfully clicked on secondaryMobilePDF_XPATH
+2022-11-22 19:18:27 ERROR CommonMethods - Not Able To perform click actionno such element: Unable to locate element: {"method":"xpath","selector":"//input[@value='Download']"}
+  (Session info: chrome=107.0.5304.107)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [63767146d1a46af3370bc91584fb82dc, findElement {using=xpath, value=//input[@value='Download']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PUNAMS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49374}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49374/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 63767146d1a46af3370bc91584fb82dc
+2022-11-22 19:18:33 INFO  CommonMethods - Sucessfully clicked on okbtn_XPATH
+2022-11-22 19:18:33 INFO  CommonMethods - Sucessfully clicked on updateLead_XPATH
+2022-11-22 19:18:33 INFO  CommonMethods - Data = 1 Sucessfully Selected from dropdown updateleadData_XPATH
+2022-11-22 19:18:34 INFO  CommonMethods - Sucessfully clicked on updateBtn_XPATH
+2022-11-22 19:19:34 ERROR CommonMethods - Not Sucessfully clicked on okbtn_XPATH due to :Expected condition failed: waiting for visibility of element located by By.xpath: //button[text()='Ok'] (tried for 60 second(s) with 500 milliseconds interval)
+2022-11-22 19:19:37 INFO  LeadPage - Edit lead
+2022-11-22 19:20:37 ERROR CommonMethods - Not Sucessfully clicked on bottomBtn_XPATH due to :Expected condition failed: waiting for visibility of element located by By.xpath: //div[@title='click here to see more actions'] (tried for 60 second(s) with 500 milliseconds interval)
+2022-11-22 19:21:38 ERROR CommonMethods - Not Sucessfully clicked on editBtn_XPATH due to :Expected condition failed: waiting for visibility of element located by By.xpath: (//span[text()='Edit'])[2] (tried for 60 second(s) with 500 milliseconds interval)
+2022-11-22 19:22:43 ERROR CommonMethods - Not Sucessfully clicked on panJustification_XPATH due to :Expected condition failed: waiting for visibility of element located by By.xpath: //input[@data-autoid="cust_100787185_ctrl"] (tried for 60 second(s) with 500 milliseconds interval)
+2022-11-22 19:22:43 ERROR CommonMethods - Data Not Sucessfully entered on panJustification_XPATH due to :no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [63767146d1a46af3370bc91584fb82dc, findElement {using=xpath, value=//input[@data-autoid="cust_100787185_ctrl"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PUNAMS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49374}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49374/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 63767146d1a46af3370bc91584fb82dc
+2022-11-22 19:22:43 ERROR SetUp - PriSecLeadCreationFlowTest Get Failed due to 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PUNAM', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [63767146d1a46af3370bc91584fb82dc, executeScript {script=window.scrollTo(0, document.body.scrollHeight), args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PUNAMS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49374}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49374/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 63767146d1a46af3370bc91584fb82dc
