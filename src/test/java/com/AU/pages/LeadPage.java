@@ -4,16 +4,17 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.Properties;
 import java.util.Random;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.apache.poi.EncryptedDocumentException;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
 
+import com.AU.base.SetUp;
 import com.AU.commonUtilities.CommonMethods;
 import com.AU.commonUtilities.ExcelOperation;
 import com.AU.commonUtilities.ScreenShot;
@@ -25,12 +26,17 @@ public class LeadPage extends TestListeners
 
 	public static Logger log =LogManager.getLogger(LeadPage.class.getName());
 	  
-
-	public static String panpath = System.getProperty("user.dir") +"\\src\\test\\resources\\Documents\\Pan card.pdf";
-	public static String customerphoto = System.getProperty("user.dir") +"\\src\\test\\resources\\Documents\\customerphotograph.png";
-	public static String customerSign = System.getProperty("user.dir") +"\\src\\test\\resources\\Documents\\signature.jpg";
-	public static String accountform = System.getProperty("user.dir") +"\\src\\test\\resources\\Documents\\accountopeningform.jpg";
-	public static String idProof = System.getProperty("user.dir") +"\\src\\test\\resources\\Documents\\voterid.jpg";
+	public static Properties config = SetUp.loadConfig();
+    public static String Pan_path = System.getProperty("user.dir")+ config.getProperty("panpath");
+//	public static String panpath = System.getProperty("user.dir") +"\\src\\test\\resources\\Documents\\Pan card.pdf";
+	//public static String customerphoto = System.getProperty("user.dir") +"\\src\\test\\resources\\Documents\\customerphotograph.png";
+    public static String customerPhoto = System.getProperty("user.dir")+ config.getProperty("customerPhotoPath");
+    public static String customerSign = System.getProperty("user.dir")+ config.getProperty("customerSignPath");
+    //public static String customerSign = System.getProperty("user.dir") +"\\src\\test\\resources\\Documents\\signature.jpg";
+    public static String accountform = System.getProperty("user.dir")+ config.getProperty("accountFormPath");
+    //public static String accountform = System.getProperty("user.dir") +"\\src\\test\\resources\\Documents\\accountopeningform.jpg";
+    public static String idProof = System.getProperty("user.dir")+ config.getProperty("idProofPath");
+    //public static String idProof = System.getProperty("user.dir") +"\\src\\test\\resources\\Documents\\voterid.jpg";
 
 	//public String sheetName = "NewLeadDetails";
 	//public String SheetName1 = "DedupeRuleFunctionalityTest";
@@ -109,8 +115,9 @@ public class LeadPage extends TestListeners
 		System.out.println();
 		
 		//Select Product
-		CommonMethods.selectByIndex("liabilityLeadProduct_XPATH", 16);
-		log.info("Product Selected: AU Savings Account- Value");
+	CommonMethods.selectByIndex("liabilityLeadProduct_XPATH", 16);
+		CommonMethods.selectByIndex("liabilityLeadProduct_XPATH", 23);
+		//log.info("Product Selected: AU Savings Account- Value");
 
 		// enter mobile no
 		String mobilenumber = CommonMethods.generateRandomMobileNumber();
@@ -402,7 +409,7 @@ public class LeadPage extends TestListeners
 		CommonMethods.scrollDown(500);
 		Thread.sleep(3000);
 		CommonMethods.moveToElementAndClick("attachFile_XPATH");
-		CommonMethods.FileUpload(panpath);
+		CommonMethods.FileUpload(Pan_path);
 		System.out.println("Pan card uploaded");
 
 		// select gender
@@ -444,7 +451,7 @@ public class LeadPage extends TestListeners
 
 		// attach customer photograph
 		CommonMethods.moveToElementAndClick("CustomerPhotograph_XPATH");
-		CommonMethods.FileUpload(customerphoto);
+		CommonMethods.FileUpload(customerPhoto);
 
 		// attach customer sign
 		CommonMethods.moveToElementAndClick("customerSign_XPATH");
@@ -509,6 +516,9 @@ public class LeadPage extends TestListeners
 
 		// select occupation
 		CommonMethods.selectByIndex("occupation_XPATH", 2);
+		
+		//Select Minor
+		CommonMethods.selectByIndex("minorFlag_XPATH", 2);
 
 		// Enter Au Financiers
 		CommonMethods.selectByIndex("auFinanacer_XPATH", 2);
@@ -925,11 +935,17 @@ public class LeadPage extends TestListeners
 
 	}
 	
-	public void clickOnIgnoreandCreate() throws Exception {
+	/*public void clickOnIgnoreandCreate() throws Exception {
 		CommonMethods.ExWait("ignoreAndCreate_XAPTH");
 		//CommonMethods.Click("ignoreAndCreate_XAPTH");
 		CommonMethods.mouseClick("ignoreAndCreate_XAPTH");
 		
+	}*/
+	
+	public void clickOnIgnoreandUpdate() throws Exception {
+		CommonMethods.ExWait("ignoreAndUpdate_XPATH");
+		//CommonMethods.Click("ignoreAndCreate_XAPTH");
+		CommonMethods.mouseClick("ignoreAndUpdate_XPATH");
 	}
 	
 	
@@ -1048,7 +1064,10 @@ public class LeadPage extends TestListeners
 		}
 		// verify Pagination Dropdown values
 
-		public void verifyPaginationDropdown() throws Exception {
+		public void verifyPaginationDropdown(String sheetName) throws Exception {
+			CommonMethods.selectByText("appdropdown1_XPATH",sheetName, "Dropdown1", 1);
+			CommonMethods.selectByText("appdropdown2_XPATH", sheetName, "Dropdown2", 1);
+			CommonMethods.Click("arrowBtn_XPATH");
 			// scroll to dropdown
 			CommonMethods.scrollByVisibilityofElement("pagelistingdropdownLeadPage_XPATH");
 
@@ -1058,7 +1077,7 @@ public class LeadPage extends TestListeners
 			
 
 			// verify after selecting value as 10 from dropdown its showing 10 records
-			String actualshowrecordtext = "Showing 1-16 Records";
+			String actualshowrecordtext = "Showing 1-20 Records";
 			String expshowrecordtext = CommonMethods.getElementText("ShowRecordTextLeadPage_XPATH");
 			System.out.println(expshowrecordtext);
 
@@ -1068,8 +1087,8 @@ public class LeadPage extends TestListeners
 			// get List count of elements
 			List<WebElement> ele = driver.findElements(By.xpath("//div[@class='crm-grid-row relative']"));
 			int actualcount = ele.size();
-			System.out.println("Row count after selecting dropdown Value as 10 from Pagination: " + ele.size());
-			int expcount = 16;
+			System.out.println("Row count after selecting dropdown Value as 20 from Pagination: " + ele.size());
+			int expcount = 20;
 
 			// verfiy actual exp count
 			Assert.assertEquals(expcount, actualcount, "Count mismatched");

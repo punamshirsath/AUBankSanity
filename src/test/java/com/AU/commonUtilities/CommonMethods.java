@@ -45,6 +45,7 @@ public class CommonMethods extends SetUp
 	public static Properties prop=new Properties();
 	public static String parentwindow;
 	public static WebElement element;
+	public static String parentwindowID;
 
 	
 	public static void ExWait(String locator) throws Exception
@@ -667,6 +668,35 @@ public static String getModule(String methodName) throws Exception
 					}
 
 				}
+				
+				public static String fetchParentWindowID()
+			    {
+			            String parentwindowID=driver.getWindowHandle();
+			            log.info("Parent Window ID  = "+parentwindowID);
+			        return parentwindowID;
+			    }
+
+
+
+			   public static void switchToParentWindowByID(String parentID) {
+
+
+
+			       try {
+			            //String parentwindow=driver.getWindowHandle();
+			            //parentID= fetchParentWindowID();
+			            driver.switchTo().window(parentID);
+			            log.info("Swiched to parent window "+driver.getTitle()+" with ID "+parentID);
+
+
+
+			       }catch(Exception e) {
+			            log.error("Not able to switch to parent window "+e.getMessage());
+			        }
+
+
+
+			   }
 
 
 }

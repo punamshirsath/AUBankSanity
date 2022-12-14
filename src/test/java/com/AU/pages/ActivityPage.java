@@ -204,7 +204,7 @@ public class ActivityPage extends TestListeners {
 		CommonMethods.switchtoparentwindow();
 		CommonMethods.ExWait("createdActivity_XPATH");
 		Assert.assertTrue(driver.findElement(By.xpath(CommonMethods.readPropertyFile("createdActivity_XPATH"))).isDisplayed());
-	   log.info("Activity/ Task Created On ETB Lead");
+	   log.info("Activity/ Task Created On ETB Lead/Customer");
 		//  ScreenShot.takeSnapShot("Task/Activity is Created", "Pass");
 	}
 	

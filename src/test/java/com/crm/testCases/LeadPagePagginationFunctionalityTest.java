@@ -28,7 +28,7 @@ public class LeadPagePagginationFunctionalityTest extends SetUp{
 		log.info("Login as a CSE User");
 		lp.verifyLeadListIsDisplayedInViewCategory();
 		lp.verifyOrderBy();
-		lp.verifyPaginationDropdown();
+		lp.verifyPaginationDropdown(sheetName);
 		lp.verifypaginationGoToTextBox();
 		
 

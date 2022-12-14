@@ -26,7 +26,6 @@ public class PrimarySecondaryLeadCreationFlowForSavingAccountFunctionalityTest e
 	
 	
 	
-	
 	@Test
 	public void PriSecLeadCreationFlowTest() throws Exception {
 		
@@ -37,6 +36,8 @@ public class PrimarySecondaryLeadCreationFlowForSavingAccountFunctionalityTest e
 		String sheetName4="CHTMLogin";
 		String primaryDetails="PrimarySecondaryLeadDetails";
 		String secondaryHolderDetails="SecondaryHolderDetails";
+		String parentwindowID="pp.parentwindowID";
+		
 		
 		if (!(CommonMethods.isTestRunnable("PriSecLeadCreationFlowTest",sheetName ))) {
 
@@ -44,7 +45,7 @@ public class PrimarySecondaryLeadCreationFlowForSavingAccountFunctionalityTest e
 					"Skipping the test " + "PrimarySecondaryLeadCreation".toUpperCase() + "as the Run mode is NO");
 		}
 		
-		au.login(sheetName);
+		/*au.login(sheetName);
 		log.info("Login as a CSE User");
 		
 		//open new lead page
@@ -106,16 +107,18 @@ public class PrimarySecondaryLeadCreationFlowForSavingAccountFunctionalityTest e
 		lp.clickOnToggleBtn();
 		lp.editLead();
 		pp.editPrimaryLeadForSentToDVU();
-		au.Logout();
+		au.Logout();*/
 		
 		
 		//login as DVU
-	/*	au.login(sheetName3);
+		au.login(sheetName3);
 		pp.searchLeadInDVUView();
 		pp.OpenSecondaryLead();
-		pp.clickOnMobilePDF();
-		Thread.sleep(3000);
-		pp.OpenSecondaryLead();
+		pp.clickOnMobilePDF(sheetName);
+		Thread.sleep(10000);
+		CommonMethods.switchToParentWindowByID(pp.mainWinID);
+	    //driver.switchTo().defaultContent();
+	pp.OpenSecondaryLead();
 		lp.editLead();
 		Thread.sleep(3000);
 		String pan = ExcelOperation.getCellData(sheetName, "Sec PAN Justification", 1);
@@ -128,7 +131,7 @@ public class PrimarySecondaryLeadCreationFlowForSavingAccountFunctionalityTest e
 		Thread.sleep(3000);
 		Assert.assertEquals("Account Opened", statusCode3,"statuscode mismatch");
 		CommonMethods.switchtoparentwindow();
-		pp.editprimaryLeadAtDVU(sheetName);*/
+		pp.editprimaryLeadAtDVU(sheetName);
 		
 }
 }

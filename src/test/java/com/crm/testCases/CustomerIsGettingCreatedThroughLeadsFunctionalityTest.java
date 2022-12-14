@@ -30,7 +30,7 @@ public class CustomerIsGettingCreatedThroughLeadsFunctionalityTest extends SetUp
 					"Skipping the test CustomerLeadCreationTest as the Run mode is NO + ");
 		}
 		
-		/*au=new AULoginPage();
+		au=new AULoginPage();
 		au.login(sheetName);
 		log.info("Login as a CSE User");
 		lp.clickOnLeadsTab();
@@ -64,19 +64,19 @@ public class CustomerIsGettingCreatedThroughLeadsFunctionalityTest extends SetUp
 		log.info("Login as a Back Office User");
 		lp.editLeadAtBOStage();
 		Thread.sleep(2000);
-		au.Logout();*/
+		au.Logout();
 				
 				
 		//login as DVu user
 		au.login(sheetName3);
 		log.info("Login as a Document Verification Unit");
-		//lp.editLeadAtDVUStage(sheetName);
+		lp.editLeadAtDVUStage(sheetName);
 		Thread.sleep(2000);
 		
 	
 		
-		//lp.clickOnToggleBtn();
-		//lp.VerifyHistoryTab();
+		lp.clickOnToggleBtn();
+		lp.VerifyHistoryTab();
 		Thread.sleep(3000);
 		String cif=driver.findElement(By.xpath(CommonMethods.readPropertyFile("createdCIf_XPATH"))).getText();
 		cp.moveToQuickLink();

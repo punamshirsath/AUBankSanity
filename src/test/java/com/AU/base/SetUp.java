@@ -71,11 +71,11 @@ public class SetUp
 		
 		try {
 
-			//fis = new FileInputStream(
-					//System.getProperty("user.dir") + "\\src\\test\\resources\\PropertyFiles\\Config.properties");
-			//comment the previous two lines and Uncomment this for exporting the code as jar.
 			fis = new FileInputStream(
-					 System.getProperty("user.dir") + "\\resources\\PropertyFiles\\Config.properties");
+				System.getProperty("user.dir") + "\\src\\test\\resources\\PropertyFiles\\Config.properties");
+			//comment the previous two lines and Uncomment this for exporting the code as jar.
+			//fis = new FileInputStream(
+				//	System.getProperty("user.dir") + "\\resources\\PropertyFiles\\Config.properties");
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

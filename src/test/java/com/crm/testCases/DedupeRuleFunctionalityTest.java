@@ -46,8 +46,8 @@ public void DedupeRuleTest() throws Exception {
     		
     		///enter all details for document collection stage
     		lp.fillDataAtDocCollectedStage(sheetName);
-    		//Thread.sleep(3000);
-    		Assert.assertTrue(driver.findElement(By.xpath(CommonMethods.readPropertyFile("ignoreAndUpdate_XPATH"))).isDisplayed());
+    		Thread.sleep(3000);
+    		Assert.assertTrue(driver.findElement(By.xpath(CommonMethods.readPropertyFile("duplicateRecord_XPATH"))).isDisplayed());
     		log.info("Dedupe fired for new lead");
     		//lp.clickOnIgnoreandCreate();
 }

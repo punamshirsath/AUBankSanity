@@ -25,7 +25,8 @@ import com.AU.listeners.TestListeners;
 public class PrimarySecondaryLeadPage extends TestListeners{
 	
 	LeadPage lp=new LeadPage();
-	
+	public String parentwindowID="";
+	public String mainWinID="";
 	//public String sheetName = "PrimarySecondaryLeadDetails";
 	public static String panpath = System.getProperty("user.dir")+ "\\src\\test\\resources\\Documents\\Pan card.pdf";
 	public static String customerphoto = System.getProperty("user.dir")+ "\\src\\test\\resources\\Documents\\customerphotograph.png";
@@ -636,8 +637,10 @@ public class PrimarySecondaryLeadPage extends TestListeners{
 		 WebElement childlead = driver.findElement(By.xpath(CommonMethods.readPropertyFile("childLead_XPATH")));
 		 JavascriptExecutor js = (JavascriptExecutor) driver;
 	        js.executeScript("window.open(arguments[0], '_blank');", childlead);
+	        String parentwindowID=driver.getWindowHandle();
+	        System.out.println(parentwindowID);
 	        CommonMethods.switchwindow();
-	        
+	       
 		 /*try {
 		// actions.contextClick(childlead).sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ENTER).build().perform();
 			 
@@ -755,31 +758,92 @@ public class PrimarySecondaryLeadPage extends TestListeners{
 			CommonMethods.selectByIndex("bmViewdrpdown2_XPATH", 18);
 			Thread.sleep(3000);
 			CommonMethods.Click("devlead_XPATH");
+			mainWinID=driver.getWindowHandle();
+			 System.out.println(mainWinID);
 	 }
 	 
-	 public void clickOnMobilePDF() throws Exception {
+	 public void clickOnMobilePDF(String sheetName) throws Exception {
+		 String secWindowID=driver.getWindowHandle();
+		 System.out.println(secWindowID);
 		 CommonMethods.Click("bottomBtn_XPATH");
 		 Thread.sleep(3000);
 		 CommonMethods.Click("secondaryMobilePDF_XPATH");
-			CommonMethods.switchwindow();
-			Thread.sleep(3000);
-		//	CommonMethods.mouseClick("downloadPDF_XPATH");
-			CommonMethods.ExWait("downloadPDF_XPATH");
-			Assert.assertTrue(driver.findElement(By.xpath(CommonMethods.readPropertyFile("downloadPDF_XPATH"))).isDisplayed());
-			Thread.sleep(3000);
+		Thread.sleep(3000);
+		CommonMethods.switchwindow();
+		String secMobWindowID=driver.getWindowHandle();
+		 System.out.println(secMobWindowID);
+		Thread.sleep(3000);
+		CommonMethods.mouseClick("downloadPDF_XPATH");
+		Thread.sleep(5000);
+		//driver.close();
+			//CommonMethods.switchToParentWindowByID(secMobWindowID);
 			CommonMethods.switchtoparentwindow();
 			Thread.sleep(2000);
 			CommonMethods.Click("okbtn_XPATH");
 			Thread.sleep(2000);
-			CommonMethods.scrollAtBottom();
+			CommonMethods.scrollByVisibilityofElement("updateLead_XPATH");
 			CommonMethods.Click("updateLead_XPATH");
         	CommonMethods.selectByIndex("updateleadData_XPATH", 1);
 			CommonMethods.Click("updateBtn_XPATH");
-			Thread.sleep(3000);
-			CommonMethods.ExWait("okbtn_XPATH");
-			CommonMethods.Click("okbtn_XPATH");
-			Thread.sleep(3000);
+	        System.out.println("Click On Update Button");
+			Thread.sleep(4000);
+			//CommonMethods.Click("okbtn_XPATH");
+			Thread.sleep(10000);
+		//CommonMethods.Click("bottomBtn_XPATH");
+	//	CommonMethods.scrollByVisibilityofElement("editBtn_XPATH");
+	 //  CommonMethods.Click("editBtn_XPATH");
+		//	String pan = ExcelOperation.getCellData(sheetName, "Sec PAN Justification", 1);
+		//	CommonMethods.sendkeys("panJustification_XPATH", pan);
+			//Thread.sleep(3000);
+			//CommonMethods.ExWait("okbtn_XPATH");
+			//CommonMethods.Click("okbtn_XPATH");
+			//Thread.sleep(3000);
+			//CommonMethods.Click("bottomBtn_XPATH");
+			//CommonMethods.Click("editBtn_XPATH");
 	 }
+	 
+	 /*public void clickOnMobilePDF(String sheetName) throws Exception {
+		 String secWindowID=driver.getWindowHandle();
+		 System.out.println(secWindowID);
+		 CommonMethods.Click("bottomBtn_XPATH");
+		 Thread.sleep(3000);
+		 CommonMethods.Click("secondaryMobilePDF_XPATH");
+		 Thread.sleep(3000);
+		//	CommonMethods.mouseClick("downloadPDF_XPATH");
+			//CommonMethods.ExWait("d
+			//Assert.assertTrue(driver.findElement(By.xpath(CommonMethods.readPropertyFile("downloadPDF_XPATH"))).isDisplayed());
+			CommonMethods.switchwindow();
+			 String secMobWindowID=driver.getWindowHandle();
+			 System.out.println(secMobWindowID);
+			Thread.sleep(3000);
+			CommonMethods.mouseClick("downloadPDF_XPATH");
+			Thread.sleep(5000);
+			driver.close();
+			CommonMethods.switchToParentWindowByID(secWindowID);
+			//CommonMethods.switchtoparentwindow();
+			Thread.sleep(2000);
+			CommonMethods.Click("okbtn_XPATH");
+			Thread.sleep(2000);
+			CommonMethods.scrollByVisibilityofElement("updateLead_XPATH");
+			CommonMethods.Click("updateLead_XPATH");
+        	CommonMethods.selectByIndex("updateleadData_XPATH", 2);
+			CommonMethods.Click("updateBtn_XPATH");
+	        System.out.println("Click On Update Button");
+			
+			CommonMethods.Click("okbtn_XPATH");
+			Thread.sleep(4000);
+		CommonMethods.Click("bottomBtn_XPATH");
+		CommonMethods.scrollByVisibilityofElement("editBtn_XPATH");
+	   CommonMethods.Click("editBtn_XPATH");
+			//String pan = ExcelOperation.getCellData(sheetName, "Sec PAN Justification", 1);
+			//CommonMethods.sendkeys("panJustification_XPATH", pan);
+			//Thread.sleep(3000);
+			//CommonMethods.ExWait("okbtn_XPATH");
+			//CommonMethods.Click("okbtn_XPATH");
+			//Thread.sleep(3000);
+			//CommonMethods.Click("bottomBtn_XPATH");
+			//CommonMethods.Click("editBtn_XPATH");
+	 }*/
 	 
 	 public void editprimaryLeadAtDVU(String sheetName ) throws Exception {
 		 CommonMethods.Click("mobilePDF_XPATH");

@@ -35,7 +35,7 @@ public class AssetLeadCreationForCCODProductsFunctionalityTest extends SetUp{
 			throw new SkipException(
 					"Skipping the test " + "LeadCreationForCCODProduct".toUpperCase() + "as the Run mode is NO");
 		}
-		/*au.login(sheetName);
+		au.login(sheetName);
 		log.info("Login as a CSE User");
 		
 		//Click on asset flow
@@ -48,7 +48,7 @@ public class AssetLeadCreationForCCODProductsFunctionalityTest extends SetUp{
 		lp.editLead();
 		lp.fillDataAtDocCollectedStage(sheetName);
 	
-		au.Logout();*/
+		au.Logout();
 		
 		//Login as Cluster Head/Terriority Manager
 		au.login(sheetName4);

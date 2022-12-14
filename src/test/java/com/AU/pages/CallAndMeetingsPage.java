@@ -104,8 +104,8 @@ public class CallAndMeetingsPage extends TestListeners{
 		String actualcustname = custname + c;
 		System.out.println("Actual account name Entered:  " + actualcustname);
 		System.out.println();
-		CommonMethods.input("app_CustName_XPATH",sheetName,"Customer Name",1);
 		ExcelOperation.writeToExcel(sheetName, 1, 6, actualcustname);
+		CommonMethods.input("app_CustName_XPATH",sheetName,"Customer Name",1);
 		log.info("Enter Customer Name " + actualcustname);
 		
 		// select date
@@ -129,6 +129,10 @@ public class CallAndMeetingsPage extends TestListeners{
 		CommonMethods.Click("app_OKBtn_XPATH");
 		log.info("Product pitched selected");
 		
+		//select outcome of interaction
+		CommonMethods.selectByIndex("status_XPATH", 1);
+		log.info("Outcome of interaction Selected");
+		
 		//Select expected date and time
 		CommonMethods.scrollDown(500);
 		CommonMethods.Click("expectedDate_XPATH");
@@ -142,9 +146,7 @@ public class CallAndMeetingsPage extends TestListeners{
 		CommonMethods.sendkeys("appDiscussionSummary_XPATH", DissSummary);
 		log.info("Entered Discussion Summary");
 		
-		//select outcome of interaction
-		CommonMethods.selectByIndex("status_XPATH", 1);
-		log.info("Outcome of interaction Selected");
+	
 		
 		
 		// select Employement Type

@@ -6,114 +6,12 @@
   </listeners>
   <test thread-count="5" name="Test (failed)">
     <classes>
-      <class name="com.crm.testCases.DataPresenterEDSFunctionalityTest">
+      <class name="com.crm.testCases.OfferIsCreatedOnCustomerFunctionalityTest">
         <methods>
-          <include name="DataPresenterEDSTest"/>
+          <include name="OfferOnETBCustomerTest"/>
           <include name="tearDownTest"/>
         </methods>
-      </class> <!-- com.crm.testCases.DataPresenterEDSFunctionalityTest -->
-      <class name="com.crm.testCases.ActivityTaskCreatedOnETBLeadFunctionalityTest">
-        <methods>
-          <include name="TaskCreatedOnETBLeadTest"/>
-          <include name="tearDownTest"/>
-        </methods>
-      </class> <!-- com.crm.testCases.ActivityTaskCreatedOnETBLeadFunctionalityTest -->
-      <class name="com.crm.testCases.DedupeRuleFunctionalityTest">
-        <methods>
-          <include name="DedupeRuleTest"/>
-          <include name="tearDownTest"/>
-        </methods>
-      </class> <!-- com.crm.testCases.DedupeRuleFunctionalityTest -->
-      <class name="com.crm.testCases.SRCreationFunctionalityTest">
-        <methods>
-          <include name="SRCreationTest"/>
-          <include name="tearDownTest"/>
-        </methods>
-      </class> <!-- com.crm.testCases.SRCreationFunctionalityTest -->
-      <class name="com.crm.testCases.OfferCreationFunctionalityTest">
-        <methods>
-          <include name="OfferCreationTest"/>
-          <include name="tearDownTest"/>
-        </methods>
-      </class> <!-- com.crm.testCases.OfferCreationFunctionalityTest -->
-      <class name="com.crm.testCases.LeadSearchFunctionalityTest">
-        <methods>
-          <include name="LeadSearchTest"/>
-          <include name="tearDownTest"/>
-        </methods>
-      </class> <!-- com.crm.testCases.LeadSearchFunctionalityTest -->
-      <class name="com.crm.testCases.TaskLeadCreationFunctionalityTest">
-        <methods>
-          <include name="TaskLeadCreationTest"/>
-          <include name="tearDownTest"/>
-        </methods>
-      </class> <!-- com.crm.testCases.TaskLeadCreationFunctionalityTest -->
-      <class name="com.crm.testCases.PrimarySecondaryLeadCreationFlowForSavingAccountFunctionalityTest">
-        <methods>
-          <include name="PriSecLeadCreationFlowTest"/>
-          <include name="tearDownTest"/>
-        </methods>
-      </class> <!-- com.crm.testCases.PrimarySecondaryLeadCreationFlowForSavingAccountFunctionalityTest -->
-      <class name="com.crm.testCases.AppointmentPagePagginationFunctionalityTest">
-        <methods>
-          <include name="PagginationOnAppointmentTest"/>
-          <include name="tearDownTest"/>
-        </methods>
-      </class> <!-- com.crm.testCases.AppointmentPagePagginationFunctionalityTest -->
-      <class name="com.crm.testCases.CallAndMeetingsFunctionalityTest">
-        <methods>
-          <include name="tearDownTest"/>
-          <include name="CallAndMeetingsTest"/>
-        </methods>
-      </class> <!-- com.crm.testCases.CallAndMeetingsFunctionalityTest -->
-      <class name="com.crm.testCases.QuickLinkFunctionalityTest">
-        <methods>
-          <include name="QuickLinksTest"/>
-          <include name="tearDownTest"/>
-        </methods>
-      </class> <!-- com.crm.testCases.QuickLinkFunctionalityTest -->
-      <class name="com.crm.testCases.ReportsTabFunctionalityTest">
-        <methods>
-          <include name="ReportsTabTest"/>
-          <include name="tearDownTest"/>
-        </methods>
-      </class> <!-- com.crm.testCases.ReportsTabFunctionalityTest -->
-      <class name="com.crm.testCases.TaskActivityIsCreatedIndependentlyFunctionalityTest">
-        <methods>
-          <include name="tearDownTest"/>
-          <include name="TaskIsCreatedIndependentlyTest"/>
-        </methods>
-      </class> <!-- com.crm.testCases.TaskActivityIsCreatedIndependentlyFunctionalityTest -->
-      <class name="com.crm.testCases.CustomerSearchFunctionalityTest">
-        <methods>
-          <include name="CustomerSearchTest"/>
-          <include name="tearDownTest"/>
-        </methods>
-      </class> <!-- com.crm.testCases.CustomerSearchFunctionalityTest -->
-      <class name="com.crm.testCases.TabVisibleOnCustomerFunctionalityTest">
-        <methods>
-          <include name="TabVisibleOnCustomer"/>
-          <include name="tearDownTest"/>
-        </methods>
-      </class> <!-- com.crm.testCases.TabVisibleOnCustomerFunctionalityTest -->
-      <class name="com.crm.testCases.ActivityTabFunctionalityTest">
-        <methods>
-          <include name="ActivityCreationTest"/>
-          <include name="tearDownTest"/>
-        </methods>
-      </class> <!-- com.crm.testCases.ActivityTabFunctionalityTest -->
-      <class name="com.crm.testCases.SRCreartionUsingCERSAIChargesRelatedSubSubCategoryFunctionalityTest">
-        <methods>
-          <include name="SRCreationCERSAIChargesCatTest"/>
-          <include name="tearDownTest"/>
-        </methods>
-      </class> <!-- com.crm.testCases.SRCreartionUsingCERSAIChargesRelatedSubSubCategoryFunctionalityTest -->
-      <class name="com.crm.testCases.ActivityTaskCreatedOnETBCustomerFunctionalityTest">
-        <methods>
-          <include name="TaskCreatedOnETBCustomerTest"/>
-          <include name="tearDownTest"/>
-        </methods>
-      </class> <!-- com.crm.testCases.ActivityTaskCreatedOnETBCustomerFunctionalityTest -->
+      </class> <!-- com.crm.testCases.OfferIsCreatedOnCustomerFunctionalityTest -->
     </classes>
   </test> <!-- Test (failed) -->
 </suite> <!-- Failed suite [AutomationTest] -->

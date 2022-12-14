@@ -209,10 +209,12 @@ public class SRCreationPage extends TestListeners{
 	}
 	
 	//select view of department Engineer
-	public void selectViewOfDepartmentEngineer() throws Exception {
-		CommonMethods.selectByIndex("appdropdown1_XPATH", 1);
+	public void selectViewOfDepartmentEngineer(String sheetName) throws Exception {
+	//	CommonMethods.selectByIndex("appdropdown1_XPATH", 1);
+		CommonMethods.selectByText("appdropdown1_XPATH", sheetName, "Dropdown1", 1);
 		Thread.sleep(3000);
-		CommonMethods.selectByIndex("appdropdown2_XPATH", 6);
+		CommonMethods.selectByText("appdropdown2_XPATH", sheetName, "Dropdown2", 1);
+		//CommonMethods.selectByIndex("appdropdown2_XPATH", 6);
 		Thread.sleep(3000);
 		CommonMethods.Click("arrowBtn_XPATH");
 		Thread.sleep(3000);

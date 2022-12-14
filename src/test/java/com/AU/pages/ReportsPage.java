@@ -136,7 +136,7 @@ public class ReportsPage extends TestListeners{
 		CommonMethods.ExWait("okbtn_XPATH");
 		CommonMethods.Click("okbtn_XPATH");
 		CommonMethods.Click("applyBtn_XPATH");
-		Thread.sleep(10000);
+		Thread.sleep(15000);
 		CommonMethods.ExWait("ReportsRecodrs_XPATH");
 		Assert.assertEquals(true, driver.findElement(By.xpath(CommonMethods.readPropertyFile("ReportsRecodrs_XPATH"))).isDisplayed());
 		

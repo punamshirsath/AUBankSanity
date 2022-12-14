@@ -11,10 +11,10 @@
   <test name="Test ">
     <classes>
     
-      <class name="com.crm.testCases.TaskLeadCreationFunctionalityTest"/>
-      <class name="com.crm.testCases.DedupeRuleFunctionalityTest"/>
-     <!-- <class ame="com.crm.testCases.ETBLeadIsGettingCreatedTest"/>-->
-    <class name="com.crm.testCases.DataPresenterEDSFunctionalityTest"/>
+    <class name="com.crm.testCases.TaskLeadCreationFunctionalityTest"/>
+     <class name="com.crm.testCases.DedupeRuleFunctionalityTest"/>
+     <class name="com.crm.testCases.ETBLeadIsGettingCreatedTest"/>
+   <class name="com.crm.testCases.DataPresenterEDSFunctionalityTest"/>
  
    <class name="com.crm.testCases.TabVisibleOnCustomerFunctionalityTest"/>
   <class name="com.crm.testCases.LeadSearchFunctionalityTest"/>
@@ -29,20 +29,20 @@
 <class name="com.crm.testCases.OfferCreationFunctionalityTest"/>
 <class name="com.crm.testCases.SRCreartionUsingCERSAIChargesRelatedSubSubCategoryFunctionalityTest"/>
 <class name="com.crm.testCases.ReportsTabFunctionalityTest"/>
-<!--<class name="com.crm.testCases.LeadCreationFunctionalityTest"/>-->
-<!--<class name="com.crm.testCases.AttachDocumentOnLeadAttachmentTabFunctionalityTest"/>-->
-<!--<class name="com.crm.testCases.LeadPagePagginationFunctionalityTest"/>-->
-<!--<class name="com.crm.testCases.AppointmentIsCreatedAgainstLeadFunctionalityTest"/>-->
-<!--<class name="com.crm.testCases.AssetLeadCreationFunctionalityTest"/>-->
-<!--<class name="com.crm.testCases.AssetLeadCreationForCCODProductsFunctionalityTest"/>-->
-<class name="com.crm.testCases.PrimarySecondaryLeadCreationFlowForSavingAccountFunctionalityTest"/>
+<class name="com.crm.testCases.LeadCreationFunctionalityTest"/>
+<class name="com.crm.testCases.AttachDocumentOnLeadAttachmentTabFunctionalityTest"/>
+<class name="com.crm.testCases.LeadPagePagginationFunctionalityTest"/>
+<class name="com.crm.testCases.AppointmentIsCreatedAgainstLeadFunctionalityTest"/>
+<class name="com.crm.testCases.AssetLeadCreationFunctionalityTest"/>
+<class name="com.crm.testCases.AssetLeadCreationForCCODProductsFunctionalityTest"/>
+<!--<class name="com.crm.testCases.PrimarySecondaryLeadCreationFlowForSavingAccountFunctionalityTest"/>-->
 
 <class name="com.crm.testCases.SRCreationFunctionalityTest"/>
-<!--<class name="com.crm.testCases.UserSelfAssignSRCaseFunctionalityTest"/>-->
+<class name="com.crm.testCases.UserSelfAssignSRCaseFunctionalityTest"/>
 <!--<class name="com.crm.testCases.EmailSyndicationFunctionalityTest"/>-->
-<!--<class name="com.crm.testCases.OfferIsCreatedOnCustomerFunctionalityTest"/>-->
-<!--<class name="com.crm.testCases.CustomerIsGettingCreatedThroughLeadsFunctionalityTest"/>-->
-<!--<class name="com.crm.testCases.ConditionalAlertFunctionalityTest"/>-->
+<class name="com.crm.testCases.OfferIsCreatedOnCustomerFunctionalityTest"/>
+<class name="com.crm.testCases.CustomerIsGettingCreatedThroughLeadsFunctionalityTest"/>
+<class name="com.crm.testCases.ConditionalAlertFunctionalityTest"/>
 <class name="com.crm.testCases.ConditionalAccessFunctionalityTest"/>
 
 

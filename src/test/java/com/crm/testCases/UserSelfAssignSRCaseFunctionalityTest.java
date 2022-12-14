@@ -30,7 +30,7 @@ public class UserSelfAssignSRCaseFunctionalityTest extends SetUp{
 		log.info("Login as a Department Engineer User");
 		sp.deUserClickOnCustomerServiceTab();
 		CommonMethods.scrollDown(500);
-	    sp.selectViewOfDepartmentEngineer();
+	    sp.selectViewOfDepartmentEngineer(sheetName);
 	    sp.selectSRForSelfAssignment();
 	    sp.editSRASAInProcess();
 		sp.editSRAsaResolvedStatusCode(sheetName);

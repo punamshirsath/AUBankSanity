@@ -56,7 +56,7 @@ public class SRCreartionUsingCERSAIChargesRelatedSubSubCategoryFunctionalityTest
 		log.info("Login as a Department Engineer User");
 		sp.deUserClickOnCustomerServiceTab();
 		CommonMethods.scrollDown(500);
-	    sp.selectViewOfDepartmentEngineer();
+	    sp.selectViewOfDepartmentEngineer(sheetName);
 	    sp.selectSRForSelfAssignment();
 	    sp.editSRAsAReAssignmentFlag();
 	    sp.editSRASAInProcess();

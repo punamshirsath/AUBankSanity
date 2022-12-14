@@ -41,7 +41,8 @@ public class ETBLeadIsGettingCreatedTest extends SetUp {
         
         //Select ETB LEad
         lp.searchETBLead(sheetName);
-        //lp.clickOnIgnoreandCreate();
+       //lp.clickOnIgnoreandCreate();
+       // lp.clickOnIgnoreandUpdate();
         
       //edit lead
       	lp.clickOnToggleBtn();
@@ -79,8 +80,9 @@ public class ETBLeadIsGettingCreatedTest extends SetUp {
       		lp.editLeadAtDVUStage(sheetName);
       		Thread.sleep(2000);
       		lp.clickOnToggleBtn();
-      		String typeofCustomer=driver.findElement(By.xpath(CommonMethods.readPropertyFile("typeOFCustomer_XPATH"))).getText();
-      		Assert.assertEquals("ETB", typeofCustomer,"Customer Mismatched");
+      		Thread.sleep(4000);
+      		String typeofCustomer=driver.findElement(By.xpath(CommonMethods.readPropertyFile("TypeOfCustomer_XPATH"))).getText();
+      		Assert.assertEquals("Existing Customer", typeofCustomer,"Customer Mismatched");
       		//lp.VerifyHistoryTab();
       		au.Logout();
       	}

@@ -1,0 +1,1839 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>AU_Extent_Report</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css">.sysenv-container{right:50%} .category-container{left:50%}</style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">
+<img src='../../src/test/resources/logos/crmimg.jpg'/>
+</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Nov 29, 2022 11:02:17</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Nov 29, 2022 11:02:17</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Nov 29, 2022 11:19:56</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>0</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>1</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'>
+<b>0</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='100%'><b>1</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'><b>0</b> events passed</small></div>
+<div>
+<small data-tooltip='1%'><b>3</b> events failed,
+<b data-tooltip='%'>211</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>Lead</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>Project Name</td>
+<td>AU Bank</td>
+</tr>
+<tr>
+<td>Test Coverage</td>
+<td>Sanity</td>
+</tr>
+<tr>
+<td>OS</td>
+<td>Windows 11</td>
+</tr>
+<tr>
+<td>Browser Name</td>
+<td>CHROME</td>
+</tr>
+<tr>
+<td>Browser Version</td>
+<td>107.0.5304.107</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 0,
+failParent: 1,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 0,
+failEvents: 3,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 211
+};
+</script><div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">Lead</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="fail" test-id="17"
+          author=""
+          tag="Lead"
+          device="">
+          <div class="test-detail">
+            <p class="name">com.crm.testCases.PrimarySecondaryLeadCreationFlowForSavingAccountFunctionalityTest</p>
+            <p class="text-sm">
+              <span>11:02:30 am</span> / <span>00:16:18:138</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">com.crm.testCases.PrimarySecondaryLeadCreationFlowForSavingAccountFunctionalityTest</h5>
+<span class='badge badge-success'>11.29.2022 11:02:30 am</span>
+<span class='badge badge-danger'>11.29.2022 11:18:48 am</span>
+<span class='badge badge-default'>00:16:18:138</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=17</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Lead</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:02:41 am</td>
+        <td>
+          <span class='badge white-text blue'>Login for  PriSecLeadCreationFlowTest Intiated</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:02:41 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  aUUserName_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:02:41 am</td>
+        <td>
+          <span class='badge white-text blue'>Data sucessfully entered on aUUserName_XPATH  = cse@punam.com</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:02:42 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  aUPassword_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:02:42 am</td>
+        <td>
+          <span class='badge white-text blue'>Data sucessfully entered on aUPassword_XPATH  = Pass@123</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:02:48 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  loginBtn_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:02:48 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully Login AU</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:02:50 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  leadTab_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:02:50 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  newBtn_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:03:02 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  liabilityFlow_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:03:03 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  productcategorysearch_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:03:04 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  productCatergory_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:03:07 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  mobileNo_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:03:07 am</td>
+        <td>
+          <span class='badge white-text blue'>Data sucessfully entered on mobileNo_XPATH  = 9000001653</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:03:11 am</td>
+        <td>
+          <span class='badge white-text blue'>Data sucessfully entered on customerName_XPATH  = Abhi Arl</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:03:14 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  calender_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:03:14 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  selectDate_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:03:17 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  timeIcon_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:03:17 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  selectTime_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:03:18 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  expectedBuisness_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:03:18 am</td>
+        <td>
+          <span class='badge white-text blue'>Data sucessfully entered on expectedBuisness_XPATH  = 500000</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:03:19 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  loanAmount_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:03:20 am</td>
+        <td>
+          <span class='badge white-text blue'>Data sucessfully entered on loanAmount_XPATH  = 300000</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:03:20 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  branch_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:03:20 am</td>
+        <td>
+          <span class='badge white-text blue'>Data sucessfully entered on branch_XPATH  = 2143</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:03:20 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  branchName_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:03:20 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  entityType_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:03:20 am</td>
+        <td>
+          <span class='badge white-text blue'>Data sucessfully entered on entityType_XPATH  = individual</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:03:21 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  entity_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:03:25 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  DOB_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:03:25 am</td>
+        <td>
+          <span class='badge white-text blue'>Data sucessfully entered on DOB_XPATH  = 16-10-1995'</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:03:25 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  pinSearch_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:03:27 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  cityPin_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:03:27 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  saveAndProceedBtn_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:04:03 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  toggleBtn_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:04:03 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  bottomBtn_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:04:08 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  editBtn_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:04:09 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  docCollected_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:04:11 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  phoneExtension_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:04:11 am</td>
+        <td>
+          <span class='badge white-text blue'>Data sucessfully entered on phoneExtension_XPATH  = india</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:04:12 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  ext_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:04:12 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  pdfVerified_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:04:15 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  shortN_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:04:16 am</td>
+        <td>
+          <span class='badge white-text blue'>Data sucessfully entered on shortN_XPATH  = Tonny</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:04:17 am</td>
+        <td>
+          <span class='badge white-text blue'>Data sucessfully entered on panTB_XPATH  = CJJPS4064Z</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:04:43 am</td>
+        <td>
+          <span class='badge white-text blue'>File Uploaded Successfully  </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:04:45 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  customerRelation_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:04:45 am</td>
+        <td>
+          <span class='badge white-text blue'>Data sucessfully entered on customerRelation_XPATH  = sole owner</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:04:46 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  soleOwner_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:05:07 am</td>
+        <td>
+          <span class='badge white-text blue'>File Uploaded Successfully  </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:05:27 am</td>
+        <td>
+          <span class='badge white-text blue'>File Uploaded Successfully  </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:05:47 am</td>
+        <td>
+          <span class='badge white-text blue'>File Uploaded Successfully  </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:06:08 am</td>
+        <td>
+          <span class='badge white-text blue'>File Uploaded Successfully  </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:06:09 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  POIDocNo_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:06:09 am</td>
+        <td>
+          <span class='badge white-text blue'>Data sucessfully entered on POIDocNo_XPATH  = 6789</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:06:10 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  communicationProof_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:06:10 am</td>
+        <td>
+          <span class='badge white-text blue'>Data sucessfully entered on communicationProof_XPATH  = voter</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:06:10 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  voterID_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:06:31 am</td>
+        <td>
+          <span class='badge white-text blue'>File Uploaded Successfully  </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:06:32 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  communicationDocNo_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:06:32 am</td>
+        <td>
+          <span class='badge white-text blue'>Data sucessfully entered on communicationDocNo_XPATH  = 565456</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:06:32 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  permanentProof_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:06:32 am</td>
+        <td>
+          <span class='badge white-text blue'>Data sucessfully entered on permanentProof_XPATH  = voter</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:06:33 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  voterID_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:06:37 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  permanentAddNo_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:06:37 am</td>
+        <td>
+          <span class='badge white-text blue'>Data sucessfully entered on permanentAddNo_XPATH  = 56432</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:06:57 am</td>
+        <td>
+          <span class='badge white-text blue'>File Uploaded Successfully  </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:07:04 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  motherName_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:07:04 am</td>
+        <td>
+          <span class='badge white-text blue'>Data sucessfully entered on motherName_XPATH  = Bhagyashri</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:07:05 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  fatherName_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:07:06 am</td>
+        <td>
+          <span class='badge white-text blue'>Data sucessfully entered on fatherName_XPATH  = sumit</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:07:09 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  placeofBirth_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:07:09 am</td>
+        <td>
+          <span class='badge white-text blue'>Data sucessfully entered on placeofBirth_XPATH  = Pune</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:07:10 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  employerName_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:07:11 am</td>
+        <td>
+          <span class='badge white-text blue'>Data sucessfully entered on employerName_XPATH  = AU Bank</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:07:12 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  kycDate_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:07:13 am</td>
+        <td>
+          <span class='badge white-text blue'>Data sucessfully entered on kycDate_XPATH  = 23-05-2022'</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:07:13 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  specialIdentifier_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:07:14 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  centralgov_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:07:17 am</td>
+        <td>
+          <span class='badge white-text blue'>Data sucessfully entered on lgCode_XPATH  = 7678</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:07:19 am</td>
+        <td>
+          <span class='badge white-text blue'>Data sucessfully entered on lcCode_XPATH  = 4545</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:07:21 am</td>
+        <td>
+          <span class='badge white-text blue'>Data sucessfully entered on rmCode_XPATH  = 3443</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:07:22 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  employer_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:07:23 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  industry_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:07:24 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  departmentSearch_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:07:24 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  department_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:07:24 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  leadprofessionSearch_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:07:25 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  leadprofession_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:07:26 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  currentaddress1_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:07:27 am</td>
+        <td>
+          <span class='badge white-text blue'>Data sucessfully entered on currentaddress1_XPATH  = Shivaji Nagar</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:07:27 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  pinsearch_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:07:28 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  pincode_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:07:31 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  sameAsAbove_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:07:36 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  permenantaddress1_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:07:36 am</td>
+        <td>
+          <span class='badge white-text blue'>Data sucessfully entered on permenantaddress1_XPATH  = Shivaji Nagar</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:07:37 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  permanentPin_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:07:39 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  pincode_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:07:42 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  saveAndProceedBtn_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:08:37 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  cardViewThreeDots_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:08:42 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  secondaryLead_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:08:42 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  entitySearch_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:08:43 am</td>
+        <td>
+          <span class='badge white-text blue'>Data sucessfully entered on secondaryFirstName_XPATH  = lead415</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:08:48 am</td>
+        <td>
+          <span class='badge white-text blue'>Data sucessfully entered on secondaryLastName_XPATH  = ss</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:08:50 am</td>
+        <td>
+          <span class='badge white-text blue'>Data sucessfully entered on secondaryShortName_XPATH  = Vedika</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:08:51 am</td>
+        <td>
+          <span class='badge white-text blue'>Data sucessfully entered on phoneExtension_XPATH  = india</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:08:57 am</td>
+        <td>
+          <span class='badge white-text blue'>Data sucessfully entered on secondaryMobile_XPATH  = 9000000745</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:09:00 am</td>
+        <td>
+          <span class='badge white-text blue'>Data sucessfully entered on DOB_XPATH  = 30-05-1998'</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:09:01 am</td>
+        <td>
+          <span class='badge white-text blue'>Data sucessfully entered on panTB_XPATH  = CJJPS3481Z</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:09:27 am</td>
+        <td>
+          <span class='badge white-text blue'>File Uploaded Successfully  </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:10:29 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  customerRelation_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:10:29 am</td>
+        <td>
+          <span class='badge white-text blue'>Data sucessfully entered on customerRelation_XPATH  = Authorized</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:10:29 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  secondaryJoint_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:10:49 am</td>
+        <td>
+          <span class='badge white-text blue'>File Uploaded Successfully  </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:11:10 am</td>
+        <td>
+          <span class='badge white-text blue'>File Uploaded Successfully  </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:11:30 am</td>
+        <td>
+          <span class='badge white-text blue'>File Uploaded Successfully  </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:11:50 am</td>
+        <td>
+          <span class='badge white-text blue'>File Uploaded Successfully  </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:11:52 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  POIDocNo_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:11:52 am</td>
+        <td>
+          <span class='badge white-text blue'>Data sucessfully entered on POIDocNo_XPATH  = 3443</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:11:52 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  communicationProof_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:11:52 am</td>
+        <td>
+          <span class='badge white-text blue'>Data sucessfully entered on communicationProof_XPATH  = voter</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:11:53 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  voterID_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:12:13 am</td>
+        <td>
+          <span class='badge white-text blue'>File Uploaded Successfully  </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:12:14 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  communicationDocNo_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:12:14 am</td>
+        <td>
+          <span class='badge white-text blue'>Data sucessfully entered on communicationDocNo_XPATH  = 23345</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:12:14 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  permanentProof_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:12:14 am</td>
+        <td>
+          <span class='badge white-text blue'>Data sucessfully entered on permanentProof_XPATH  = voter</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:12:15 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  voterID_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:12:18 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  permanentAddNo_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:12:18 am</td>
+        <td>
+          <span class='badge white-text blue'>Data sucessfully entered on permanentAddNo_XPATH  = 9779</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:12:39 am</td>
+        <td>
+          <span class='badge white-text blue'>File Uploaded Successfully  </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:12:47 am</td>
+        <td>
+          <span class='badge white-text blue'>Data sucessfully entered on currentaddress1_XPATH  = Shivaji Nagar</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:12:53 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  pincode_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:12:55 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  motherName_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:12:55 am</td>
+        <td>
+          <span class='badge white-text blue'>Data sucessfully entered on motherName_XPATH  = Deppali</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:12:56 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  fatherName_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:12:57 am</td>
+        <td>
+          <span class='badge white-text blue'>Data sucessfully entered on fatherName_XPATH  = Shree</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:13:01 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  secondarySameAsAbove_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:13:05 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  permenantaddress1_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:13:05 am</td>
+        <td>
+          <span class='badge white-text blue'>Data sucessfully entered on permenantaddress1_XPATH  = Kothrud</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:13:06 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  secondaryPermanentPin_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:13:09 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  pincode_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:13:10 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  placeofBirth_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:13:10 am</td>
+        <td>
+          <span class='badge white-text blue'>Data sucessfully entered on placeofBirth_XPATH  = Pune</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:13:11 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  employer_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:13:12 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  industry_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:13:12 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  departmentSearch_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:13:12 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  department_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:13:12 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  leadprofessionSearch_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:13:13 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  leadprofession_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:13:13 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  saveBtn_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:14:05 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  bottomBtn_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:14:10 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  editBtn_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:14:10 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  saveBtn_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:14:27 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  logoutbtn_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:14:27 am</td>
+        <td>
+          <span class='badge white-text blue'>Login for  BMLogin Intiated</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:14:27 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  aUUserName_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:14:30 am</td>
+        <td>
+          <span class='badge white-text blue'>Data sucessfully entered on aUUserName_XPATH  = bm@punam.com</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:14:30 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  aUPassword_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:14:33 am</td>
+        <td>
+          <span class='badge white-text blue'>Data sucessfully entered on aUPassword_XPATH  = Pass@123</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:14:35 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  loginBtn_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:14:35 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully Login AU</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:14:39 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  bmLeadTab_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:14:46 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  arrowbtn_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:14:48 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  changeOwner_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:14:49 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  changeownerBtn_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:14:50 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  okbtn_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:14:55 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  bmLead_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:15:02 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  bottomBtn_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:15:06 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  editBtn_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:15:06 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  saveBtn_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:15:13 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  toggleBtn_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:15:13 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  bottomBtn_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:15:20 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  editBtn_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:15:21 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  saveAndProceedBtn_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:15:29 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  profileimage_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:15:30 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  logoutbtn_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:15:30 am</td>
+        <td>
+          <span class='badge white-text blue'>Login for  BOLogin Intiated</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:15:30 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  aUUserName_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:15:33 am</td>
+        <td>
+          <span class='badge white-text blue'>Data sucessfully entered on aUUserName_XPATH  = bo@punam.com</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:15:33 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  aUPassword_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:15:37 am</td>
+        <td>
+          <span class='badge white-text blue'>Data sucessfully entered on aUPassword_XPATH  = Pass@123</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:15:38 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  loginBtn_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:15:38 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully Login AU</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:15:43 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  bmLeadTab_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:15:46 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  arrowbtn_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:15:51 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  updateBtn_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:15:54 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  okbtn_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:16:04 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  boLead_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:16:10 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  bottomBtn_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:16:14 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  editBtn_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:16:15 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  saveBtn_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:16:21 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  toggleBtn_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:16:22 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  bottomBtn_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:16:28 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  editBtn_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:16:29 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  saveAndProceedBtn_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:16:36 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  profileimage_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:16:37 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  logoutbtn_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:16:37 am</td>
+        <td>
+          <span class='badge white-text blue'>Login for  DVULogin Intiated</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:16:37 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  aUUserName_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:16:40 am</td>
+        <td>
+          <span class='badge white-text blue'>Data sucessfully entered on aUUserName_XPATH  = dvu@punam.com</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:16:40 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  aUPassword_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:16:43 am</td>
+        <td>
+          <span class='badge white-text blue'>Data sucessfully entered on aUPassword_XPATH  = Pass@123</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:16:45 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  loginBtn_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:16:45 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully Login AU</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:16:48 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  dvuLeadTab_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:16:52 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  arrowbtn_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:16:56 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  updateBtn_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:16:58 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  okbtn_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:17:07 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  devlead_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:17:11 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  bottomBtn_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:17:15 am</td>
+        <td>
+          <span class='badge white-text blue'>Sucessfully clicked on  secondaryMobilePDF_XPATH</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:18:18 am</td>
+        <td>
+          <details><summary><b><font color=red>Exception Occured:Click to see</font></b ></summary>[org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)<br> org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)<br> com.AU.commonUtilities.CommonMethods.ExWait(CommonMethods.java:53)<br> com.AU.pages.PrimarySecondaryLeadPage.clickOnMobilePDF(PrimarySecondaryLeadPage.java:767)<br> com.crm.testCases.PrimarySecondaryLeadCreationFlowForSavingAccountFunctionalityTest.PriSecLeadCreationFlowTest(PrimarySecondaryLeadCreationFlowForSavingAccountFunctionalityTest.java:116)<br> java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)<br> java.base/java.lang.reflect.Method.invoke(Method.java:577)<br> org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)<br> org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)<br> org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br> org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)<br> org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br> org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br> java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br> org.testng.TestRunner.privateRun(TestRunner.java:808)<br> org.testng.TestRunner.run(TestRunner.java:603)<br> org.testng.SuiteRunner.runTest(SuiteRunner.java:429)<br> org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)<br> org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)<br> org.testng.SuiteRunner.run(SuiteRunner.java:326)<br> org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br> org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br> org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)<br> org.testng.TestNG.runSuitesLocally(TestNG.java:1169)<br> org.testng.TestNG.runSuites(TestNG.java:1092)<br> org.testng.TestNG.run(TestNG.java:1060)<br> org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br> org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br> org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]</details> 
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:18:48 am</td>
+        <td>
+          <b><font color=red>Screenshot of failure</font></b>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\Punam Shirsath\eclipse-workspace\AUAutomationSanity\Results\Output_29-11-2022 11\FailedScreenShot_29-11-2022 11\PriSecLeadCreationFlowTest.jpeg' src="C:\Users\Punam Shirsath\eclipse-workspace\AUAutomationSanity\Results\Output_29-11-2022 11\FailedScreenShot_29-11-2022 11\PriSecLeadCreationFlowTest.jpeg">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:18:48 am</td>
+        <td>
+          <span class='badge white-text red'>TEST CASE FAILED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">Lead</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>Lead</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>11:02:30 am</td>
+<td>
+<a href="#" class="linked" test-id='17' id='17'>com.crm.testCases.PrimarySecondaryLeadCreationFlowForSavingAccountFunctionalityTest</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript">document.querySelector('.category-container .card .card-header p').innerHTML='Cases/Scenarios <br> Note: Skipped Tests - Either not selected during run / error during run';</script></body>
+</html>
